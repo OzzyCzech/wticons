@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgBun = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: "evenodd",
         clipRule: "evenodd",
@@ -68,4 +66,4 @@ var SvgBun = function (props) { return (React.createElement("svg", __assign({ xm
                 fill: "#fff",
                 fillRule: "nonzero"
             } })))); };
-exports["default"] = SvgBun;
+export default SvgBun;

@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgKotlin = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "kotlin_svg__a", x1: -11.899, x2: 40.299, y1: 48.694, y2: -8.322, gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#1c93c1" }),
@@ -36,4 +34,4 @@ var SvgKotlin = function (props) { return (React.createElement("svg", __assign({
         React.createElement("stop", { offset: 0.888, stopColor: "#f28817" }),
         React.createElement("stop", { offset: 0.982, stopColor: "#f48912" })),
     React.createElement("path", { fill: "url(#kotlin_svg__c)", d: "M0 128 128 0H64.6L0 63.7z" }))); };
-exports["default"] = SvgKotlin;
+export default SvgKotlin;

@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgAzure = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("defs", null,
         React.createElement("linearGradient", { id: "azure_svg__a", x1: 60.919, x2: 18.667, y1: 9.602, y2: 134.423, gradientUnits: "userSpaceOnUse" },
@@ -30,4 +28,4 @@ var SvgAzure = function (props) { return (React.createElement("svg", __assign({ 
     React.createElement("path", { fill: "#0078d4", d: "M97.28 81.607H37.987a2.743 2.743 0 0 0-1.874 4.751l38.1 35.562a5.991 5.991 0 0 0 4.087 1.61h33.574z" }),
     React.createElement("path", { fill: "url(#azure_svg__b)", d: "M46.09.002A6.434 6.434 0 0 0 39.93 4.5L.644 120.897a6.469 6.469 0 0 0 6.106 8.653h32.48a6.942 6.942 0 0 0 5.328-4.531l7.834-23.089 27.985 26.101a6.618 6.618 0 0 0 4.165 1.519h36.396l-15.963-45.616-46.533.011L86.922.002z", transform: "translate(.587 4.468) scale(.91904)" }),
     React.createElement("path", { fill: "url(#azure_svg__c)", d: "M98.055 4.408A6.476 6.476 0 0 0 91.917.002H46.575a6.478 6.478 0 0 1 6.137 4.406l39.35 116.594a6.476 6.476 0 0 1-6.137 8.55h45.344a6.48 6.48 0 0 0 6.136-8.55z", transform: "translate(.587 4.468) scale(.91904)" }))); };
-exports["default"] = SvgAzure;
+export default SvgAzure;

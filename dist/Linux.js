@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgLinux = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("radialGradient", { id: "linux_svg__a", cx: -992.915, cy: -952.952, r: 43.267, gradientTransform: "matrix(.7 0 0 .35 782.303 444.575)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopOpacity: 0.502 }),
@@ -812,4 +810,4 @@ var SvgLinux = function (props) { return (React.createElement("svg", __assign({ 
             React.createElement("stop", { offset: 0.415, stopColor: "#663200" }),
             React.createElement("stop", { offset: 1, stopColor: "#663200" })),
         React.createElement("path", { fill: "url(#linux_svg__v)", d: "M57.288 17.884c.311-.15 1.523.752 2.468 1.396 1.345.996 3.073 1.489 4.649 1.617 3.838.377 10.331-3.175 10.961-3.896 1.493-1.076 2.796-2.095 3.34-2.252.2.384-.645.419-1.809 1.472-1.143.724-1.501 1.075-2.957 1.895-1.738.91-5.19 2.848-9.141 2.922-2.236-.217-3.953-.631-4.399-.953-1.215-.709-2.394-1.354-3.112-2.201z" })))); };
-exports["default"] = SvgLinux;
+export default SvgLinux;

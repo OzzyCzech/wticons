@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgDeno = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 30 30" }, props),
     React.createElement("g", { clipPath: "url(#deno_svg__a)" },
         React.createElement("path", { fill: "currentColor", d: "M15 0c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C0 6.716 6.716 0 15 0Z" }),
@@ -21,4 +19,4 @@ var SvgDeno = function (props) { return (React.createElement("svg", __assign({ x
     React.createElement("defs", null,
         React.createElement("clipPath", { id: "deno_svg__a" },
             React.createElement("path", { fill: "#fff", d: "M0 0h30v30H0z" }))))); };
-exports["default"] = SvgDeno;
+export default SvgDeno;

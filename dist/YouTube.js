@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgYouTube = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         enableBackground: "new 0 0 192 192"
     }, viewBox: "0 0 192 192" }, props),
@@ -21,4 +19,4 @@ var SvgYouTube = function (props) { return (React.createElement("svg", __assign(
     React.createElement("path", { d: "M78 122.2V69.8L124 96z", style: {
             fill: "#fff"
         } }))); };
-exports["default"] = SvgYouTube;
+export default SvgYouTube;

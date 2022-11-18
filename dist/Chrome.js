@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgChrome = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("circle", { cx: 64.149, cy: 64.236, r: 60.999, fill: "#fff" }),
     React.createElement("path", { fillOpacity: 0.1, d: "M102.966 75.327c0-21.439-17.379-38.819-38.817-38.819s-38.818 17.38-38.818 38.819h11.09c0-15.314 12.415-27.727 27.727-27.727 15.313 0 27.727 12.413 27.727 27.727" }),
@@ -47,4 +45,4 @@ var SvgChrome = function (props) { return (React.createElement("svg", __assign({
         React.createElement("stop", { offset: 0.3, stopOpacity: 0.06 }),
         React.createElement("stop", { offset: 1, stopOpacity: 0.03 })),
     React.createElement("path", { fill: "url(#chrome_svg__g)", d: "M119.602 36.508H63.595a27.727 27.727 0 0 1 21.626 10.537l35.491-8.873" }))); };
-exports["default"] = SvgChrome;
+export default SvgChrome;

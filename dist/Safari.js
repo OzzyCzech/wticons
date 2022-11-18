@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgSafari = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "safari_svg__a", x1: 295.835, x2: 295.835, y1: 274.049, y2: 272.933, gradientTransform: "matrix(112 0 0 -112 -33069.5 30695)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#19D7FF" }),
@@ -22,4 +20,4 @@ var SvgSafari = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { fill: "#D01414", d: "m63.9 63.9 6 6L106.7 21z" }),
     React.createElement("path", { fill: "#fff", d: "m58.7 58.7-37.7 48 42.9-42.8z" }),
     React.createElement("path", { fill: "#ACACAC", d: "m21 106.7 48.9-36.8-6-6z" }))); };
-exports["default"] = SvgSafari;
+export default SvgSafari;

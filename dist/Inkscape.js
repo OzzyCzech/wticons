@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgInkscape = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
     React.createElement("g", { transform: "matrix(.994 0 0 .994 .389 -1.445)" },
         React.createElement("g", { opacity: 0.783 },
@@ -127,4 +125,4 @@ var SvgInkscape = function (props) { return (React.createElement("svg", __assign
                 React.createElement("stop", { offset: 0, stopColor: "#729FCF" }),
                 React.createElement("stop", { offset: 1, stopColor: "#729FCF", stopOpacity: 0 })),
             React.createElement("path", { fill: "url(#inkscape_svg__y)", d: "M61.9 122.2s12-1.1 14.7-4.6c1.6-2-6.4-4.4-4.7-6.4 6.5-7.4 12-7.1 19.6-10.3 7.6-3.1 4.8-4.6 2.3-6-4.2-2.3-13.6-4.8-10.5-10.4 3.1-5.6 30.4-13.4 30.4-13.4 8.3-2.8 7.2-7.9 3.2-12.2L92.6 34.8s1.2 23-3.7 32.9C82.8 79.8 50.5 93.4 64 94.9c4.8.5 7.1 2.2 9 5.8 4 7.6-11.1 21.5-11.1 21.5z" }))))); };
-exports["default"] = SvgInkscape;
+export default SvgInkscape;

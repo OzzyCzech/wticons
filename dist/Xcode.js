@@ -1,4 +1,3 @@
-"use strict";
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -10,8 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
-var React = require("react");
+import * as React from "react";
 var SvgXcode = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "xcode_svg__a", x1: 63.947, x2: 63.947, y1: 114.165, y2: 13.784, gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#1578e4" }),
@@ -260,4 +258,4 @@ var SvgXcode = function (props) { return (React.createElement("svg", __assign({ 
         React.createElement("stop", { offset: 0.64, stopColor: "#92929e" })),
     React.createElement("path", { fill: "url(#xcode_svg__W)", d: "m120.7 20.6 5.5 2.8s-2.1 2.8-3.8 6c-1.8 3.4-3 7.1-3 7.1l-5.3-3.2s1.3-3.6 3.2-7.1c1.5-2.9 3.4-5.6 3.4-5.6z" }),
     React.createElement("path", { fill: "#bfc0d0", d: "M126.2 23.4c.4.2-.9 3.3-2.8 6.9-1.9 3.6-3.7 6.4-4 6.2-.4-.2.9-3.3 2.8-6.9 1.8-3.6 3.6-6.4 4-6.2z" }))); };
-exports["default"] = SvgXcode;
+export default SvgXcode;
