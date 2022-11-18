@@ -12,6 +12,7 @@
 		"clean": "rimraf ./jsx ./dist",
 		"build:jsx": "svgr --out-dir jsx -- icons",
 		"build:js": "babel jsx --out-dir=dist",
+		"build": "yarn build:jsx && yarn build:js",
 		"optimize": "svgo -i ./icons"
 	},
 	"devDependencies": {
