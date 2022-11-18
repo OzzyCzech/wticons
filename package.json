@@ -10,11 +10,12 @@
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
 		"clean": "rm -rf src",
-		"build": "svgr --out-dir src -- icons",
+		"build": "svgr --out-dir src --typescript -- icons",
 		"optimize": "svgo -i ./icons"
 	},
 	"devDependencies": {
 		"@svgr/cli": "^6.5.1",
+		"react": "^18.2.0",
 		"svgo": "^3.0.1"
 	},
 	"keywords": [
