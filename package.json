@@ -1,6 +1,6 @@
 {
 	"name": "wticons",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "Bundle of website development and technology icons",
 	"main": "dist/index.js",
 	"type": "module",
@@ -8,7 +8,9 @@
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"types": "./dist/index.d.ts",
-	"files": ["/dist"],
+	"files": [
+		"/dist"
+	],
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
 		"clean": "rimraf ./jsx ./dist",
