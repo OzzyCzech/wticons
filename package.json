@@ -10,7 +10,7 @@
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
 		"clean": "rm -rf src",
-		"build": "svgr --out-dir src --typescript -- icons",
+		"build": "svgr --out-dir src --native -- icons",
 		"optimize": "svgo -i ./icons"
 	},
 	"devDependencies": {
@@ -24,5 +24,8 @@
 		"technology",
 		"icons",
 		"svg"
-	]
+	],
+	"dependencies": {
+		"react-native-svg": "^13.6.0"
+	}
 }
