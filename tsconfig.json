@@ -2,7 +2,6 @@
 	"compilerOptions": {
 		"skipLibCheck": true,
 		"moduleResolution": "node",
-		"declaration": true,
 		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true,
 		"isolatedModules": true,
@@ -11,6 +10,8 @@
 		"jsx": "preserve",
 		"target": "es6",
 		"module": "ESNext",
+		"declaration": true,
+		"emitDeclarationOnly": true,
 		"declarationDir": "types",
 	},
 	"include": ["src/**/*"]
