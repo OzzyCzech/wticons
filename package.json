@@ -10,20 +10,17 @@
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
 		"clean": "rimraf ./jsx ./dist",
-		"build:jsx": "svgr --out-dir jsx -- icons",
-		"build:js": "babel jsx --out-dir=dist",
+		"build:tsx": "svgr --out-dir tsx --typescript -- icons",
+		"build:js": "tsc",
 		"build": "yarn build:jsx && yarn build:js",
 		"optimize": "svgo -i ./icons"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.19.3",
-		"@babel/core": "^7.20.2",
-		"@babel/preset-env": "^7.20.2",
-		"@babel/preset-react": "^7.18.6",
 		"@svgr/cli": "^6.5.1",
 		"react": "^18.2.0",
 		"rimraf": "^3.0.2",
-		"svgo": "^3.0.1"
+		"svgo": "^3.0.1",
+		"typescript": "^4.9.3"
 	},
 	"keywords": [
 		"programming",
