@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgBackbonejs = (props) => (
+const SvgBackboneJs = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#002A41"
@@ -15,4 +15,4 @@ const SvgBackbonejs = (props) => (
     />
   </svg>
 );
-export default SvgBackbonejs;
+export default SvgBackboneJs;

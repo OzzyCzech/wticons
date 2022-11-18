@@ -8,12 +8,18 @@ Bundle of **W**ebsite development and **T**echnology icons such databases, frame
 yarn add wticons
 ```
 
+### Usage
+
+```javascript
+import 
+```
+
 ### How to solve a name conflict?
 
 Because these are technology icons, there may be conflicts with library name such as [React](https://reactjs.org/).
 This can easily be solved by using an alias:
 
-```shell
+```javascript
 import {React as ReactIcon} from 'wticons';
 ```
 

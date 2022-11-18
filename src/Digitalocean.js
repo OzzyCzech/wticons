@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgDigitalocean = (props) => (
+const SvgDigitalOcean = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <g fill="#0080FF">
       <path d="M63.724 110.725V92.543c19.352 0 34.282-19.008 26.817-39.118-2.765-7.438-8.57-13.499-16.312-16.254-19.905-7.162-38.982 7.714-38.982 26.722H17c0-30.303 29.582-54.27 61.93-44.352 14.1 4.407 25.158 15.427 29.582 29.476 9.953 32.231-14.1 61.708-44.788 61.708z" />
@@ -7,4 +7,4 @@ const SvgDigitalocean = (props) => (
     </g>
   </svg>
 );
-export default SvgDigitalocean;
+export default SvgDigitalOcean;

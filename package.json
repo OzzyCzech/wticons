@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
-		"clean": "rm src/*.js",
+		"clean": "rm -rf src",
 		"build": "svgr --out-dir src -- icons",
 		"optimize": "svgo -i ./icons"
 	},

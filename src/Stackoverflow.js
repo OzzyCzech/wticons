@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgStackoverflow = (props) => (
+const SvgStackOverflow = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -30,4 +30,4 @@ const SvgStackoverflow = (props) => (
     />
   </svg>
 );
-export default SvgStackoverflow;
+export default SvgStackOverflow;

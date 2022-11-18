@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgYoutube = (props) => (
+const SvgYouTube = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -23,4 +23,4 @@ const SvgYoutube = (props) => (
     />
   </svg>
 );
-export default SvgYoutube;
+export default SvgYouTube;

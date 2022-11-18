@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgRaspberrypi = (props) => (
+const SvgRaspberryPi = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#050606"
@@ -15,4 +15,4 @@ const SvgRaspberrypi = (props) => (
     />
   </svg>
 );
-export default SvgRaspberrypi;
+export default SvgRaspberryPi;

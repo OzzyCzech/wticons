@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgTailwindcss = (props) => (
+const SvgTailwindCss = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={1000}
@@ -13,4 +13,4 @@ const SvgTailwindcss = (props) => (
     />
   </svg>
 );
-export default SvgTailwindcss;
+export default SvgTailwindCss;
