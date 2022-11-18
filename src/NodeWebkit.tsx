@@ -1,21 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgNodeWebkit = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgNodeWebkit = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#3D3B47"
       d="M64 125.8c-1.2 0-2.3-.3-3.1-.7L12.6 97.3c-1.7-1-3.1-3.5-3.1-5.4V36.1c0-1.9 1.5-4.4 3.1-5.4L60.9 2.9c.8-.5 1.9-.7 3.1-.7 1.2 0 2.3.3 3.1.7l48.2 27.9c1.7 1 3.1 3.5 3.1 5.4v55.7c0 1.9-1.5 4.4-3.1 5.4l-48.2 27.9c-.8.4-1.9.6-3.1.6z"

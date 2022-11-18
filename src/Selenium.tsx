@@ -1,21 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgSelenium = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgSelenium = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#CF0A2C"
       d="M83.1 80.5c-4.7-.1-8.8 3.4-9.3 8.1 0 .2.1.3.3.3h18c.2 0 .3-.1.3-.3-.4-4.8-4.5-8.4-9.3-8.1z"

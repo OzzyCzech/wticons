@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgMongoDb = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgMongoDb = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,10 +11,8 @@ const SvgMongoDb = ({
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 1024 1024"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M134.44 120.34C119.13 52.8 87.22 34.82 79.08 22.11a144.504 144.504 0 0 1-8.9-17.42c-.43 6-1.22 9.78-6.32 14.33-10.24 9.13-53.73 44.57-57.39 121.31-3.41 71.55 52.6 115.67 60 120.23 5.69 2.8 12.62.06 16-2.51 27-18.53 63.89-67.93 52-137.71"
       style={{

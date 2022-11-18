@@ -1,7 +1,3 @@
 import { SVGProps } from 'react';
-interface SVGRProps {
-    title?: string;
-    titleId?: string;
-}
-declare const SvgAndroid: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
+declare const SvgAndroid: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export default SvgAndroid;

@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgStackOverflow = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgStackOverflow = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,10 +11,8 @@ const SvgStackOverflow = ({
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 4267 4267"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M84.072 107.482V75.931h10.516V118H0V75.931h10.516v31.551h73.556Z"
       style={{

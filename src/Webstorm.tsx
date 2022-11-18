@@ -1,21 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgWebstorm = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgWebstorm = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#2788b5"
       d="M75.78 113.66c1.28-1.6 2.79-3.36 4.58-5.42l.89-1c1.11-1.29 2-2.28 2.93-3.24a70.64 70.64 0 0 0 6.09-7.36c2.74-3.74 4.51-6.55 4.22-11.37-.14-2.48-.24-4.18-1.86-6.18a66.7 66.7 0 0 0-4.69-4.78c-2.07-2-3.87-3.9-6.31-6.44s-5.6-9-5.6-9a41.4 41.4 0 0 1-3.19-10.74l-7.18-36.8H45.22l-10 46.41-8.87-46.46H2.22L24 116.72h20.32l10.17-45.64 9 45.64h9.44z"

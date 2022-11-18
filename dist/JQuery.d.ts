@@ -1,7 +1,3 @@
 import { SVGProps } from 'react';
-interface SVGRProps {
-    title?: string;
-    titleId?: string;
-}
-declare const SvgJQuery: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
+declare const SvgJQuery: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export default SvgJQuery;

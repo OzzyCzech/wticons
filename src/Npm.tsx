@@ -1,10 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgNpm = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgNpm = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -15,10 +11,8 @@ const SvgNpm = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProp
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 1024 1024"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M174.443 576.219V563.2h-64.872l.001-77.981h233.356V563.2H226.25v13.019h-51.807Z"
       style={{

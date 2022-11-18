@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgAffinityPhoto = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgAffinityPhoto = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,10 +11,8 @@ const SvgAffinityPhoto = ({
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 1024 1024"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M746 189.99c0-7.169-5.821-12.99-12.99-12.99H325.99c-7.169 0-12.99 5.821-12.99 12.99v407.02c0 7.169 5.821 12.99 12.99 12.99h407.02c7.169 0 12.99-5.821 12.99-12.99V189.99Z"
       style={{

@@ -1,17 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgDrupal = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgDrupal = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#00598E"
       d="M91.1 24.935c-6.352-3.956-12.345-5.513-18.337-9.469-3.716-2.516-8.869-8.51-13.185-13.663-.838 8.27-3.355 11.625-6.231 14.022-6.112 4.795-9.948 6.232-15.222 9.109C33.69 27.212 9.601 41.595 9.601 72.516c0 30.923 26.008 53.694 54.892 53.694 28.886 0 53.934-20.974 53.934-52.734-.001-31.762-23.491-46.143-27.327-48.541z"

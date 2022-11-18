@@ -1,7 +1,3 @@
 import { SVGProps } from 'react';
-interface SVGRProps {
-    title?: string;
-    titleId?: string;
-}
-declare const SvgBootstrap: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
+declare const SvgBootstrap: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export default SvgBootstrap;

@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgPuppeteer = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgPuppeteer = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,10 +11,8 @@ const SvgPuppeteer = ({
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 1024 1024"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M253.422 214.246H2.192v-14.168c0-9.52 7.717-17.237 17.236-17.237h216.757c9.52 0 17.237 7.717 17.237 17.237v14.168Z"
       style={{

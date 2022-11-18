@@ -1,7 +1,3 @@
 import { SVGProps } from 'react';
-interface SVGRProps {
-    title?: string;
-    titleId?: string;
-}
-declare const SvgCss3: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
+declare const SvgCss3: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export default SvgCss3;

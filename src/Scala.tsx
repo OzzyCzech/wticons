@@ -1,17 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgScala = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgScala = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#390d09"
       d="M25 110.437V94.874h5.616c3.113 0 8.052-.203 11.03-.474l5.278-.406-7.038-1.894c-3.924-1.015-8.864-2.504-10.961-3.316L25 87.364V55.627h6.293c3.383 0 8.323-.203 10.894-.473l4.737-.406-8.323-2.233C34 51.366 29.128 49.809 27.639 49.2L25 47.982v-30.72l2.098-.473c1.15-.203 3.992-.406 6.293-.406 11.367 0 38.366-3.722 51.628-7.105 9.27-2.436 15.698-4.872 17.931-6.902 1.15-1.015 1.218-.406 1.218 14.548v15.63l-1.624 1.219-1.624 1.285 3.248 2.842v33.9l-1.624 1.218-1.624 1.286 3.248 2.842v33.9l-1.76 1.353c-1.894 1.489-9.202 3.993-17.524 6.09C71.892 121.737 40.157 126 29.33 126H25z"

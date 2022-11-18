@@ -1,17 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgTomcat = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgTomcat = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#d1a41a"
       d="M22.148 78.306a80.73 80.73 0 0 0 4.857 5.446c-5.186 1.56-8.586 4.458-10.706 7.017-3.356 4.05-5.132 9.398-4.723 13.988h-8.93c1.79-3.887 8.94-15.115 19.503-26.45zm103.449 28.886H114.74C89.83 94.193 67.96 85.027 44.728 83.025c.049-3.233.624-6.893 1.731-10.972l-2.14-.576c-1.136 4.192-1.732 7.985-1.8 11.38-2.421-.162-4.857-.24-7.317-.24-2.081 0-3.98.191-5.712.526-2.258-2.254-4.182-4.408-5.815-6.45C34.389 65.534 52.038 55.438 67.398 51.64c4.325 14.376 13.609 24.226 24.876 30.853a47.543 47.543 0 0 0 2.435-1.485l19.656 21.16.86-.073c5.368-.462 8.419 2.45 9.226 3.356.595.659.95 1.264 1.146 1.741z"

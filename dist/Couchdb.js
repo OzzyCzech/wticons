@@ -9,22 +9,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __rest = (this && this.__rest) || function (s, e) {
-    var t = {};
-    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-        t[p] = s[p];
-    if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-                t[p[i]] = s[p[i]];
-        }
-    return t;
-};
 import * as React from 'react';
-var SvgCouchdb = function (_a) {
-    var title = _a.title, titleId = _a.titleId, props = __rest(_a, ["title", "titleId"]);
-    return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128", "aria-labelledby": titleId }, props),
-        title ? React.createElement("title", { id: titleId }, title) : null,
-        React.createElement("path", { fill: "#e42528", d: "M101.4 77.2c0 5-2.7 7.5-7.6 7.7H33.9c-4.9 0-7.6-2.5-7.6-7.7 0-5 2.7-7.5 7.6-7.7h60.2c4.9.2 7.3 2.7 7.3 7.7zm-7.3 11.5H33.9c-4.9 0-7.6 2.4-7.6 7.7 0 5 2.7 7.4 7.6 7.7h60.2c4.9 0 7.6-2.5 7.6-7.7-.3-5.3-2.7-7.7-7.6-7.7zm18.6-42.1c-4.9 0-7.6 2.5-7.6 7.4v42.1c0 5 2.7 7.5 7.6 7.7 7.4-.2 11.3-7.7 11.3-22.9V62c0-10.2-3.9-15.2-11.3-15.4zm-97.4 0C7.9 46.8 4 51.8 4 62v18.9c0 15.2 3.9 22.7 11.3 22.9 4.9 0 7.6-2.4 7.6-7.7V54.3c-.2-5-2.7-7.5-7.6-7.7zm97.4-3.8c0-12.7-6.6-18.7-18.6-18.9H33.9c-12.2.2-18.6 6.5-18.6 18.9 7.4 0 11.3 4 11.3 11.5s3.9 11.4 11.3 11.4h52.5c7.3 0 11.3-3.9 11.3-11.4-.3-7.7 3.9-11.2 11-11.5z" })));
-};
+var SvgCouchdb = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+    React.createElement("path", { fill: "#e42528", d: "M101.4 77.2c0 5-2.7 7.5-7.6 7.7H33.9c-4.9 0-7.6-2.5-7.6-7.7 0-5 2.7-7.5 7.6-7.7h60.2c4.9.2 7.3 2.7 7.3 7.7zm-7.3 11.5H33.9c-4.9 0-7.6 2.4-7.6 7.7 0 5 2.7 7.4 7.6 7.7h60.2c4.9 0 7.6-2.5 7.6-7.7-.3-5.3-2.7-7.7-7.6-7.7zm18.6-42.1c-4.9 0-7.6 2.5-7.6 7.4v42.1c0 5 2.7 7.5 7.6 7.7 7.4-.2 11.3-7.7 11.3-22.9V62c0-10.2-3.9-15.2-11.3-15.4zm-97.4 0C7.9 46.8 4 51.8 4 62v18.9c0 15.2 3.9 22.7 11.3 22.9 4.9 0 7.6-2.4 7.6-7.7V54.3c-.2-5-2.7-7.5-7.6-7.7zm97.4-3.8c0-12.7-6.6-18.7-18.6-18.9H33.9c-12.2.2-18.6 6.5-18.6 18.9 7.4 0 11.3 4 11.3 11.5s3.9 11.4 11.3 11.4h52.5c7.3 0 11.3-3.9 11.3-11.4-.3-7.7 3.9-11.2 11-11.5z" }))); };
 export default SvgCouchdb;

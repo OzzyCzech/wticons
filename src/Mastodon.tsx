@@ -1,14 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgMastodon = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgMastodon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,10 +11,8 @@ const SvgMastodon = ({
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 65 65"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <path
       d="M62.754 14.39C61.814 7.406 55.727 1.903 48.512.836 47.294.656 42.682 0 31.997 0h-.08C21.23 0 18.938.656 17.72.836 10.705 1.873 4.299 6.82 2.745 13.886c-.748 3.48-.828 7.338-.689 10.877.198 5.075.237 10.142.697 15.197a71.52 71.52 0 0 0 1.664 9.968c1.477 6.056 7.458 11.096 13.317 13.152a35.723 35.723 0 0 0 19.484 1.028 28.522 28.522 0 0 0 2.107-.576c1.572-.5 3.413-1.057 4.766-2.038a.156.156 0 0 0 .062-.118v-4.899a.146.146 0 0 0-.177-.139 54.006 54.006 0 0 1-12.644 1.478c-7.328 0-9.298-3.478-9.863-4.925a15.238 15.238 0 0 1-.857-3.882v-.008a.143.143 0 0 1 .178-.137 53.01 53.01 0 0 0 12.437 1.477c1.007 0 2.012 0 3.02-.026 4.213-.119 8.654-.334 12.8-1.144.103-.02.206-.038.295-.065 6.539-1.255 12.762-5.196 13.394-15.176.024-.393.083-4.115.083-4.523.003-1.386.446-9.829-.065-15.017Z"
       style={{

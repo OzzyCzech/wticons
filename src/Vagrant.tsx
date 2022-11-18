@@ -1,21 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgVagrant = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgVagrant = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#1159cc"
       d="M122.5 23.9V12.82L95.91 28.3v9.34l-21.28 45.9-10.64 7.33v33.61l22.81-13.15 35.7-87.43zM63.99 66.94 48.04 29.71V19.19l-.11-.06-15.84 9.17v9.34l21.27 47.91 10.63-5.25V66.94z"

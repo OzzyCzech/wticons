@@ -1,17 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgHugo = ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 128 128"
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
+const SvgHugo = (props: SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#FF4088"
       d="m71.2 8.5 36.7 21.3c4.3 2.5 7 7.2 7 12.2v43.7c0 5.6-3 10.7-7.8 13.4l-36.4 20.5c-4.8 2.7-10.7 2.7-15.5-.1l-33.5-19.3c-5.3-3-8.5-8.6-8.5-14.7V44.1c0-6.1 3.2-11.8 8.4-15L54.4 8.8c5.1-3.2 11.6-3.3 16.8-.3z"

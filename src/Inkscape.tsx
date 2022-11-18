@@ -1,22 +1,12 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-interface SVGRProps {
-  title?: string;
-  titleId?: string;
-}
-const SvgInkscape = ({
-  title,
-  titleId,
-  ...props
-}: SVGProps<SVGSVGElement> & SVGRProps) => (
+const SvgInkscape = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 128 128"
-    aria-labelledby={titleId}
     {...props}
   >
-    {title ? <title id={titleId}>{title}</title> : null}
     <g transform="matrix(.994 0 0 .994 .389 -1.445)">
       <g opacity={0.783}>
         <path d="m53.3 10.088-44.8 45.8c-16.9 16.9 11 15.5 21.1 21.9 4.7 3-15 6.9-11 11 3.9 4 23.6 7.7 27.5 11.6 3.9 4-7.9 8.2-4 12.3 3.8 4 12.9.2 14.5 9.3 1.2 6.7 16.7 3.4 23.7-2.4 4.3-3.7-7.5-3.7-3.6-7.7 9.8-9.9 18.5-4.5 22-13.6 2-4.9-14.8-8.4-10.3-11.5 10.7-7.5 49.7-11.3 31.7-29.3l-46.3-47.4c-5.8-5.4-15.2-5.4-20.5 0zm51.3 88.2c0 2.3 17.7 3.6 16.7-.5-1.4-7-14.8-6.4-16.7.5zm-75.4 12.1c4 3.5 10.1-.8 12-5.6-3.9-5.2-18.3.2-12 5.6zm73.2-7.3c-5 4.6.9 9.3 5.8 6.2 1.3-.9-.1-5.1-5.8-6.2z" />
