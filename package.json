@@ -1,6 +1,6 @@
 {
 	"name": "wticons",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Bundle of website development and technology icons",
 	"main": "src/index.js",
 	"type": "module",
