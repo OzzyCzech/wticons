@@ -1,5 +1,4 @@
 yarn-error.log
 
 # generated
-/jsx/
-/tsx/
+/src/
