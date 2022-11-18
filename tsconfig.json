@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"skipLibCheck": true,
-		"moduleResolution": "nodenext",
+		"moduleResolution": "node",
 		"declaration": true,
 		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true,
@@ -11,6 +11,7 @@
 		"jsx": "preserve",
 		"target": "es6",
 		"module": "ESNext",
+		"declarationDir": "types",
 	},
-	"include": ["tsx/**/*"]
+	"include": ["src/**/*"]
 }
