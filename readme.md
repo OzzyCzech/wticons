@@ -1,6 +1,6 @@
 # WT Icons
 
-Bundle of **W**ebsite development and **T**echnology icons.
+Bundle of **W**ebsite development and **T**echnology icons such databases, frameworks, libraries…
 
 ### Install
 
