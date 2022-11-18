@@ -7,7 +7,7 @@
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"module": "dist/index.js",
-	"types": "types/index.d.ts",
+	"types": "dist/index.d.ts",
 	"files": [
 		"dist"
 	],
