@@ -1,9 +1,15 @@
 {
 	"compilerOptions": {
+		"baseUrl": ".",
+		"skipLibCheck": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"allowJs": true,
 		"outDir": "dist",
 		"jsx": "react",
-		"module": "ES6"
+		"target": "es6",
+		"module": "esnext"
 	},
-
 	"include": ["tsx/**/*"]
 }

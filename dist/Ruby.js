@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgRuby = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgRuby = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "ruby_svg__a", x1: 157.08, x2: 131.682, y1: 2382.05, y2: 2426.892, gradientTransform: "matrix(1 0 0 -1 -47.5 2517)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#FB7655" }),
         React.createElement("stop", { offset: 0, stopColor: "#FB7655" }),
@@ -126,5 +115,5 @@ var SvgRuby = function (props) { return (React.createElement("svg", __assign({ x
         React.createElement("stop", { offset: 0.44, stopColor: "#910F08" }),
         React.createElement("stop", { offset: 0.99, stopColor: "#791C12" }),
         React.createElement("stop", { offset: 1, stopColor: "#791C12" })),
-    React.createElement("path", { fill: "url(#ruby_svg__p)", d: "m86.384 14.67 36.891 5.177c-1.969-8.343-8.015-13.727-18.32-15.41L86.384 14.67z" }))); };
+    React.createElement("path", { fill: "url(#ruby_svg__p)", d: "m86.384 14.67 36.891 5.177c-1.969-8.343-8.015-13.727-18.32-15.41L86.384 14.67z" })));
 export default SvgRuby;

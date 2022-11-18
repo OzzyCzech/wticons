@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgFirefox = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
+const SvgFirefox = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
     React.createElement("ellipse", { cx: 63.833, cy: 63.79, fill: "#110070", rx: 59.102, ry: 59.14 }),
     React.createElement("radialGradient", { id: "firefox_svg__a", cx: -407.857, cy: 945.153, r: 103.81, gradientTransform: "matrix(1 0 0 -1 472.5 957)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#67C5D5" }),
@@ -345,5 +334,5 @@ var SvgFirefox = function (props) { return (React.createElement("svg", __assign(
     React.createElement("linearGradient", { id: "firefox_svg__aj", x1: -986.556, x2: -959.793, y1: 507.388, y2: 456.149, gradientTransform: "scale(1 -1) rotate(10.37 2796.5 5770.96)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0.056, stopColor: "#DE7210" }),
         React.createElement("stop", { offset: 1, stopColor: "#F6C08F" })),
-    React.createElement("path", { fill: "url(#firefox_svg__aj)", d: "M43.775 108.414s-11.667-9.037-16.928-21.429c-4.421-1.536-10.298-5.046-10.414-5.648 1.867 9.629 11.699 20.871 27.342 27.077z" }))); };
+    React.createElement("path", { fill: "url(#firefox_svg__aj)", d: "M43.775 108.414s-11.667-9.037-16.928-21.429c-4.421-1.536-10.298-5.046-10.414-5.648 1.867 9.629 11.699 20.871 27.342 27.077z" })));
 export default SvgFirefox;

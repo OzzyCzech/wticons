@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgYii = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
+const SvgYii = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
     React.createElement("defs", null,
         React.createElement("path", { id: "yii_svg__a", d: "M101.697 123.133c.314-.115.574-.236.774-.354.332-.201.504-.406.504-.615 0-.208-.173-.413-.504-.613a4.724 4.724 0 0 0-.792-.363c-2.927-1.08-10.606-2.007-21.054-2.61a434.502 434.502 0 0 0-11.299-.485 563.422 563.422 0 0 0-16.815-.243c-5.896 0-11.554.085-16.814.243-4.025.122-7.815.288-11.297.485-10.45.603-18.129 1.53-21.056 2.61a4.84 4.84 0 0 0-.792.363c-.333.2-.506.405-.506.613 0 .208.172.414.506.615.199.118.459.239.773.354 2.911 1.085 10.594 2.014 21.057 2.613 3.489.201 7.283.367 11.315.489 5.26.158 10.919.244 16.814.244 5.897 0 11.555-.086 16.815-.244 4.031-.122 7.828-.288 11.314-.489 10.462-.599 18.147-1.528 21.057-2.613z" })),
     React.createElement("clipPath", { id: "yii_svg__b" },
@@ -75,5 +64,5 @@ var SvgYii = function (props) { return (React.createElement("svg", __assign({ xm
         React.createElement("clipPath", { id: "yii_svg__x" },
             React.createElement("use", { xlinkHref: "#yii_svg__w", overflow: "visible" })),
         React.createElement("g", { clipPath: "url(#yii_svg__x)" },
-            React.createElement("image", { xlinkHref: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEAUgBSAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA EAMCAwYAAAHaAAACDQAAAof/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIADgAHgMBIgACEQEDEQH/ xACUAAADAQEBAQAAAAAAAAAAAAAAAwUEAQIGAQADAQAAAAAAAAAAAAAAAAABAgMEEAAAAwgDAQAA AAAAAAAAAAABAwQAEBEhAhMURBIiNDMRAAAEBQAKAwAAAAAAAAAAAAABEQIQcbHBgiExQVGRodES MhNhIkISAAIBBAEFAAAAAAAAAAAAAAABETFxAnISEEFhMhP/2gAMAwEAAhEDEQAAAPtV+UxXRqm0 GGRLkZ69oT6FFyJcjPXtGbSoqUgGNwOP/9oACAECAAEFABrGIVRCqrvQMjB7lDKuzzLtQ//aAAgB AwABBQAYsEWhKDAEhCYcoVcm/9oACAEBAAEFAD1JhZuac2Yc1yqws+7tNZ93aaz0O01vodpLfQ7S VJjjDsNS2Gpa3Xi//9oACAECAgY/AGp7jsZXZlqzLZmejMp+ky5iDPjz9HMxTwf/2gAIAQMCBj8A HbqhXFQUxU//2gAIAQEBBj8ANjUQk1jZwGzgPZ+u1Q6RUjhYOkVI4WDpFSOFg6RUjhYOkVI4WBuY 1WmmlS3Dw5l1HhzLqPWn37UT5Qf/2Q==", width: 28, height: 54, overflow: "visible", transform: "matrix(.882 0 0 -.882 73.308 83.648)" }))))); };
+            React.createElement("image", { xlinkHref: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEAUgBSAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA EAMCAwYAAAHaAAACDQAAAof/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIADgAHgMBIgACEQEDEQH/ xACUAAADAQEBAQAAAAAAAAAAAAAAAwUEAQIGAQADAQAAAAAAAAAAAAAAAAABAgMEEAAAAwgDAQAA AAAAAAAAAAABAwQAEBEhAhMURBIiNDMRAAAEBQAKAwAAAAAAAAAAAAABEQIQcbHBgiExQVGRodES MhNhIkISAAIBBAEFAAAAAAAAAAAAAAABETFxAnISEEFhMhP/2gAMAwEAAhEDEQAAAPtV+UxXRqm0 GGRLkZ69oT6FFyJcjPXtGbSoqUgGNwOP/9oACAECAAEFABrGIVRCqrvQMjB7lDKuzzLtQ//aAAgB AwABBQAYsEWhKDAEhCYcoVcm/9oACAEBAAEFAD1JhZuac2Yc1yqws+7tNZ93aaz0O01vodpLfQ7S VJjjDsNS2Gpa3Xi//9oACAECAgY/AGp7jsZXZlqzLZmejMp+ky5iDPjz9HMxTwf/2gAIAQMCBj8A HbqhXFQUxU//2gAIAQEBBj8ANjUQk1jZwGzgPZ+u1Q6RUjhYOkVI4WDpFSOFg6RUjhYOkVI4WBuY 1WmmlS3Dw5l1HhzLqPWn37UT5Qf/2Q==", width: 28, height: 54, overflow: "visible", transform: "matrix(.882 0 0 -.882 73.308 83.648)" })))));
 export default SvgYii;

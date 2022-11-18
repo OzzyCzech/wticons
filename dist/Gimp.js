@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgGimp = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgGimp = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("radialGradient", { id: "gimp_svg__a", cx: 359.382, cy: 134.83, r: 50.57, gradientTransform: "matrix(1 0 0 -.435 -297.375 140.218)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0 }),
         React.createElement("stop", { offset: 1, stopOpacity: 0 })),
@@ -74,5 +63,5 @@ var SvgGimp = function (props) { return (React.createElement("svg", __assign({ x
     React.createElement("linearGradient", { id: "gimp_svg__m", x1: 367.723, x2: 362.641, y1: 202.128, y2: 200.904, gradientTransform: "matrix(1 0 0 -1 -297.5 279)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0 }),
         React.createElement("stop", { offset: 1, stopOpacity: 0 })),
-    React.createElement("path", { fill: "url(#gimp_svg__m)", d: "M61.7 81c4.1.4 7.9-.8 9.5-1.3.3-1.5 1.5-4.5 5.7-4.7l-1.5-2.6s-5.4 3.7-11.3 4.8L61.7 81z" }))); };
+    React.createElement("path", { fill: "url(#gimp_svg__m)", d: "M61.7 81c4.1.4 7.9-.8 9.5-1.3.3-1.5 1.5-4.5 5.7-4.7l-1.5-2.6s-5.4 3.7-11.3 4.8L61.7 81z" })));
 export default SvgGimp;

@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgApache = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
+const SvgApache = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
     React.createElement("path", { fill: "#DCDDDE", stroke: "#D9D9D9", strokeWidth: 0.596, d: "M126.9 78.1c-10.2-1.4-47.8-3.3-64.5-6-13.5-2.2-26.7-6.2-39.2-10.4-3.3-1.1-9-3.3-12.7-5.3C8.2 54.6 2.6 52 1 49.5 25.4 61 35.2 64.2 63.7 69.9c11.6 2.4 53.8 5.8 63.2 8.2z" }),
     React.createElement("path", { fill: "#DCDDDE", stroke: "#D9D9D9", strokeWidth: 0.254, d: "m90.8 82.6-1 .4-1.1.1-1.1-.2-1-.4-1.1-.6-1-.8-1-.8-1-.9-.9-1-.9-.9-.8-1-.8-.8-.7-.7-.6-.6-.6-.4-.5-.2.4.1h.5l.5.1h.5l.5.1h.5l.5.1h.5l.7.7.7.6.6.6.6.7.5.6.5.6.5.5.5.6.6.5.5.5.6.5.6.5.7.4.8.4.9.4.9.3z" }),
     React.createElement("path", { fill: "#DCDDDE", stroke: "#D9D9D9", strokeWidth: 0.254, d: "m94.4 82.5-1.3.2H92l-1.1-.1-1.1-.3-.9-.4-.9-.5-.8-.6-.8-.6-.8-.7-.7-.7-.7-.9-.7-.7-.7-.8-.8-.8-.7-.7-.7-.7.3.1h.9l.3.1h.6l.3.1h.7l.3.1h.7l.4.1h.6l.3.4.3.5.4.6.5.6.5.6.5.7.6.7.6.6.6.7.7.6.6.5.7.5.6.4.6.2.6.2h.6z" }),
@@ -1027,5 +1016,5 @@ var SvgApache = function (props) { return (React.createElement("svg", __assign({
             React.createElement("use", { xlinkHref: "#apache_svg__fc", overflow: "visible" })),
         React.createElement("g", { clipPath: "url(#apache_svg__fd)" },
             React.createElement("image", { xlinkHref: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEAyADIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA EAMCAwYAAAGgAAABxwAAAhr/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIABwAEQMBIgACEQEDEQH/ xACBAAACAgMAAAAAAAAAAAAAAAAABQIGAQMEAQEBAAAAAAAAAAAAAAAAAAACAxAAAQQCAgMAAAAA AAAAAAAAAwABEQQSBSIVAhMUEQABAgMJAQAAAAAAAAAAAAARAQIAEBIhMVGhsbIDExRxEgACAwAA AAAAAAAAAAAAAAAQETFBYf/aAAwDAQACEQMRAAAAvGOODDgAOua20aSZgTr/AP/aAAgBAgABBQCG hTxX/9oACAEDAAEFAJeVHJf/2gAIAQEAAQUALZcfmK05CK6XGxSLlbW3Phe1B89mrfS++p0f0r// 2gAIAQICBj8AeCKH/9oACAEDAgY/AFomx//aAAgBAQEGPwBWhFEIwIhOknp80SONuJ2rLlabqdqR wtxq2Ok71dfdZVUTcgyhnl6/RbRSTcpyl//Z", width: 16, height: 25, overflow: "visible", transform: "matrix(.3604 0 0 -.3604 16.008 66.548)" }))),
-    React.createElement("path", { fill: "none", stroke: "#231F20", strokeWidth: 0.254, d: "m20.8 58-.3.5-.3.5-.3.5-.3.4-.3.5-.2.5-.3.4-.2.5-.2.5-.2.5-.2.4-.2.5-.2.5-.1.5-.1.5-.1.6-.3-1.1-.2-1v-.8l.1-.8.2-.6.2-.6.3-.5.4-.4.4-.3.4-.4.4-.2.4-.3.4-.2.3-.2.3-.2.2-.2z" }))); };
+    React.createElement("path", { fill: "none", stroke: "#231F20", strokeWidth: 0.254, d: "m20.8 58-.3.5-.3.5-.3.5-.3.4-.3.5-.2.5-.3.4-.2.5-.2.5-.2.5-.2.4-.2.5-.2.5-.1.5-.1.5-.1.6-.3-1.1-.2-1v-.8l.1-.8.2-.6.2-.6.3-.5.4-.4.4-.3.4-.4.4-.2.4-.3.4-.2.3-.2.3-.2.2-.2z" })));
 export default SvgApache;

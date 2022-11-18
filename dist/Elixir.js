@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgElixir = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgElixir = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "elixir_svg__a", x1: 835.592, x2: 821.211, y1: -36.546, y2: 553.414, gradientTransform: "matrix(.1297 0 0 .2 -46.03 17.198)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#d9d8dc" }),
         React.createElement("stop", { offset: 1, stopColor: "#fff", stopOpacity: 0.385 })),
@@ -41,5 +30,5 @@ var SvgElixir = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { fill: "url(#elixir_svg__g)", fillRule: "evenodd", d: "M65.3 10.8C36 27.4 48 53.4 49.3 81.6l19.1-55.4c-1.4-5.7-2.3-9.5-3.1-15.4z", clipRule: "evenodd" }),
     React.createElement("path", { fill: "#330A4C", fillOpacity: 0.316, fillRule: "evenodd", d: "M68.3 26.1c-14.8 11.7-14.1 31.3-18.6 54 8.1-21.3 4.1-38.2 18.6-54z", clipRule: "evenodd" }),
     React.createElement("path", { fill: "#FFF", fillRule: "evenodd", d: "M45.8 119.7c8 1.1 12.1 2.2 12.5 3 .3 4.2-11.1 1.2-12.5-3z", clipRule: "evenodd" }),
-    React.createElement("path", { fill: "#EDEDED", fillOpacity: 0.603, fillRule: "evenodd", d: "M49.8 10.8c-6.9 7.7-14.4 21.8-18.2 29.7-1 6.5-.5 15.7.6 23.5.9-18.2 7.5-39.2 17.6-53.2z", clipRule: "evenodd" }))); };
+    React.createElement("path", { fill: "#EDEDED", fillOpacity: 0.603, fillRule: "evenodd", d: "M49.8 10.8c-6.9 7.7-14.4 21.8-18.2 29.7-1 6.5-.5 15.7.6 23.5.9-18.2 7.5-39.2 17.6-53.2z", clipRule: "evenodd" })));
 export default SvgElixir;

@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgKotlin = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgKotlin = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "kotlin_svg__a", x1: -11.899, x2: 40.299, y1: 48.694, y2: -8.322, gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#1c93c1" }),
         React.createElement("stop", { offset: 0.163, stopColor: "#2391c0" }),
@@ -33,5 +22,5 @@ var SvgKotlin = function (props) { return (React.createElement("svg", __assign({
         React.createElement("stop", { offset: 0.756, stopColor: "#ef8324" }),
         React.createElement("stop", { offset: 0.888, stopColor: "#f28817" }),
         React.createElement("stop", { offset: 0.982, stopColor: "#f48912" })),
-    React.createElement("path", { fill: "url(#kotlin_svg__c)", d: "M0 128 128 0H64.6L0 63.7z" }))); };
+    React.createElement("path", { fill: "url(#kotlin_svg__c)", d: "M0 128 128 0H64.6L0 63.7z" })));
 export default SvgKotlin;

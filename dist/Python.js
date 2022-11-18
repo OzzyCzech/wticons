@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgPython = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgPython = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "python_svg__a", x1: 70.252, x2: 170.659, y1: 1237.476, y2: 1151.089, gradientTransform: "matrix(.563 0 0 -.568 -29.215 707.817)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#5A9FD4" }),
         React.createElement("stop", { offset: 1, stopColor: "#306998" })),
@@ -22,5 +11,5 @@ var SvgPython = function (props) { return (React.createElement("svg", __assign({
     React.createElement("radialGradient", { id: "python_svg__c", cx: 1825.678, cy: 444.45, r: 26.743, gradientTransform: "matrix(0 -.24 -1.055 0 532.979 557.576)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#B8B8B8", stopOpacity: 0.498 }),
         React.createElement("stop", { offset: 1, stopColor: "#7F7F7F", stopOpacity: 0 })),
-    React.createElement("path", { fill: "url(#python_svg__c)", d: "M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z", opacity: 0.444 }))); };
+    React.createElement("path", { fill: "url(#python_svg__c)", d: "M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z", opacity: 0.444 })));
 export default SvgPython;

@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgSafari = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgSafari = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "safari_svg__a", x1: 295.835, x2: 295.835, y1: 274.049, y2: 272.933, gradientTransform: "matrix(112 0 0 -112 -33069.5 30695)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#19D7FF" }),
         React.createElement("stop", { offset: 1, stopColor: "#1E64F0" })),
@@ -19,5 +8,5 @@ var SvgSafari = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { fill: "red", d: "m106.7 21-48 37.7 5.2 5.2z" }),
     React.createElement("path", { fill: "#D01414", d: "m63.9 63.9 6 6L106.7 21z" }),
     React.createElement("path", { fill: "#fff", d: "m58.7 58.7-37.7 48 42.9-42.8z" }),
-    React.createElement("path", { fill: "#ACACAC", d: "m21 106.7 48.9-36.8-6-6z" }))); };
+    React.createElement("path", { fill: "#ACACAC", d: "m21 106.7 48.9-36.8-6-6z" })));
 export default SvgSafari;

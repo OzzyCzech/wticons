@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from "react";
-var SvgDotnet = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgDotnet = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
     React.createElement("linearGradient", { id: "dotnet_svg__a", x1: 61.631, x2: 62.022, y1: 563.347, y2: 563.347, gradientTransform: "matrix(0 149.735 149.735 0 -84296.266 -9188.014)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#0994DC" }),
         React.createElement("stop", { offset: 0.35, stopColor: "#66CEF5" }),
@@ -126,5 +115,5 @@ var SvgDotnet = function (props) { return (React.createElement("svg", __assign({
     React.createElement("linearGradient", { id: "dotnet_svg__r", x1: 61.049, x2: 61.439, y1: 562.706, y2: 562.706, gradientTransform: "matrix(0 121.032 121.032 0 -68011.711 -7346.748)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#1DA7E7" }),
         React.createElement("stop", { offset: 1, stopColor: "#37ABE7", stopOpacity: 0 })),
-    React.createElement("path", { fill: "url(#dotnet_svg__r)", d: "M90.359 68.202c1.391-4.284 2.98-9.485 4.954-15.794 1.777-5.684 4.925-9.934 10.835-11.788l.456-.966c-9.636.577-14.14 5.479-16.405 12.738-3.964 12.673-6.365 20.888-8.677 26.123 2.952-2.823 5.904-6.288 8.837-10.313" }))); };
+    React.createElement("path", { fill: "url(#dotnet_svg__r)", d: "M90.359 68.202c1.391-4.284 2.98-9.485 4.954-15.794 1.777-5.684 4.925-9.934 10.835-11.788l.456-.966c-9.636.577-14.14 5.479-16.405 12.738-3.964 12.673-6.365 20.888-8.677 26.123 2.952-2.823 5.904-6.288 8.837-10.313" })));
 export default SvgDotnet;
