@@ -13,8 +13,8 @@
 	],
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
-		"clean": "rimraf ./jsx ./dist",
-		"build:tsx": "svgr --out-dir tsx --typescript -- icons",
+		"clean": "rimraf ./tsx ./dist",
+		"build:tsx": "svgr --out-dir tsx --typescript --index-template index.template.cjs -- icons",
 		"build:js": "tsc",
 		"build": "yarn build:jsx && yarn build:js",
 		"optimize": "svgo -i ./icons"

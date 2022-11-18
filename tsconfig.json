@@ -1,10 +1,9 @@
 {
 	"compilerOptions": {
 		"skipLibCheck": true,
-		"moduleResolution": "node",
+		"moduleResolution": "nodenext",
 		"declaration": true,
 		"allowSyntheticDefaultImports": true,
-		"emitDeclarationOnly": true,
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"allowJs": true,
