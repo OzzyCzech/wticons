@@ -1,12 +1,27 @@
 {
-  "name": "wticons",
-  "version": "1.0.0",
-  "description": "Bundle of website development and technology icons",
-  "main": "index.js",
-  "repository": "git@github.com:OzzyCzech/wticons.git",
-  "author": "Roman Ožana <roman@ozana.cz>",
-  "license": "MIT",
-  "devDependencies": {
-    "svgo": "^3.0.1"
-  }
+	"name": "wticons",
+	"version": "1.0.0",
+	"description": "Bundle of website development and technology icons",
+	"main": "src/index.js",
+	"type": "module",
+	"repository": "git@github.com:OzzyCzech/wticons.git",
+	"author": "Roman Ožana <roman@ozana.cz>",
+	"license": "MIT",
+	"scripts": {
+		"rebuild": "yarn clean && yarn build",
+		"clean": "rm src/*.js",
+		"build": "svgr --out-dir src -- icons",
+		"optimize": "svgo -i ./icons"
+	},
+	"devDependencies": {
+		"@svgr/cli": "^6.5.1",
+		"svgo": "^3.0.1"
+	},
+	"keywords": [
+		"programming",
+		"webdesign",
+		"technology",
+		"icons",
+		"svg"
+	]
 }
