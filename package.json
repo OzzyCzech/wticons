@@ -2,20 +2,26 @@
 	"name": "wticons",
 	"version": "1.0.2",
 	"description": "Bundle of website development and technology icons",
-	"main": "src/index.js",
+	"main": "dist/index.js",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"scripts": {
 		"rebuild": "yarn clean && yarn build",
-		"clean": "rm -rf src",
-		"build": "svgr --out-dir src --native -- icons",
+		"clean": "rimraf ./jsx ./dist",
+		"build:jsx": "svgr --out-dir jsx -- icons",
+		"build:js": "babel jsx --out-dir=dist",
 		"optimize": "svgo -i ./icons"
 	},
 	"devDependencies": {
+		"@babel/cli": "^7.19.3",
+		"@babel/core": "^7.20.2",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
 		"@svgr/cli": "^6.5.1",
 		"react": "^18.2.0",
+		"rimraf": "^3.0.2",
 		"svgo": "^3.0.1"
 	},
 	"keywords": [
