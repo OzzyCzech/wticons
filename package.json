@@ -7,16 +7,13 @@
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"module": "dist/index.js",
-	"types": "types/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"types": "dist/index.d.ts",
+	"files": ["dist"],
 	"scripts": {
 		"clean": "rimraf ./src ./types ./dist",
 		"svgr": "svgr --icon --title-prop --no-dimensions --typescript --out-dir src -- icons",
-		"rollup": "rollup -c",
-		"types": "tsc",
-		"build": "yarn svgr && yarn types && yarn rollup",
+		"tsc": "tsc",
+		"build": "yarn svgr && yarn tsc",
 		"rebuild": "yarn clean && yarn build",
 		"optimize": "svgo -i ./icons"
 	},
