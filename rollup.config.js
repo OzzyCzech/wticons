@@ -1,18 +1,22 @@
-import {babel} from '@rollup/plugin-babel';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import resolve from '@rollup/plugin-node-resolve';
+import typescript from '@rollup/plugin-typescript';
 import filesize from 'rollup-plugin-filesize';
+//const svgr = require('@svgr/rollup').default;
 
 const config = {
-	input: 'src/index.js',
-	output: {
-		file: 'dist/index.esm.js',
-		format: 'esm',
-	},
-	external: [/@babel\/runtime/, 'react'],
+	input: 'src/index.ts',
+	output: [
+		{
+			dir: 'dist/index.d.js',
+			format: 'esm',
+			sourcemap: true,
+		}
+	],
 	plugins: [
-		babel({
-			babelHelpers: 'runtime',
-			plugins: ['@babel/plugin-transform-runtime'],
-		}),
+		peerDepsExternal(),
+		resolve(),
+		typescript(),
 		filesize(),
 	],
 };
