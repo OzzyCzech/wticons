@@ -11,7 +11,7 @@ yarn add wticons
 ### Usage
 
 ```javascript
-import 
+import {Photoshop} from 'wticons';
 ```
 
 ### How to solve a name conflict?
