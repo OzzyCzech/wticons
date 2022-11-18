@@ -1,6 +1,6 @@
 {
 	"name": "wticons",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"description": "Bundle of website development and technology icons",
 	"module": "dist/index.esm.js",
 	"type": "module",
