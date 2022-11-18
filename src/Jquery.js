@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgJquery = (props) => (
+const SvgJQuery = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#0868AC"
@@ -7,4 +7,4 @@ const SvgJquery = (props) => (
     />
   </svg>
 );
-export default SvgJquery;
+export default SvgJQuery;

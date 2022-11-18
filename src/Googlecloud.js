@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgGooglecloud = (props) => (
+const SvgGoogleCloud = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path
       fill="#ea4535"
@@ -19,4 +19,4 @@ const SvgGooglecloud = (props) => (
     />
   </svg>
 );
-export default SvgGooglecloud;
+export default SvgGoogleCloud;

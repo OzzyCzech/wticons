@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgMaterialui = (props) => (
+const SvgMaterialUi = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
     <path fill="#1FA6CA" d="M.2 68.6V13.4L48 41v18.4L16.1 41v36.8L.2 68.6z" />
     <path
@@ -13,4 +13,4 @@ const SvgMaterialui = (props) => (
     />
   </svg>
 );
-export default SvgMaterialui;
+export default SvgMaterialUi;
