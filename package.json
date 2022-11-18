@@ -1,0 +1,12 @@
+{
+  "name": "wticons",
+  "version": "1.0.0",
+  "description": "Bundle of website development and technology icons",
+  "main": "index.js",
+  "repository": "git@github.com:OzzyCzech/wticons.git",
+  "author": "Roman Ožana <roman@ozana.cz>",
+  "license": "MIT",
+  "devDependencies": {
+    "svgo": "^3.0.1"
+  }
+}
