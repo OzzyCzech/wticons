@@ -1,6 +1,6 @@
 {
 	"name": "wticons",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
@@ -8,7 +8,9 @@
 	"license": "MIT",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"clean": "rimraf ./src ./types ./dist",
 		"svgr": "svgr --icon --title-prop --no-dimensions --typescript --out-dir src -- icons",
