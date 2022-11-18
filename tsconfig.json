@@ -3,13 +3,16 @@
 		"baseUrl": ".",
 		"skipLibCheck": true,
 		"moduleResolution": "node",
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDeclarationOnly": true,
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"allowJs": true,
 		"outDir": "dist",
 		"jsx": "react",
 		"target": "es6",
-		"module": "esnext"
+		"module": "ESNext",
 	},
 	"include": ["tsx/**/*"]
 }
