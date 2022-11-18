@@ -7,12 +7,12 @@
 	"repository": "git@github.com:OzzyCzech/wticons.git",
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
-	"types": "types/index.d.ts",
+	"types": "./types/index.d.ts",
 	"files": [
 		"dist"
 	],
 	"scripts": {
-		"clean": "rimraf ./src ./dist ./types",
+		"clean": "rimraf ./src ./types ./dist",
 		"svgr": "svgr --icon --out-dir src -- icons",
 		"rollup": "rollup -c",
 		"types": "tsc",
