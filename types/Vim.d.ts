@@ -1,2 +1,7 @@
+import { SVGProps } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+declare const SvgVim: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
 export default SvgVim;
-declare function SvgVim(props: any): any;

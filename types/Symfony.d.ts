@@ -1,2 +1,7 @@
+import { SVGProps } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+declare const SvgSymfony: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
 export default SvgSymfony;
-declare function SvgSymfony(props: any): any;

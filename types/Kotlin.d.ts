@@ -1,2 +1,7 @@
+import { SVGProps } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+declare const SvgKotlin: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
 export default SvgKotlin;
-declare function SvgKotlin(props: any): any;

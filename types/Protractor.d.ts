@@ -1,2 +1,7 @@
+import { SVGProps } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+declare const SvgProtractor: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
 export default SvgProtractor;
-declare function SvgProtractor(props: any): any;

@@ -1,2 +1,7 @@
+import { SVGProps } from 'react';
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+}
+declare const SvgDynamodb: ({ title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps) => JSX.Element;
 export default SvgDynamodb;
-declare function SvgDynamodb(props: any): any;

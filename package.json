@@ -6,9 +6,8 @@
 	"repository": "git@github.com:OzzyCzech/wticons.git",
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
-	"main": "dist/index.d.js",
 	"module": "dist/index.esm.js",
-	"types": "dist/index.d.ts",
+	"types": "types/index.d.ts",
 	"files": [
 		"dist"
 	],
