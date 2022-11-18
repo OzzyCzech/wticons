@@ -8,7 +8,7 @@
 		"isolatedModules": true,
 		"allowJs": true,
 		"outDir": "dist",
-		"jsx": "react",
+		"jsx": "preserve",
 		"target": "es6",
 		"module": "ESNext",
 	},
