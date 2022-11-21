@@ -115,6 +115,7 @@ export { default as Php } from './Php';
 export { default as Postcss } from './Postcss';
 export { default as Postgresql } from './Postgresql';
 export { default as Premiere } from './Premiere';
+export { default as Prettier } from './Prettier';
 export { default as Prometheus } from './Prometheus';
 export { default as Protractor } from './Protractor';
 export { default as Puppeteer } from './Puppeteer';
