@@ -39,5 +39,8 @@
 	},
 	"dependencies": {
 		"@babel/runtime": "^7.16.3"
-	}
+	},
+	"workspaces": [
+		"packages/*"
+	]
 }
