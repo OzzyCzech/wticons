@@ -116,6 +116,7 @@ export { default as MaterialUi } from './MaterialUi';
 export { default as Meteor } from './Meteor';
 export { default as Microsoft } from './Microsoft';
 export { default as Mocha } from './Mocha';
+export { default as Molecular } from './Molecular';
 export { default as MongoDb } from './MongoDb';
 export { default as MySql } from './MySql';
 export { default as Netlify } from './Netlify';
