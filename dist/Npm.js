@@ -15,21 +15,13 @@ var SvgNpm = function (props) { return (React.createElement("svg", __assign({ xm
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
-    React.createElement("path", { d: "M174.443 576.219V563.2h-64.872l.001-77.981h233.356V563.2H226.25v13.019h-51.807Z", style: {
-            fill: '#cb3837',
+    }, viewBox: "0 0 256 256" }, props),
+    React.createElement("path", { d: "M0 256V0h256v256H0Z", style: {
+            fill: '#c12127',
             fillRule: 'nonzero',
-        }, transform: "translate(-468.554 -1788.11) scale(4.33395)" }),
-    React.createElement("path", { d: "M213.636 563.2v-13.109h25.678v-51.762h-51.717V563.2h26.039Z", style: {
+        } }),
+    React.createElement("path", { d: "M48 48h160v160h-32V80h-48v128H48V48Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
-        }, transform: "translate(-468.554 -1788.11) scale(4.33395)" }),
-    React.createElement("path", { d: "M213.636 511.348h12.614v25.678h-12.614z", style: {
-            fill: '#cb3837',
-            fillRule: 'nonzero',
-        }, transform: "translate(-468.554 -1788.11) scale(4.33395)" }),
-    React.createElement("path", { d: "M148.314 550.091v-38.743h13.065v38.743h13.064v-51.762h-51.712v51.762h25.583Zm129.743 0v-38.743h13.064v38.743h13.064v-38.743h13.065v38.743h13.064v-51.762H252.38v51.762h25.677Z", style: {
-            fill: '#fff',
-            fillRule: 'nonzero',
-        }, transform: "translate(-468.554 -1788.11) scale(4.33395)" }))); };
+        } }))); };
 export default SvgNpm;

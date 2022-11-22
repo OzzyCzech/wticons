@@ -10,28 +10,32 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import * as React from 'react';
-var SvgKotlin = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
-    React.createElement("linearGradient", { id: "kotlin_svg__a", x1: -11.899, x2: 40.299, y1: 48.694, y2: -8.322, gradientUnits: "userSpaceOnUse" },
-        React.createElement("stop", { offset: 0, stopColor: "#1c93c1" }),
-        React.createElement("stop", { offset: 0.163, stopColor: "#2391c0" }),
-        React.createElement("stop", { offset: 0.404, stopColor: "#378bbe" }),
-        React.createElement("stop", { offset: 0.696, stopColor: "#587eb9" }),
-        React.createElement("stop", { offset: 0.995, stopColor: "#7f6cb1" })),
-    React.createElement("path", { fill: "url(#kotlin_svg__a)", d: "M0 0h65.4L0 64.4z" }),
-    React.createElement("linearGradient", { id: "kotlin_svg__b", x1: 43.553, x2: 95.988, y1: 149.174, y2: 94.876, gradientUnits: "userSpaceOnUse" },
-        React.createElement("stop", { offset: 0, stopColor: "#1c93c1" }),
-        React.createElement("stop", { offset: 0.216, stopColor: "#2d8ebf" }),
-        React.createElement("stop", { offset: 0.64, stopColor: "#587eb9" }),
-        React.createElement("stop", { offset: 0.995, stopColor: "#7f6cb1" })),
-    React.createElement("path", { fill: "url(#kotlin_svg__b)", d: "M128 128 64.6 62.6 0 128z" }),
-    React.createElement("linearGradient", { id: "kotlin_svg__c", x1: 3.24, x2: 92.481, y1: 95.249, y2: 2.116, gradientUnits: "userSpaceOnUse" },
-        React.createElement("stop", { offset: 0, stopColor: "#c757a7" }),
-        React.createElement("stop", { offset: 0.046, stopColor: "#ca5a9e" }),
-        React.createElement("stop", { offset: 0.241, stopColor: "#d66779" }),
-        React.createElement("stop", { offset: 0.428, stopColor: "#e17357" }),
-        React.createElement("stop", { offset: 0.6, stopColor: "#e97c3a" }),
-        React.createElement("stop", { offset: 0.756, stopColor: "#ef8324" }),
-        React.createElement("stop", { offset: 0.888, stopColor: "#f28817" }),
-        React.createElement("stop", { offset: 0.982, stopColor: "#f48912" })),
-    React.createElement("path", { fill: "url(#kotlin_svg__c)", d: "M0 128 128 0H64.6L0 63.7z" }))); };
+var SvgKotlin = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+        strokeLinejoin: 'round',
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 256 256" }, props),
+    React.createElement("path", { d: "M256 256H0V0h256L128 127.949 256 256Z", style: {
+            fill: 'url(#kotlin_svg__a)',
+            fillRule: 'nonzero',
+        } }),
+    React.createElement("defs", null,
+        React.createElement("linearGradient", { id: "kotlin_svg__a", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(134.989 127.994 53.016) scale(362.042)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: '#e44857',
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: '#e44857',
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.47, style: {
+                    stopColor: '#c711e1',
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: '#7f52ff',
+                    stopOpacity: 1,
+                } }))))); };
 export default SvgKotlin;

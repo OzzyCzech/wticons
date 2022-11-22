@@ -10,46 +10,81 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import * as React from 'react';
-var SvgPrettier = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: 256, height: 256, preserveAspectRatio: "xMidYMid" }, props),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 182.857, y: 48.762, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, y: 243.81, fill: "#EA5E5E", rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 146.286, y: 146.286, fill: "#BF85BF", rx: 5 }),
-    React.createElement("rect", { width: 60.952, height: 12.19, x: 73.143, y: 146.286, fill: "#EA5E5E", rx: 5 }),
-    React.createElement("rect", { width: 60.952, height: 12.19, y: 146.286, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, y: 195.048, fill: "#BF85BF", rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, y: 97.524, fill: "#BF85BF", rx: 5 }),
-    React.createElement("rect", { width: 134.095, height: 12.19, x: 60.952, y: 24.381, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, y: 24.381, fill: "#EA5E5E", rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 48.762, y: 219.429, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 48.762, y: 73.143, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, y: 219.429, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, y: 73.143, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 158.476, y: 219.429, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 60.952, height: 12.19, x: 85.333, y: 219.429, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 60.952, height: 12.19, x: 195.048, y: 219.429, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 109.714, height: 12.19, x: 97.524, y: 121.905, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 36.571, y: 121.905, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, y: 121.905, fill: "#EA5E5E", rx: 5 }),
-    React.createElement("rect", { width: 60.952, height: 12.19, x: 109.714, y: 48.762, fill: "#BF85BF", rx: 5 }),
-    React.createElement("rect", { width: 97.524, height: 12.19, y: 48.762, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 121.905, height: 12.19, x: 36.571, y: 170.667, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, y: 170.667, fill: "#BF85BF", rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, x: 146.286, y: 73.143, fill: "#EA5E5E", rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, x: 146.286, y: 97.524, fill: "#F7BA3E", rx: 5 }),
-    React.createElement("rect", { width: 158.476, height: 12.19, fill: "#56B3B4", rx: 5 }),
-    React.createElement("rect", { width: 85.333, height: 12.19, x: 170.667, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, x: 170.667, y: 170.667, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, x: 219.429, y: 170.667, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 207.238, y: 146.286, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 207.238, y: 24.381, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, x: 219.429, y: 121.905, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, x: 219.429, y: 48.762, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 231.619, y: 73.143, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 24.381, height: 12.19, x: 231.619, y: 97.524, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 121.905, height: 12.19, x: 134.095, y: 195.048, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 36.571, height: 12.19, x: 85.333, y: 195.048, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 73.143, height: 12.19, x: 182.857, y: 243.81, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 85.333, height: 12.19, x: 85.333, y: 243.81, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 85.333, y: 73.143, fill: "#D0D4D8", opacity: 0.5, rx: 5 }),
-    React.createElement("rect", { width: 48.762, height: 12.19, x: 85.333, y: 97.524, fill: "#D0D4D8", opacity: 0.5, rx: 5 }))); };
+var SvgPrettier = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+        strokeLinejoin: 'round',
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 256 256" }, props),
+    React.createElement("path", { d: "M207.238 53.762c0-2.76-2.24-5-5-5h-14.381c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h14.381c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M73.143 248.81c0-2.76-2.241-5-5-5H5c-2.76 0-5 2.24-5 5V251c0 2.76 2.24 5 5 5h63.143c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#ea5e5e',
+        } }),
+    React.createElement("path", { d: "M195.048 151.286c0-2.76-2.241-5-5-5h-38.762c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h38.762c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#bf85bf',
+        } }),
+    React.createElement("path", { d: "M134.095 151.286c0-2.76-2.24-5-5-5H78.143c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h50.952c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#ea5e5e',
+        } }),
+    React.createElement("path", { d: "M60.952 151.286c0-2.76-2.24-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h50.952c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M73.143 200.048c0-2.76-2.241-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h63.143c2.759 0 5-2.24 5-5v-2.19Zm0-97.524c0-2.76-2.241-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h63.143c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#bf85bf',
+        } }),
+    React.createElement("path", { d: "M195.048 29.381c0-2.76-2.241-5-5-5H65.952c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h124.096c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M48.762 29.381c0-2.76-2.241-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h38.762c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#ea5e5e',
+        } }),
+    React.createElement("path", { d: "M73.143 224.429c0-2.76-2.241-5-5-5H53.762c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h14.381c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M73.143 78.143c0-2.76-2.241-5-5-5H53.762c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h14.381c2.759 0 5-2.24 5-5v-2.19ZM36.571 224.429c0-2.76-2.24-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h26.571c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M36.571 78.143c0-2.76-2.24-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h26.571c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M182.857 224.429c0-2.76-2.24-5-5-5h-14.381c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h14.381c2.76 0 5-2.24 5-5v-2.19Zm-36.571 0c0-2.76-2.241-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h50.953c2.759 0 5-2.24 5-5v-2.19Zm109.714 0c0-2.76-2.24-5-5-5h-50.952c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#d0d4d8',
+            fillOpacity: 0.5,
+        } }),
+    React.createElement("path", { d: "M207.238 126.905c0-2.76-2.24-5-5-5h-99.714c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h99.714c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M85.333 126.905c0-2.76-2.24-5-5-5H41.571c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h38.762c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M24.381 126.905c0-2.76-2.24-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h14.381c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#ea5e5e',
+        } }),
+    React.createElement("path", { d: "M170.667 53.762c0-2.76-2.241-5-5-5h-50.953c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h50.953c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#bf85bf',
+        } }),
+    React.createElement("path", { d: "M97.524 53.762c0-2.76-2.241-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h87.524c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M158.476 175.667c0-2.76-2.24-5-5-5H41.571c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h111.905c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M24.381 175.667c0-2.76-2.24-5-5-5H5c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h14.381c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#bf85bf',
+        } }),
+    React.createElement("path", { d: "M219.429 78.143c0-2.76-2.241-5-5-5h-63.143c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h63.143c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#ea5e5e',
+        } }),
+    React.createElement("path", { d: "M219.429 102.524c0-2.76-2.241-5-5-5h-63.143c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h63.143c2.759 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#f7ba3e',
+        } }),
+    React.createElement("path", { d: "M158.476 5c0-2.76-2.24-5-5-5H5C2.24 0 0 2.24 0 5v2.19c0 2.76 2.24 5 5 5h148.476c2.76 0 5-2.24 5-5V5Z", style: {
+            fill: '#56b3b4',
+        } }),
+    React.createElement("path", { d: "M256 5c0-2.76-2.24-5-5-5h-75.333c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5V5Zm-48.762 170.667c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h26.571c2.76 0 5-2.24 5-5v-2.19Zm48.762 0c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-24.381c0-2.76-2.24-5-5-5h-38.762c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-121.905c0-2.76-2.24-5-5-5h-38.762c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 97.524c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-73.143c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5h-14.381c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5h-14.381c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 97.524c0-2.76-2.24-5-5-5H139.095c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm-134.095 0c0-2.76-2.241-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h26.572c2.759 0 5-2.24 5-5v-2.19ZM256 248.81c0-2.76-2.24-5-5-5h-63.143c-2.759 0-5 2.24-5 5V251c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm-85.333 0c0-2.76-2.241-5-5-5H90.333c-2.759 0-5 2.24-5 5V251c0 2.76 2.241 5 5 5h75.334c2.759 0 5-2.24 5-5v-2.19ZM134.095 78.143c0-2.76-2.24-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h38.762c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h38.762c2.76 0 5-2.24 5-5v-2.19Z", style: {
+            fill: '#d0d4d8',
+            fillOpacity: 0.5,
+        } }))); };
 export default SvgPrettier;

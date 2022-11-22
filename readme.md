@@ -1,6 +1,6 @@
-# WT Icons
+# website Technology Icons
 
-Bundle of **W**ebsite development and **T**echnology icons such databases, frameworks, libraries…
+Bundle of Website development and Technology icons such databases, frameworks, languages, libraries…
 
 ### Install
 
@@ -11,7 +11,18 @@ yarn add wticons
 ### Usage
 
 ```javascript
-import {Photoshop} from 'wticons';
+import { Photoshop, SvgAtom } from 'wticons';
+
+
+const Homepage = () => <div>
+  <ul>
+    <li><Php/> PHP</li>
+    <li><Photoshop/> Photoshop</li>
+    <li><VisualStudioCode /> Visual Studio Code</li>
+  </ul>
+</div>
+
+export default Homepage;
 ```
 
 ### How to solve a name conflict?
@@ -19,12 +30,13 @@ import {Photoshop} from 'wticons';
 Because these are technology icons, there may be conflicts with library name such as [React](https://reactjs.org/).
 This can easily be solved by using an alias:
 
-```javascript
-import {React as ReactIcon} from 'wticons';
+```javascriptc
+import { React as ReactIcon } from 'wticons';
 ```
 
 ## Credits
 
 * [SVGR](https://react-svgr.com) - a complete tool box to take advantage of using SVGs in your React applications.
 * [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
+* [SVGPorn](https://svgporn.com/) - A huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
 * [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools. 

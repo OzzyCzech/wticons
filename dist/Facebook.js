@@ -10,7 +10,18 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import * as React from 'react';
-var SvgFacebook = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
-    React.createElement("rect", { width: 118.35, height: 118.35, x: 4.83, y: 4.83, fill: "#3d5a98", rx: 6.53, ry: 6.53 }),
-    React.createElement("path", { fill: "#fff", d: "M86.48 123.17V77.34h15.38l2.3-17.86H86.48v-11.4c0-5.17 1.44-8.7 8.85-8.7h9.46v-16A126.56 126.56 0 0 0 91 22.7c-13.62 0-23 8.3-23 23.61v13.17H52.62v17.86H68v45.83z" }))); };
+var SvgFacebook = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+        strokeLinejoin: 'round',
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 256 256" }, props),
+    React.createElement("path", { d: "M256 128C256 57.307 198.693 0 128 0S0 57.307 0 128c0 63.889 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.989V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445", style: {
+            fill: '#1877f2',
+            fillRule: 'nonzero',
+        } }),
+    React.createElement("path", { d: "m177.825 165 5.675-37H148v-24.011C148 93.867 152.959 84 168.86 84H185V52.5S170.352 50 156.348 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.9 128.9 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825", style: {
+            fill: '#fff',
+            fillRule: 'nonzero',
+        } }))); };
 export default SvgFacebook;
