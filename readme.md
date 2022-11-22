@@ -1,4 +1,4 @@
-# website Technology Icons
+# Website Technology Icons
 
 Bundle of Website development and Technology icons such databases, frameworks, languages, libraries…
 
