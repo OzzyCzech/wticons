@@ -17,7 +17,7 @@ import { Photoshop, SvgAtom } from 'wticons';
 const Homepage = () => <div>
   <ul>
     <li><Php/> PHP</li>
-    <li><Photoshop/> Photoshop</li>
+    <li><AdobePhotoshop/> Photoshop</li>
     <li><VisualStudioCode /> Visual Studio Code</li>
   </ul>
 </div>
