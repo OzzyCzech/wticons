@@ -120,6 +120,7 @@ export { default as Molecular } from './Molecular';
 export { default as MongoDb } from './MongoDb';
 export { default as MySql } from './MySql';
 export { default as Netlify } from './Netlify';
+export { default as Nette } from './Nette';
 export { default as NextJs } from './NextJs';
 export { default as Nginx } from './Nginx';
 export { default as NodeJs } from './NodeJs';
