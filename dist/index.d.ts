@@ -137,6 +137,7 @@ export { default as Perl } from './Perl';
 export { default as Phalcon } from './Phalcon';
 export { default as Phoenix } from './Phoenix';
 export { default as PhpStorm } from './PhpStorm';
+export { default as PhpUnit } from './PhpUnit';
 export { default as Php } from './Php';
 export { default as Pm2 } from './Pm2';
 export { default as Postcss } from './Postcss';
