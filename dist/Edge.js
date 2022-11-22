@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgEdge = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 256 256" }, props),
+const SvgEdge = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 256 256", ...props },
     React.createElement("defs", null,
         React.createElement("radialGradient", { id: "edge_svg__b", cx: 161.83, cy: 68.91, r: 95.38, gradientTransform: "matrix(1 0 0 -.95 0 248.84)", gradientUnits: "userSpaceOnUse" },
             React.createElement("stop", { offset: 0.72, stopOpacity: 0 }),
@@ -58,5 +47,5 @@ var SvgEdge = function (props) { return (React.createElement("svg", __assign({ x
         }, transform: "translate(-4.63 -4.92)" }),
     React.createElement("path", { d: "M156.94 153.78c-.81 1.05-3.3 2.5-3.3 5.66 0 2.61 1.7 5.12 4.72 7.23 14.38 10 41.49 8.68 41.56 8.68a59.56 59.56 0 0 0 30.27-8.35 61.38 61.38 0 0 0 30.43-52.88c.26-22.41-8-37.31-11.34-43.91-21.19-41.45-66.93-65.29-116.67-65.29a128 128 0 0 0-128 126.2c.48-36.54 36.8-66.05 80-66.05 3.5 0 23.46.34 42 10.07 16.34 8.58 24.9 18.94 30.85 29.21 6.18 10.67 7.28 24.15 7.28 29.52s-2.74 13.33-7.8 19.91Z", style: {
             fill: 'url(#edge_svg__f)',
-        }, transform: "translate(-4.63 -4.92)" }))); };
+        }, transform: "translate(-4.63 -4.92)" })));
 export default SvgEdge;

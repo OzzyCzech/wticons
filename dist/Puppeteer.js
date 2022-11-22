@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgPuppeteer = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgPuppeteer = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M253.422 214.246H2.192v-14.168c0-9.52 7.717-17.237 17.236-17.237h216.757c9.52 0 17.237 7.717 17.237 17.237v14.168Z", style: {
             fill: '#dfdedf',
             fillRule: 'nonzero',
@@ -36,5 +25,5 @@ var SvgPuppeteer = function (props) { return (React.createElement("svg", __assig
         }, transform: "translate(172.677 5.474) scale(2.65096)" }),
     React.createElement("path", { d: "M214.949 126.585v-6.392l23.14-11.991v7.18l-23.14 11.203ZM16.85 108.034l22.36 12.836v5.11l-22.36-11.312v-6.634ZM131.383 81.04l76.919 38.005v7.642l-76.919-39.405V81.04Zm-85.526 39.117 78.879-39.109v6.232l-78.879 39.908v-7.031Zm55.852-63.905L21.887 17.714 42.561 7.207l85.498 44.323 84.067-44.304 21.404 10.963-77.841 39.174c-3.112 1.566-3.107 6.011.008 7.57l77.038 38.557-19.968 10.347-84.708-43.403-86.206 44.289-19.689-11.303 79.589-39.562c3.153-1.567 3.127-6.075-.044-7.606ZM17.844 30.771v-7.014L92.29 60.899l-7.526 3.007-66.92-33.135Zm152.654 33.548c-.102-.062-7.13-3.378-7.13-3.378l74.721-37.605v7.045l-67.591 33.938Zm7.479 3.683 65.675-32.976a1.969 1.969 0 0 0 1.085-1.759V17.664a1.97 1.97 0 0 0-1.071-1.752L213.033.222a1.97 1.97 0 0 0-1.788-.003l-82.303 41.764a1.965 1.965 0 0 1-1.769.006L43.42.207a1.97 1.97 0 0 0-1.77.007L11.279 15.648a1.969 1.969 0 0 0-1.077 1.755v15.855c0 .749.425 1.433 1.097 1.765L77.25 67.607l-65.646 32.595a1.968 1.968 0 0 0-1.092 1.727l-.287 15.591a1.969 1.969 0 0 0 1.079 1.792l31.537 15.956a1.97 1.97 0 0 0 1.772.002l82.558-41.455a1.968 1.968 0 0 1 1.775.004l81.529 41.454a1.97 1.97 0 0 0 1.749.017l31.402-15.203a1.969 1.969 0 0 0 1.111-1.771v-16.29c0-.751-.427-1.436-1.101-1.767l-65.659-32.257Z", style: {
             fillRule: 'nonzero',
-        }, transform: "translate(172.677 5.474) scale(2.65096)" }))); };
+        }, transform: "translate(172.677 5.474) scale(2.65096)" })));
 export default SvgPuppeteer;

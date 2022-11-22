@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgRedis = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgRedis = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("g", { transform: "translate(3.75 3.383) scale(7.94606)" },
         React.createElement("path", { d: "M121.8 93.1c-6.7 3.5-41.4 17.7-48.8 21.6-7.4 3.9-11.5 3.8-17.3 1-5.8-2.8-42.7-17.6-49.4-20.8-3.3-1.6-5-2.9-5-4.2V78s48-10.5 55.8-13.2c7.8-2.8 10.4-2.9 17-.5s46.1 9.5 52.6 11.9v12.5c0 1.3-1.5 2.7-4.9 4.4Z", style: {
                 fill: '#a41e11',
@@ -55,5 +44,5 @@ var SvgRedis = function (props) { return (React.createElement("svg", __assign({ 
         React.createElement("path", { d: "m74.3 35.3 19-7.6v13.6l-1.9.8-17.1-6.8Z", style: {
                 fill: '#ad2115',
                 fillRule: 'nonzero',
-            } })))); };
+            } }))));
 export default SvgRedis;

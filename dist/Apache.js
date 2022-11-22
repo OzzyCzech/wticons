@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgApache = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgApache = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M218.048 2.889c-7.969 4.681-21.316 18.129-37.254 37.553v1.195l13.945 25.8.698.498c10.259-14.643 20.619-27.891 31.178-39.147a33.884 33.884 0 0 1 1.195-1.295c-.398.398-.797.896-1.195 1.295-3.387 3.785-13.747 15.738-29.286 39.645l1.793.398s36.358-3.586 53.89-6.574l.996-.897c5.578-31.278-5.479-45.621-5.479-45.621s-13.945-22.513-30.481-12.85Z", style: {
             fill: 'url(#apache_svg__a)',
             fillRule: 'nonzero',
@@ -187,5 +176,5 @@ var SvgApache = function (props) { return (React.createElement("svg", __assign({
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#cd2032',
                     stopOpacity: 1,
-                } }))))); };
+                } })))));
 export default SvgApache;

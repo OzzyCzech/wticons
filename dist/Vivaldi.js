@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgVivaldi = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgVivaldi = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 256" }, props),
+    }, viewBox: "0 0 256 256", ...props },
     React.createElement("path", { d: "M127.999 255.999c56.092 0 87.262 0 107.631-20.369s20.369-51.539 20.369-107.631c0-56.091 0-87.261-20.369-107.63S184.091 0 127.999 0c-56.091 0-87.3 0-107.63 20.369S0 71.908 0 127.999c0 56.092 0 87.262 20.369 107.631s51.539 20.369 107.63 20.369Z", style: {
             fill: '#ef3939',
             fillRule: 'nonzero',
@@ -41,5 +30,5 @@ var SvgVivaldi = function (props) { return (React.createElement("svg", __assign(
             React.createElement("stop", { offset: 1, style: {
                     stopColor: 'black',
                     stopOpacity: 0.05,
-                } }))))); };
+                } })))));
 export default SvgVivaldi;

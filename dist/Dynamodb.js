@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgDynamodb = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgDynamodb = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 289" }, props),
+    }, viewBox: "0 0 256 289", ...props },
     React.createElement("path", { d: "M165.258 288.501h3.508l57.261-28.634.953-1.347V29.964l-.953-1.354L168.766 0h-3.551l.043 288.501", style: {
             fill: '#5294cf',
             fillRule: 'nonzero',
@@ -35,5 +24,5 @@ var SvgDynamodb = function (props) { return (React.createElement("svg", __assign
     React.createElement("path", { d: "M226.027 215.966v43.901L256 224.749v-30.461l-29.8 21.626-.173.052m0-18.545.173-.04 29.8-16.028v-30.649l-29.973 2.757v43.96m.173-106.213-.173-.04v43.8L256 137.769v-30.634l-29.8-15.927m0-18.521L256 94.193V63.731L226.027 28.61v43.905l.173.06v.112", style: {
             fill: '#2d72b8',
             fillRule: 'nonzero',
-        }, transform: "translate(4.95 5.828) scale(.96132)" }))); };
+        }, transform: "translate(4.95 5.828) scale(.96132)" })));
 export default SvgDynamodb;

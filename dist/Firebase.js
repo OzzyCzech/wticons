@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgFirebase = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", width: 256, height: 351, preserveAspectRatio: "xMidYMid" }, props),
+const SvgFirebase = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", width: 256, height: 351, preserveAspectRatio: "xMidYMid", ...props },
     React.createElement("defs", null,
         React.createElement("filter", { id: "firebase_svg__b", width: "200%", height: "200%", x: "-50%", y: "-50%", filterUnits: "objectBoundingBox" },
             React.createElement("feGaussianBlur", { in: "SourceAlpha", result: "shadowBlurInner1", stdDeviation: 17.5 }),
@@ -33,5 +22,5 @@ var SvgFirebase = function (props) { return (React.createElement("svg", __assign
     React.createElement("path", { fill: "#F6820C", d: "m0 282.998.962-.968 3.496-1.42 128.477-128 1.628-4.431-32.05-61.074z" }),
     React.createElement("path", { fill: "#FDE068", d: "m139.121 347.551 116.275-64.847-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005" }),
     React.createElement("path", { fill: "#FCCA3F", d: "M254.354 282.16 221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006l115.392-64.355Z" }),
-    React.createElement("path", { fill: "#EEAB37", d: "M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983 115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847-.285-1.752-115.99 64.689Z" }))); };
+    React.createElement("path", { fill: "#EEAB37", d: "M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983 115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847-.285-1.752-115.99 64.689Z" })));
 export default SvgFirebase;

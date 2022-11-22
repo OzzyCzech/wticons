@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgPaypal = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgPaypal = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M217.168 23.507C203.234 7.625 178.046.816 145.823.816h-93.52a13.392 13.392 0 0 0-13.227 11.295L.136 259.077c-.774 4.869 2.997 9.281 7.933 9.281h57.736l14.5-91.972-.449 2.88c1.032-6.501 6.592-11.296 13.176-11.296h27.436c53.898 0 96.101-21.892 108.429-85.221.366-1.873.683-3.696.957-5.477-1.556-.824-1.556-.824 0 0 3.671-23.407-.025-39.339-12.686-53.765", style: {
             fill: '#27346a',
             fillRule: 'nonzero',
@@ -31,5 +20,5 @@ var SvgPaypal = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { d: "M216.952 72.128a89.492 89.492 0 0 0-5.818-1.49 109.022 109.022 0 0 0-6.177-1.174c-7.408-1.199-15.499-1.765-24.189-1.765h-73.31c-1.806 0-3.521.408-5.053 1.149a11.683 11.683 0 0 0-6.509 8.74l-15.583 98.798-.449 2.88c1.024-6.501 6.584-11.296 13.168-11.296h27.445c53.898 0 96.1-21.892 108.428-85.221.367-1.873.675-3.688.958-5.477-3.122-1.648-6.501-3.072-10.139-4.279a82.688 82.688 0 0 0-2.772-.865", style: {
             fill: '#1f264f',
             fillRule: 'nonzero',
-        }, transform: "translate(78.335 -2.366) scale(3.40008)" }))); };
+        }, transform: "translate(78.335 -2.366) scale(3.40008)" })));
 export default SvgPaypal;

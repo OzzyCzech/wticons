@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgMariadb = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgMariadb = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 170" }, props),
+    }, viewBox: "0 0 256 170", ...props },
     React.createElement("path", { d: "M250.392.004c-3.95.127-2.701 1.265-11.236 3.365-8.619 2.121-19.147 1.47-28.428 5.363-27.706 11.62-33.265 51.333-58.452 65.559-18.827 10.634-37.822 11.482-54.899 16.834-11.223 3.519-23.5 10.736-33.668 19.499-7.892 6.803-8.098 12.786-16.345 21.32-8.82 9.127-35.057.154-46.948 14.124 3.83 3.873 5.51 4.958 13.058 3.953-1.562 2.962-10.775 5.458-8.972 9.816 1.898 4.585 24.17 7.693 44.417-4.53 9.429-5.693 16.94-13.899 31.624-15.857 19.003-2.533 40.895 1.624 62.894 4.797-3.262 9.726-9.811 16.194-15.057 23.94-1.625 1.75 3.263 1.946 8.839.889 10.03-2.48 17.258-4.478 24.828-8.884 9.3-5.414 10.71-19.293 22.12-22.297 6.357 9.772 23.649 12.08 34.378 4.264-9.415-2.665-12.017-22.705-8.839-31.535 3.01-8.36 5.985-21.73 9.017-32.78 3.255-11.866 4.455-26.823 8.394-32.868 5.927-9.094 12.475-12.217 18.16-17.345 5.686-5.129 10.89-10.12 10.719-21.855-.055-3.78-2.01-5.886-5.604-5.772Z", style: {
             fill: '#002b64',
             fillRule: 'nonzero',
@@ -31,5 +20,5 @@ var SvgMariadb = function (props) { return (React.createElement("svg", __assign(
     React.createElement("path", { d: "M242.988 12.788c-1.429 2.423-4.868 6.844-5.437 13.285-.105 1.104-1.003 1.788-.867.081.62-6.288 3.369-10.224 5.455-13.645.947-1.391 1.392-.743.849.279Zm-1.112-1.268c-1.627 2.294-6.922 7.603-8.029 13.975-.199 1.09-1.151 1.698-.871.008 1.146-6.215 5.71-11.1 8.076-14.331 1.06-1.31 1.448-.625.824.348Zm-.992-1.414c-1.933 2.042-8.245 8.812-10.235 14.964-.352 1.051-1.38 1.52-.864-.114 2.007-5.992 7.535-12.447 10.332-15.312 1.235-1.147 1.522-.415.767.462Z", style: {
             fill: '#002b64',
             fillRule: 'nonzero',
-        } }))); };
+        } })));
 export default SvgMariadb;

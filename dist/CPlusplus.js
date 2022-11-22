@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgCPlusplus = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgCPlusplus = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 288" }, props),
+    }, viewBox: "0 0 256 288", ...props },
     React.createElement("path", { d: "M255.987 84.59c-.002-4.837-1.037-9.112-3.129-12.781-2.055-3.608-5.134-6.632-9.262-9.023-34.081-19.651-68.195-39.242-102.264-58.913-9.185-5.303-18.091-5.11-27.208.269-13.565 8-81.481 46.911-101.719 58.633C4.071 67.6.015 74.984.013 84.581 0 124.101.013 163.62 0 203.14c0 4.732.993 8.924 2.993 12.538 2.056 3.717 5.177 6.824 9.401 9.269 20.239 11.722 88.164 50.629 101.726 58.631 9.121 5.382 18.027 5.575 27.215.27 34.07-19.672 68.186-39.262 102.272-58.913 4.224-2.444 7.345-5.553 9.401-9.267 1.997-3.614 2.992-7.806 2.992-12.539 0 0 0-79.018-.013-118.539", style: {
             fill: '#649ad2',
             fillRule: 'nonzero',
@@ -35,5 +24,5 @@ var SvgCPlusplus = function (props) { return (React.createElement("svg", __assig
     React.createElement("path", { d: "M249.135 148.636h-9.738v9.74h-9.74v-9.74h-9.737v-9.737h9.737v-9.738h9.74v9.738h9.738v9.737ZM128 58.847c31.135 0 58.358 16.74 73.169 41.709l.445.759-37.001 21.307c-7.333-12.609-20.978-21.094-36.613-21.094-23.379 0-42.333 18.953-42.333 42.332a42.132 42.132 0 0 0 5.583 21.003c7.297 12.738 21.014 21.33 36.75 21.33 15.659 0 29.325-8.511 36.647-21.153l.241-.423 36.947 21.406c-14.649 25.597-42.228 42.851-73.835 42.851-31.549 0-59.084-17.185-73.754-42.707-7.162-12.459-11.26-26.904-11.26-42.307 0-46.95 38.061-85.013 85.014-85.013Zm75.865 70.314v9.738h9.737v9.737h-9.737v9.74h-9.738v-9.74h-9.738v-9.737h9.738v-9.738h9.738Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
-        } }))); };
+        } })));
 export default SvgCPlusplus;

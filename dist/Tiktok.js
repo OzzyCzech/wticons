@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgTiktok = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgTiktok = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M189.72 104.421c18.678 13.345 41.56 21.197 66.273 21.197V78.087a67.116 67.116 0 0 1-13.918-1.455v37.413c-24.711 0-47.589-7.851-66.272-21.195v96.996c0 48.523-39.356 87.855-87.9 87.855-18.113 0-34.949-5.473-48.934-14.859 15.962 16.312 38.222 26.431 62.848 26.431 48.548 0 87.905-39.332 87.905-87.857v-96.995h-.002Zm17.169-47.952c-9.545-10.423-15.813-23.893-17.169-38.785v-6.113h-13.189c3.32 18.927 14.644 35.097 30.358 44.898ZM69.674 225.607a40.003 40.003 0 0 1-8.203-24.33c0-22.192 18.001-40.186 40.209-40.186a40.318 40.318 0 0 1 12.198 1.883v-48.593c-4.61-.631-9.262-.9-13.912-.801v37.822a40.26 40.26 0 0 0-12.203-1.882c-22.208 0-40.208 17.992-40.208 40.187 0 15.694 8.997 29.281 22.119 35.9Z", style: {
             fill: '#ff004f',
             fillRule: 'nonzero',
@@ -26,5 +15,5 @@ var SvgTiktok = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { d: "M242.075 76.631V66.515a66.295 66.295 0 0 1-35.186-10.047 66.475 66.475 0 0 0 35.186 20.163Zm-65.544-65.06a67.76 67.76 0 0 1-.728-5.458V0h-47.834v189.845c-.076 22.129-18.046 40.05-40.208 40.05a40.057 40.057 0 0 1-18.09-4.287c7.347 9.637 18.949 15.857 32.007 15.857 22.159 0 40.132-17.918 40.21-40.05V11.571h34.643Zm-76.565 102.01v-10.77a88.792 88.792 0 0 0-12.061-.818C39.355 101.993 0 141.327 0 189.845c0 30.419 15.467 57.227 38.971 72.996-15.502-15.838-25.053-37.516-25.053-61.427 0-47.9 38.354-86.848 86.048-87.833Z", style: {
             fill: '#00f2ea',
             fillRule: 'nonzero',
-        }, transform: "translate(65.742 7.726) scale(3.48649)" }))); };
+        }, transform: "translate(65.742 7.726) scale(3.48649)" })));
 export default SvgTiktok;

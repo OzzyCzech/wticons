@@ -1,19 +1,8 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgPhalcon = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgPhalcon = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "m203.574 139.856-17.749-35.754 5.659 23.922 12.09 11.832Z", style: {
             fill: '#73b08f',
             fillRule: 'nonzero',
@@ -101,5 +90,5 @@ var SvgPhalcon = function (props) { return (React.createElement("svg", __assign(
             fillRule: 'nonzero',
             stroke: '#000',
             strokeWidth: '.3px',
-        }, transform: "translate(64.117) scale(3.51144)" }))); };
+        }, transform: "translate(64.117) scale(3.51144)" })));
 export default SvgPhalcon;

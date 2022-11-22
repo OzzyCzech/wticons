@@ -1,19 +1,8 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgRails = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgRails = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M17.444 125.054s.188-29.538.188-59.564c0-58.159-4.901-62.491 21.194-62.491h72.635v83.889c0 27.615 5.162 38.433-23.859 38.433-29.021.001-70.158-.267-70.158-.267Z", style: {
             fill: '#a62c39',
             fillRule: 'nonzero',
@@ -72,5 +61,5 @@ var SvgRails = function (props) { return (React.createElement("svg", __assign({ 
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#c0815e',
                     stopOpacity: 1,
-                } }))))); };
+                } })))));
 export default SvgRails;

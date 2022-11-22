@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgTelegram = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgTelegram = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 256" }, props),
+    }, viewBox: "0 0 256 256", ...props },
     React.createElement("path", { d: "M128 0C94.06 0 61.48 13.494 37.5 37.49A128.083 128.083 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51 0-33.934-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0Z", style: {
             fill: 'url(#telegram_svg__a)',
             fillRule: 'nonzero',
@@ -33,5 +22,5 @@ var SvgTelegram = function (props) { return (React.createElement("svg", __assign
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#229ed9',
                     stopOpacity: 1,
-                } }))))); };
+                } })))));
 export default SvgTelegram;

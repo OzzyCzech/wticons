@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgPreact = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgPreact = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 296" }, props),
+    }, viewBox: "0 0 256 296", ...props },
     React.createElement("path", { d: "m128 0 128 73.9v147.8l-128 73.9L0 221.7V73.9L128 0Z", style: {
             fill: '#673ab8',
             fillRule: 'nonzero',
@@ -31,5 +20,5 @@ var SvgPreact = function (props) { return (React.createElement("svg", __assign({
     React.createElement("path", { d: "M127.552 167.667c10.827 0 19.603-8.777 19.603-19.604 0-10.826-8.776-19.603-19.603-19.603-10.827 0-19.604 8.777-19.604 19.603 0 10.827 8.777 19.604 19.604 19.604Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
-        } }))); };
+        } })));
 export default SvgPreact;

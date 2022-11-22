@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgRollupjs = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgRollupjs = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M256 110.133c0-19.684-5.155-38.137-14.235-54.129-24.077-24.78-76.449-30.521-89.454-.118-13.356 31.166 22.437 65.846 38.078 63.092 19.918-3.514-3.515-49.208-3.515-49.208 30.462 57.41 23.433 39.835-31.634 92.559-55.066 52.723-111.304 163.968-119.505 168.655-.352.234-.703.41-1.113.586h215.989c3.807 0 6.268-4.042 4.569-7.44l-56.472-111.773c-1.231-2.402-.352-5.389 1.991-6.737C233.739 186.64 256 151.022 256 110.133Z", style: {
             fill: 'url(#rollupjs_svg__a)',
             fillRule: 'nonzero',
@@ -130,5 +119,5 @@ var SvgRollupjs = function (props) { return (React.createElement("svg", __assign
             React.createElement("stop", { offset: 1, style: {
                     stopColor: 'white',
                     stopOpacity: 0,
-                } }))))); };
+                } })))));
 export default SvgRollupjs;

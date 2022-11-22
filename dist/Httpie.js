@@ -1,22 +1,11 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgHttpie = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgHttpie = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M256 66.28C255.732 29.408 224.974 0 188.102 0H67.959C31.366 0 .718 28.947.011 65.553a66.896 66.896 0 0 0 66.851 68.097h53.675a3.893 3.893 0 0 1 1.552 7.412l-82.286 36.067C15.463 187.919-.163 212.112.011 238.736c.279 36.878 31.017 66.312 67.902 66.312h28.156c37.144 0 68.071-29.79 68.012-66.935-.076-27.213-16.624-51.669-41.856-61.86a3.854 3.854 0 0 1-.065-7.1l94.111-41.266C240.586 117.079 256.186 92.889 256 66.28Z", style: {
             fillRule: 'nonzero',
-        }, transform: "translate(86.451 4.921) scale(3.32458)" }))); };
+        }, transform: "translate(86.451 4.921) scale(3.32458)" })));
 export default SvgHttpie;

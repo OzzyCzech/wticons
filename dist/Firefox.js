@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgFirefox = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgFirefox = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M75.916 26.831c-1.684-4.052-5.1-8.427-7.775-9.81a40.269 40.269 0 0 1 3.925 11.764l.007.065C67.691 17.925 60.26 13.52 54.191 3.928a47.975 47.975 0 0 1-.913-1.484 12.014 12.014 0 0 1-.427-.8 7.021 7.021 0 0 1-.578-1.535.1.1 0 0 0-.088-.1.13.13 0 0 0-.073 0c-.005 0-.013.009-.019.011s-.019.011-.028.015l.015-.026c-9.735 5.7-13.038 16.252-13.342 21.53a19.387 19.387 0 0 0-10.666 4.111 11.32 11.32 0 0 0-1-.758 17.967 17.967 0 0 1-.109-9.473 28.703 28.703 0 0 0-9.329 7.21h-.018c-1.536-1.947-1.428-8.367-1.34-9.708a6.973 6.973 0 0 0-1.294.687 28.237 28.237 0 0 0-3.788 3.245A33.77 33.77 0 0 0 7.571 21.2v.006-.007a32.729 32.729 0 0 0-5.2 11.743l-.052.256c-.143.804-.27 1.611-.381 2.42 0 .029-.006.056-.009.085a37.035 37.035 0 0 0-.629 5.343v.2c.019 21.25 17.509 38.725 38.759 38.725 18.786 0 35.002-13.658 38.195-32.171.065-.5.118-.995.176-1.5a39.861 39.861 0 0 0-2.514-19.469Zm-44.67 30.338c.181.087.351.181.537.264l.027.017c-.188-.09-.376-.184-.564-.281Zm40.83-28.31v-.037l.007.041-.007-.004Z", style: {
             fill: 'url(#firefox_svg__a)',
             fillRule: 'nonzero',
@@ -420,5 +409,5 @@ var SvgFirefox = function (props) { return (React.createElement("svg", __assign(
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#fff44f',
                     stopOpacity: 0,
-                } }))))); };
+                } })))));
 export default SvgFirefox;

@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgInkscape = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128" }, props),
+const SvgInkscape = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 128 128", ...props },
     React.createElement("g", { transform: "matrix(.994 0 0 .994 .389 -1.445)" },
         React.createElement("g", { opacity: 0.783 },
             React.createElement("path", { d: "m53.3 10.088-44.8 45.8c-16.9 16.9 11 15.5 21.1 21.9 4.7 3-15 6.9-11 11 3.9 4 23.6 7.7 27.5 11.6 3.9 4-7.9 8.2-4 12.3 3.8 4 12.9.2 14.5 9.3 1.2 6.7 16.7 3.4 23.7-2.4 4.3-3.7-7.5-3.7-3.6-7.7 9.8-9.9 18.5-4.5 22-13.6 2-4.9-14.8-8.4-10.3-11.5 10.7-7.5 49.7-11.3 31.7-29.3l-46.3-47.4c-5.8-5.4-15.2-5.4-20.5 0zm51.3 88.2c0 2.3 17.7 3.6 16.7-.5-1.4-7-14.8-6.4-16.7.5zm-75.4 12.1c4 3.5 10.1-.8 12-5.6-3.9-5.2-18.3.2-12 5.6zm73.2-7.3c-5 4.6.9 9.3 5.8 6.2 1.3-.9-.1-5.1-5.8-6.2z" }),
@@ -124,5 +113,5 @@ var SvgInkscape = function (props) { return (React.createElement("svg", __assign
             React.createElement("linearGradient", { id: "inkscape_svg__y", x1: -115.448, x2: -144.875, y1: 55.254, y2: 134.487, gradientTransform: "matrix(.485 0 0 -.485 149.184 125.791)", gradientUnits: "userSpaceOnUse" },
                 React.createElement("stop", { offset: 0, stopColor: "#729FCF" }),
                 React.createElement("stop", { offset: 1, stopColor: "#729FCF", stopOpacity: 0 })),
-            React.createElement("path", { fill: "url(#inkscape_svg__y)", d: "M61.9 122.2s12-1.1 14.7-4.6c1.6-2-6.4-4.4-4.7-6.4 6.5-7.4 12-7.1 19.6-10.3 7.6-3.1 4.8-4.6 2.3-6-4.2-2.3-13.6-4.8-10.5-10.4 3.1-5.6 30.4-13.4 30.4-13.4 8.3-2.8 7.2-7.9 3.2-12.2L92.6 34.8s1.2 23-3.7 32.9C82.8 79.8 50.5 93.4 64 94.9c4.8.5 7.1 2.2 9 5.8 4 7.6-11.1 21.5-11.1 21.5z" }))))); };
+            React.createElement("path", { fill: "url(#inkscape_svg__y)", d: "M61.9 122.2s12-1.1 14.7-4.6c1.6-2-6.4-4.4-4.7-6.4 6.5-7.4 12-7.1 19.6-10.3 7.6-3.1 4.8-4.6 2.3-6-4.2-2.3-13.6-4.8-10.5-10.4 3.1-5.6 30.4-13.4 30.4-13.4 8.3-2.8 7.2-7.9 3.2-12.2L92.6 34.8s1.2 23-3.7 32.9C82.8 79.8 50.5 93.4 64 94.9c4.8.5 7.1 2.2 9 5.8 4 7.6-11.1 21.5-11.1 21.5z" })))));
 export default SvgInkscape;

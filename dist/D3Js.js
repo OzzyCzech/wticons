@@ -1,16 +1,5 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgD3Js = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128" }, props),
+const SvgD3Js = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128", ...props },
     React.createElement("linearGradient", { id: "d3js_svg__a", x1: -201.009, x2: -200.098, y1: 376.844, y2: 375.873, gradientTransform: "matrix(82.4907 0 0 -81.4303 16634.416 30700.326)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#f9a03c" }),
         React.createElement("stop", { offset: 1, stopColor: "#f7974e" })),
@@ -34,5 +23,5 @@ var SvgD3Js = function (props) { return (React.createElement("svg", __assign({ x
     React.createElement("linearGradient", { id: "d3js_svg__f", x1: -200.619, x2: -200.595, y1: 377.137, y2: 376.532, gradientTransform: "matrix(176.7653 0 0 -92.6293 35504.598 35022.56)", gradientUnits: "userSpaceOnUse" },
         React.createElement("stop", { offset: 0, stopColor: "#f9a03c" }),
         React.createElement("stop", { offset: 1, stopColor: "#f7974e" })),
-    React.createElement("path", { fill: "url(#d3js_svg__f)", d: "M87.85 123.035H48.29a69.95 69.95 0 0 0 20.25-19.022l19.31 19.022zM61.24 96.82 42.106 77.965c-5.287 11.362-16.807 19.264-30.143 19.264H1.472v26h10.49c20.53 0 38.648-10.5 49.28-26.407z" }))); };
+    React.createElement("path", { fill: "url(#d3js_svg__f)", d: "M87.85 123.035H48.29a69.95 69.95 0 0 0 20.25-19.022l19.31 19.022zM61.24 96.82 42.106 77.965c-5.287 11.362-16.807 19.264-30.143 19.264H1.472v26h10.49c20.53 0 38.648-10.5 49.28-26.407z" })));
 export default SvgD3Js;

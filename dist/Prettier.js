@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgPrettier = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgPrettier = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 256" }, props),
+    }, viewBox: "0 0 256 256", ...props },
     React.createElement("path", { d: "M207.238 53.762c0-2.76-2.24-5-5-5h-14.381c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h14.381c2.76 0 5-2.24 5-5v-2.19Z", style: {
             fill: '#56b3b4',
         } }),
@@ -86,5 +75,5 @@ var SvgPrettier = function (props) { return (React.createElement("svg", __assign
     React.createElement("path", { d: "M256 5c0-2.76-2.24-5-5-5h-75.333c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5V5Zm-48.762 170.667c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5h26.571c2.76 0 5-2.24 5-5v-2.19Zm48.762 0c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-24.381c0-2.76-2.24-5-5-5h-38.762c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-121.905c0-2.76-2.24-5-5-5h-38.762c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 97.524c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0-73.143c0-2.76-2.24-5-5-5h-26.571c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5h-14.381c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5h-14.381c-2.76 0-5 2.24-5 5v2.19c0 2.76 2.24 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm0 97.524c0-2.76-2.24-5-5-5H139.095c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm-134.095 0c0-2.76-2.241-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h26.572c2.759 0 5-2.24 5-5v-2.19ZM256 248.81c0-2.76-2.24-5-5-5h-63.143c-2.759 0-5 2.24-5 5V251c0 2.76 2.241 5 5 5H251c2.76 0 5-2.24 5-5v-2.19Zm-85.333 0c0-2.76-2.241-5-5-5H90.333c-2.759 0-5 2.24-5 5V251c0 2.76 2.241 5 5 5h75.334c2.759 0 5-2.24 5-5v-2.19ZM134.095 78.143c0-2.76-2.24-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h38.762c2.76 0 5-2.24 5-5v-2.19Zm0 24.381c0-2.76-2.24-5-5-5H90.333c-2.759 0-5 2.24-5 5v2.19c0 2.76 2.241 5 5 5h38.762c2.76 0 5-2.24 5-5v-2.19Z", style: {
             fill: '#d0d4d8',
             fillOpacity: 0.5,
-        } }))); };
+        } })));
 export default SvgPrettier;

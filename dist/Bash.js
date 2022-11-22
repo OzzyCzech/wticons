@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgBash = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgBash = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M207.953 52.162 127.317 4.287a30.37 30.37 0 0 0-31.114 0L15.55 52.162A32.167 32.167 0 0 0 0 79.869v95.734a32.167 32.167 0 0 0 15.55 27.691l80.636 47.859a30.39 30.39 0 0 0 31.115 0l80.636-47.859a32.163 32.163 0 0 0 15.566-27.707V79.869a32.162 32.162 0 0 0-15.55-27.707Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
@@ -31,5 +20,5 @@ var SvgBash = function (props) { return (React.createElement("svg", __assign({ x
     React.createElement("path", { d: "M144.263 140.832c.646-.323 1.179 0 1.195.92l.064 7.008a12.928 12.928 0 0 1 7.718-.937c.501.13.711.808.517 1.615l-1.534 6.152a2.648 2.648 0 0 1-.694 1.227 1.636 1.636 0 0 1-.404.291.923.923 0 0 1-.597.097 10.237 10.237 0 0 0-7.444 1.194 9.352 9.352 0 0 0-5.506 8.284c0 3.229 1.615 4.117 7.25 4.214 7.444.129 10.673 3.375 10.754 10.883a26.69 26.69 0 0 1-9.882 20.135l.129 6.878a2.516 2.516 0 0 1-1.179 2.099l-4.068 2.341c-.646.323-1.179 0-1.195-.904v-6.765c-3.488 1.453-7.024 1.792-9.285.888-.419-.162-.613-.791-.436-1.518l1.47-6.216c.111-.492.364-.941.726-1.292.115-.11.246-.203.388-.275a.812.812 0 0 1 .662 0 11.3 11.3 0 0 0 8.541-1.081 11.176 11.176 0 0 0 6.314-9.688c0-3.488-1.922-4.941-6.459-4.974-5.861 0-11.303-1.13-11.416-9.688a25.03 25.03 0 0 1 9.462-19.15l-.29-7.039a2.503 2.503 0 0 1 1.178-2.132l4.021-2.567Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
-        }, transform: "matrix(3.69717 0 0 3.8955 97.927 13.376)" }))); };
+        }, transform: "matrix(3.69717 0 0 3.8955 97.927 13.376)" })));
 export default SvgBash;

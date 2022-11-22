@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgVitejs = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgVitejs = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 257" }, props),
+    }, viewBox: "0 0 256 257", ...props },
     React.createElement("path", { d: "M255.153 37.938 134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.874 37.958c-2.745-4.814 1.372-10.646 6.828-9.671l120.385 21.518a6.54 6.54 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z", style: {
             fill: 'url(#vitejs_svg__a)',
             fillRule: 'nonzero',
@@ -46,5 +35,5 @@ var SvgVitejs = function (props) { return (React.createElement("svg", __assign({
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#ffa800',
                     stopOpacity: 1,
-                } }))))); };
+                } })))));
 export default SvgVitejs;

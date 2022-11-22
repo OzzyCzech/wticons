@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgBrave = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgBrave = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M256 97.1 246.7 72l6.4-14.4c.8-1.9.4-4-1-5.5l-17.5-17.7c-7.7-7.7-19.1-10.4-29.4-6.8l-4.9 1.7-26.8-29-45.3-.3h-.3L82.3.4 55.6 29.6l-4.8-1.7c-10.4-3.7-21.9-1-29.6 6.9l-17.8 18c-1.2 1.2-1.5 2.9-.9 4.4l6.7 15L0 97.3 6 120l27.2 103.3c3.1 11.9 10.3 22.3 20.4 29.5 0 0 33 23.3 65.5 44.4 2.9 1.9 5.9 3.2 9.1 3.2 3.2 0 6.2-1.3 9.1-3.2 36.6-24 65.5-44.5 65.5-44.5 10-7.2 17.2-17.6 20.3-29.5l27-103.3 5.9-22.8Z", style: {
             fill: '#f15a22',
             fillRule: 'nonzero',
@@ -66,5 +55,5 @@ var SvgBrave = function (props) { return (React.createElement("svg", __assign({ 
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#d0d2d3',
                     stopOpacity: 0.4,
-                } }))))); };
+                } })))));
 export default SvgBrave;

@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgAffinityDesigner = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgAffinityDesigner = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 1024 1024" }, props),
+    }, viewBox: "0 0 1024 1024", ...props },
     React.createElement("path", { d: "M746 189.99c0-7.169-5.821-12.99-12.99-12.99H325.99c-7.169 0-12.99 5.821-12.99 12.99v407.02c0 7.169 5.821 12.99 12.99 12.99h407.02c7.169 0 12.99-5.821 12.99-12.99V189.99Z", style: {
             fill: '#144e8c',
         }, transform: "matrix(2.31984 0 0 2.29875 -711.769 -391.291)" }),
@@ -56,5 +45,5 @@ var SvgAffinityDesigner = function (props) { return (React.createElement("svg", 
             React.createElement("stop", { offset: 1, style: {
                     stopColor: '#97e8fc',
                     stopOpacity: 1,
-                } }))))); };
+                } })))));
 export default SvgAffinityDesigner;

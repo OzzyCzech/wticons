@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgBun = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgBun = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 225" }, props),
+    }, viewBox: "0 0 256 225", ...props },
     React.createElement("path", { d: "M228.747 65.588a38.67 38.67 0 0 0-1.62-1.62c-.55-.519-1.07-1.102-1.62-1.62-.551-.52-1.07-1.102-1.62-1.62-.551-.52-1.07-1.103-1.62-1.621-.552-.519-1.07-1.102-1.62-1.62-.552-.519-1.07-1.102-1.621-1.62-.551-.52-1.07-1.102-1.62-1.62a85.776 85.776 0 0 1 25.632 59.819c0 53.695-54.505 97.377-121.519 97.377-37.525 0-71.097-13.707-93.424-35.192l9.721 9.721 1.621 1.62c22.295 22.393 56.612 36.813 95.044 36.813 67.014 0 121.519-43.682 121.519-97.215 0-22.878-9.851-44.557-27.253-61.602Z", style: {
             fillRule: 'nonzero',
         } }),
@@ -65,5 +54,5 @@ var SvgBun = function (props) { return (React.createElement("svg", __assign({ xm
         React.createElement("path", { d: "M22.359 18.99h.033c3.68 0 6.708-3.028 6.708-6.708 0-3.668-3.008-6.691-6.676-6.708h-.032c-3.68 0-6.709 3.028-6.709 6.708 0 3.668 3.008 6.69 6.676 6.708Zm80.268 0c3.668-.018 6.675-3.04 6.675-6.708 0-3.68-3.028-6.708-6.707-6.708-3.68 0-6.708 3.028-6.708 6.708 0 3.668 3.007 6.69 6.675 6.708h.065Z", style: {
                 fill: '#fff',
                 fillRule: 'nonzero',
-            } })))); };
+            } }))));
 export default SvgBun;

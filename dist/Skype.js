@@ -1,21 +1,10 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 import * as React from 'react';
-var SvgSkype = function (props) { return (React.createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+const SvgSkype = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
         fillRule: 'evenodd',
         clipRule: 'evenodd',
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
-    }, viewBox: "0 0 256 256" }, props),
+    }, viewBox: "0 0 256 256", ...props },
     React.createElement("path", { d: "M246.663 143.907a115.114 115.114 0 0 0 1.153-15.782A119.868 119.868 0 0 0 127.948 8.258c-5.281.022-10.553.407-15.781 1.152C82.62-6.514 46.125-1.165 22.392 22.569-1.342 46.303-6.691 82.797 9.233 112.344a115.428 115.428 0 0 0-1.153 15.781c0 66.202 53.667 119.868 119.868 119.868a115.271 115.271 0 0 0 15.782-1.152c29.546 15.924 66.041 10.575 89.775-13.159 23.733-23.734 29.083-60.229 13.158-89.775Z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
@@ -112,5 +101,5 @@ var SvgSkype = function (props) { return (React.createElement("svg", __assign({ 
             React.createElement("stop", { offset: 1, style: {
                     stopColor: 'black',
                     stopOpacity: 0,
-                } }))))); };
+                } })))));
 export default SvgSkype;
