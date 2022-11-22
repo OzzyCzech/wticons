@@ -36,7 +36,7 @@ import { React as ReactIcon } from 'wticons';
 
 ## Credits
 
-* [SVGR](https://react-svgr.com) - a complete tool box to take advantage of using SVGs in your React applications.
-* [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
 * [SVGPorn](https://svgporn.com/) - A huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
 * [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools. 
+* [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
+* [SVGR](https://react-svgr.com) - a complete tool box to take advantage of using SVGs in your React applications.
