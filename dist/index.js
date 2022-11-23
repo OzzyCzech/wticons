@@ -127,6 +127,7 @@ export { default as NextJs } from './NextJs';
 export { default as Nginx } from './Nginx';
 export { default as NodeJs } from './NodeJs';
 export { default as NodeWebkit } from './NodeWebkit';
+export { default as Notion } from './Notion';
 export { default as Npm } from './Npm';
 export { default as Nuxtjs } from './Nuxtjs';
 export { default as Opencollective } from './Opencollective';
