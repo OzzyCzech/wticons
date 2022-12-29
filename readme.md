@@ -1,5 +1,9 @@
 # Website Technology Icons
 
+![](https://img.shields.io/npm/dm/wticons?style=for-the-badge)
+![](https://img.shields.io/npm/v/wticons?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)
+
 Bundle of Website development and Technology icons such databases, frameworks, languages, libraries…
 
 ### Install
