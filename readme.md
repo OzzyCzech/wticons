@@ -1,8 +1,9 @@
 # Website Technology Icons
 
-![](https://img.shields.io/npm/dm/wticons?style=for-the-badge)
-![](https://img.shields.io/npm/v/wticons?style=for-the-badge)
-![](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)
+[![](https://img.shields.io/npm/dm/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
+[![](https://img.shields.io/npm/v/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
+[![](https://img.shields.io/npm/l/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
+[![](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commit/main)
 
 Bundle of Website development and Technology icons such databases, frameworks, languages, libraries…
 
