@@ -1,7 +1,7 @@
-[![](https://img.shields.io/npm/dm/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
-[![](https://img.shields.io/npm/v/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
-[![](https://img.shields.io/npm/l/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/blob/main/LICENSE)
-[![](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commit/main)
+[![NPM Downloads](https://img.shields.io/npm/dm/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
+[![NPM Version](https://img.shields.io/npm/v/wticons?style=for-the-badge)](https://www.npmjs.com/package/wticons)
+[![NPM License](https://img.shields.io/npm/l/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commit/main)
 
 # Website Technology Icons
 
