@@ -171,6 +171,7 @@ export { default as Sass } from './Sass';
 export { default as Scala } from './Scala';
 export { default as Selenium } from './Selenium';
 export { default as Sendgrid } from './Sendgrid';
+export { default as Sidekiq } from './Sidekiq';
 export { default as Skype } from './Skype';
 export { default as Slack } from './Slack';
 export { default as Snowpack } from './Snowpack';
