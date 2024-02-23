@@ -16,16 +16,25 @@ yarn add wticons
 ### Usage
 
 ```javascript
-import { Photoshop, SvgAtom } from 'wticons';
+import { Photoshop, SvgAtom } from '@wticons/react';
 
 
 const Homepage = () => <div>
   <ul>
-    <li><Php/> PHP</li>
-    <li><AdobePhotoshop/> Photoshop</li>
-    <li><VisualStudioCode /> Visual Studio Code</li>
+    <li>
+      <Php/>
+      PHP
+    </li>
+    <li>
+      <AdobePhotoshop/>
+      Photoshop
+    </li>
+    <li>
+      <VisualStudioCode/>
+      Visual Studio Code
+    </li>
   </ul>
-</div>
+</div>;
 
 export default Homepage;
 ```
@@ -42,6 +51,6 @@ import { React as ReactIcon } from 'wticons';
 ## Credits
 
 * [SVGPorn](https://svgporn.com/) - A huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
-* [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools. 
+* [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools.
 * [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
 * [SVGR](https://react-svgr.com) - a complete tool box to take advantage of using SVGs in your React applications.

@@ -1,0 +1,55 @@
+{
+	"name": "@wticons/react",
+	"version": "2.0.0",
+	"description": "Bundle of website development and technology icons",
+	"type": "module",
+	"repository": "git@github.com:OzzyCzech/wticons.git",
+	"author": "Roman Ožana <roman@ozana.cz>",
+	"license": "MIT",
+	"module": "dist/index.js",
+	"scripts": {
+		"clean": "rimraf ./dist",
+		"build": "node build.mjs",
+		"rebuild": "yarn clean && yarn build"
+	},
+	"exports": {
+		".": "./dist/index.ts",
+		"./*": "./dist/*.astro"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"rimraf": "^5.0.5"
+	},
+	"keywords": [
+		"programming",
+		"development",
+		"webdesign",
+		"technology",
+		"icons",
+		"icon pack",
+		"astro",
+		"astro-component",
+		"astro component",
+		"astro icon",
+		"astro icons",
+		"collection",
+		"component",
+		"components",
+		"svg",
+		"vector",
+		"vectors",
+		"svg",
+		"svgs",
+		"ui",
+		"ux"
+	],
+	"peerDependencies": {
+		"astro": "*"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.23.9",
+		"pascalcase": "^2.0.0"
+	}
+}
