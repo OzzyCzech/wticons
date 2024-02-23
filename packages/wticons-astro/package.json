@@ -9,6 +9,7 @@
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"build": "node build.mjs",
+		"test": "astro check",
 		"rebuild": "yarn clean && yarn build"
 	},
 	"exports": {
@@ -19,7 +20,10 @@
 		"dist"
 	],
 	"devDependencies": {
-		"rimraf": "^5.0.5"
+		"@astrojs/check": "^0.5.5",
+		"astro": "^4.4.3",
+		"rimraf": "^5.0.5",
+		"typescript": "^5.3.3"
 	},
 	"keywords": [
 		"programming",
@@ -51,5 +55,5 @@
 		"@babel/runtime": "^7.23.9",
 		"pascalcase": "^2.0.0"
 	},
-	"gitHead": "325692fb7e0028e82fbfabdd580d5dfe45f3ae0c"
+	"gitHead": "16c97157f038f2d099adf7f13e6e65c49cbcda92"
 }
