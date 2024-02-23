@@ -1,6 +1,6 @@
 {
 	"name": "@wticons/astro",
-	"version": "2.0.0",
+	"version": "0.0.1-2.0.0.0",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
@@ -8,7 +8,9 @@
 	"license": "MIT",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"clean": "rimraf ./src ./types ./dist",
 		"svgr": "svgr --typescript --out-dir src -- ../../icons",
