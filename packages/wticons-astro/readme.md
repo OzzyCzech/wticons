@@ -41,8 +41,6 @@ This can easily be solved by using an alias:
 import { Astro as AstroIcon } from '@wticons/astro';
 ```
 
-## Credits
+### License
 
-* [SVGPorn](https://svgporn.com/) - A huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
-* [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools.
-* [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
+[MIT](../../LICENSE)
