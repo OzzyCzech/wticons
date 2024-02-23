@@ -1,5 +1,5 @@
 {
-	"name": "@wticons/astro",
+	"name": "@wticons/react",
 	"version": "0.0.2",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
