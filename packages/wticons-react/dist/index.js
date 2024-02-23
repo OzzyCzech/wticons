@@ -8,6 +8,7 @@ export { default as Android } from './Android';
 export { default as Angularjs } from './Angularjs';
 export { default as Apache } from './Apache';
 export { default as Apple } from './Apple';
+export { default as Astro } from './Astro';
 export { default as Atom } from './Atom';
 export { default as Ava } from './Ava';
 export { default as Aws } from './Aws';
