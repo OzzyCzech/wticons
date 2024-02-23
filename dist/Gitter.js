@@ -9,12 +9,12 @@ const SvgGitter = (props) => (React.createElement("svg", { xmlns: "http://www.w3
             fill: 'url(#gitter_svg__a)',
             fillRule: 'nonzero',
         } }),
-    React.createElement("path", { d: "M83.914 62.873h12.525v82.661H83.914V62.873Zm76.149 20.039h12.524v62.622h-12.524V82.912Zm-50.599 0h12.524v110.466h-12.524V82.912Zm25.049 0h12.525v110.466h-12.525V82.912Z", style: {
+    React.createElement("path", { d: "M83.914 62.873h12.525v82.661H83.914zm76.149 20.039h12.524v62.622h-12.524zm-50.599 0h12.524v110.466h-12.524zm25.049 0h12.525v110.466h-12.525z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
         } }),
     React.createElement("defs", null,
-        React.createElement("linearGradient", { id: "gitter_svg__a", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "matrix(0 256 -256 0 128 0)", gradientUnits: "userSpaceOnUse" },
+        React.createElement("linearGradient", { id: "gitter_svg__a", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(90 64 64)scale(256)", gradientUnits: "userSpaceOnUse" },
             React.createElement("stop", { offset: 0, style: {
                     stopColor: '#fb0766',
                     stopOpacity: 1,

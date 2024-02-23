@@ -9,7 +9,7 @@ const SvgFacebook = (props) => (React.createElement("svg", { xmlns: "http://www.
             fill: '#1877f2',
             fillRule: 'nonzero',
         } }),
-    React.createElement("path", { d: "m177.825 165 5.675-37H148v-24.011C148 93.867 152.959 84 168.86 84H185V52.5S170.352 50 156.348 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.9 128.9 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825", style: {
+    React.createElement("path", { d: "m177.825 165 5.675-37H148v-24.011C148 93.867 152.959 84 168.86 84H185V52.5S170.352 50 156.348 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z", style: {
             fill: '#fff',
             fillRule: 'nonzero',
         } })));

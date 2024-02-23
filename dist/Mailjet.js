@@ -5,7 +5,7 @@ const SvgMailjet = (props) => (React.createElement("svg", { xmlns: "http://www.w
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
     }, viewBox: "0 0 256 255", ...props },
-    React.createElement("path", { d: "m0 97.991 93.408 42.34 18.769-18.66-47.795-21.715 148.187-56.744-56.961 147.533-21.606-47.359-18.878 18.769.982 2.183 41.357 90.68L256 0 0 97.991Z", style: {
+    React.createElement("path", { d: "m0 97.991 93.408 42.34 18.769-18.66-47.795-21.715 148.187-56.744-56.961 147.533-21.606-47.359-18.878 18.769.982 2.183 41.357 90.68L256 0z", style: {
             fill: '#9585f4',
             fillRule: 'nonzero',
         } })));

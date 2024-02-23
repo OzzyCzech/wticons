@@ -1,3 +1,4 @@
-import { SVGProps } from 'react';
-declare const SvgLinux: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+import * as React from 'react';
+import type { SVGProps } from 'react';
+declare const SvgLinux: (props: SVGProps<SVGSVGElement>) => React.JSX.Element;
 export default SvgLinux;

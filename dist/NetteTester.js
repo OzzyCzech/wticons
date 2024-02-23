@@ -5,15 +5,15 @@ const SvgNetteTester = (props) => (React.createElement("svg", { xmlns: "http://w
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
     }, viewBox: "0 0 1024 1024", ...props },
-    React.createElement("path", { d: "M1024 112c0-61.816-50.184-112-112-112H112C50.184 0 0 50.184 0 112v800c0 61.816 50.184 112 112 112h800c61.816 0 112-50.184 112-112V112Z", style: {
+    React.createElement("path", { d: "M1024 112c0-61.816-50.184-112-112-112H112C50.184 0 0 50.184 0 112v800c0 61.816 50.184 112 112 112h800c61.816 0 112-50.184 112-112z", style: {
             fill: '#71b30b',
         } }),
-    React.createElement("path", { d: "M145.368 115.866v67.13H82.642v-67.13H27.898V44.999h172.204v70.867h-54.734Z", style: {
+    React.createElement("path", { d: "M145.368 115.866v67.13H82.642v-67.13H27.898V44.999h172.204v70.867z", style: {
             fill: '#5a8f09',
         }, transform: "matrix(5.15389 0 0 5.09794 -75.544 -49.155)" }),
     React.createElement("g", { transform: "matrix(5.15389 0 0 5.09794 -75.537 -49.15)" },
         React.createElement("clipPath", { id: "nette-tester_svg__a" },
-            React.createElement("path", { d: "M145.368 115.866v67.13H82.642v-67.13H27.899V44.997h172.199v70.869h-54.731.001ZM38.162 55.261V105.6h54.743v67.131h42.198l-.012-67.131h54.744V55.261H38.162Z" })),
+            React.createElement("path", { d: "M145.368 115.866v67.13H82.642v-67.13H27.899V44.997h172.199v70.869zM38.162 55.261V105.6h54.743v67.131h42.198l-.012-67.131h54.744V55.261z" })),
         React.createElement("g", { clipPath: "url(#nette-tester_svg__a)" },
             React.createElement("use", { xlinkHref: "#nette-tester_svg__b", width: 762, height: 615, transform: "matrix(.22598 0 0 .22439 27.9 44.997)" }))),
     React.createElement("defs", null,

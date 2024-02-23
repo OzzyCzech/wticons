@@ -5,7 +5,7 @@ const SvgVercel = (props) => (React.createElement("svg", { xmlns: "http://www.w3
         strokeLinejoin: 'round',
         strokeMiterlimit: 2,
     }, viewBox: "0 0 1024 1024", ...props },
-    React.createElement("path", { d: "m66.916 0 66.915 115.903H0L66.916 0Z", style: {
+    React.createElement("path", { d: "m66.916 0 66.915 115.903H0z", style: {
             fillRule: 'nonzero',
-        }, transform: "translate(10.86 77.995) scale(7.48912)" })));
+        }, transform: "translate(10.86 77.995)scale(7.48912)" })));
 export default SvgVercel;
