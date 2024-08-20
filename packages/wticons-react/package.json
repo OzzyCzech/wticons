@@ -1,6 +1,6 @@
 {
 	"name": "@wticons/react",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
