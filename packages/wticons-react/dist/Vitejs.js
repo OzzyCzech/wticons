@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgVitejs = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", width: 256, height: 257, preserveAspectRatio: "xMidYMid", ...props },
+const SvgVitejs = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", preserveAspectRatio: "xMidYMid", viewBox: "0 0 256 257", ...props },
     React.createElement("defs", null,
         React.createElement("linearGradient", { id: "vitejs_svg__a", x1: "-.828%", x2: "57.636%", y1: "7.652%", y2: "78.411%" },
             React.createElement("stop", { offset: "0%", stopColor: "#41D1FF" }),
