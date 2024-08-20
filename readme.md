@@ -190,7 +190,6 @@ yarn add @wticons/astro
 [<img src='icons/redux.svg' height='40' alt='redux.svg' />](icons/redux.svg)
 [<img src='icons/remix.svg' height='40' alt='remix.svg' />](icons/remix.svg)
 [<img src='icons/rollupjs.svg' height='40' alt='rollupjs.svg' />](icons/rollupjs.svg)
-[<img src='icons/rspec.svg' height='40' alt='rspec.svg' />](icons/rspec.svg)
 [<img src='icons/ruby.svg' height='40' alt='ruby.svg' />](icons/ruby.svg)
 [<img src='icons/rust.svg' height='40' alt='rust.svg' />](icons/rust.svg)
 [<img src='icons/safari.svg' height='40' alt='safari.svg' />](icons/safari.svg)

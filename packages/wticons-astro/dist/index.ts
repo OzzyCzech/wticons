@@ -173,7 +173,6 @@ export { default as Redis } from './Redis.astro';
 export { default as Redux } from './Redux.astro';
 export { default as Remix } from './Remix.astro';
 export { default as Rollupjs } from './Rollupjs.astro';
-export { default as Rspec } from './Rspec.astro';
 export { default as Ruby } from './Ruby.astro';
 export { default as Rust } from './Rust.astro';
 export { default as Safari } from './Safari.astro';

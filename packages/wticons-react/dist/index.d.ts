@@ -173,7 +173,6 @@ export { default as Redis } from './Redis';
 export { default as Redux } from './Redux';
 export { default as Remix } from './Remix';
 export { default as Rollupjs } from './Rollupjs';
-export { default as Rspec } from './Rspec';
 export { default as Ruby } from './Ruby';
 export { default as Rust } from './Rust';
 export { default as Safari } from './Safari';
