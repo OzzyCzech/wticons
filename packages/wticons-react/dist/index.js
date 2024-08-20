@@ -216,6 +216,7 @@ export { default as Webstorm } from './Webstorm';
 export { default as Windows } from './Windows';
 export { default as WooCommerce } from './WooCommerce';
 export { default as Wordpress } from './Wordpress';
+export { default as X } from './X';
 export { default as Xcode } from './Xcode';
 export { default as Yarn } from './Yarn';
 export { default as Yii } from './Yii';

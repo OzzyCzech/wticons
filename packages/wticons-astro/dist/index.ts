@@ -216,6 +216,7 @@ export { default as Webstorm } from './Webstorm.astro';
 export { default as Windows } from './Windows.astro';
 export { default as WooCommerce } from './WooCommerce.astro';
 export { default as Wordpress } from './Wordpress.astro';
+export { default as X } from './X.astro';
 export { default as Xcode } from './Xcode.astro';
 export { default as Yarn } from './Yarn.astro';
 export { default as Yii } from './Yii.astro';
