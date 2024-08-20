@@ -12,7 +12,7 @@
 	],
 	"scripts": {
 		"optimize": "svgo -i ./icons",
-		"build": "yarn workspaces run build"
+		"build": "yarn optimize && yarn workspaces run build && node ./update.js"
 	},
 	"devDependencies": {
 		"lerna": "^8.1.8",
