@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgFirebase = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", width: 256, height: 351, preserveAspectRatio: "xMidYMid", ...props },
+const SvgFirebase = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", preserveAspectRatio: "xMidYMid", viewBox: "0 0 256 351", ...props },
     React.createElement("defs", null,
         React.createElement("filter", { id: "firebase_svg__b", width: "200%", height: "200%", x: "-50%", y: "-50%", filterUnits: "objectBoundingBox" },
             React.createElement("feGaussianBlur", { in: "SourceAlpha", result: "shadowBlurInner1", stdDeviation: 17.5 }),
