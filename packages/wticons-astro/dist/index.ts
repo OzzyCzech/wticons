@@ -119,6 +119,7 @@ export { default as Mariadb } from './Mariadb.astro';
 export { default as Markdown } from './Markdown.astro';
 export { default as Mastodon } from './Mastodon.astro';
 export { default as MaterialUi } from './MaterialUi.astro';
+export { default as Matter } from './Matter.astro';
 export { default as Meteor } from './Meteor.astro';
 export { default as Microsoft } from './Microsoft.astro';
 export { default as Midjourney } from './Midjourney.astro';

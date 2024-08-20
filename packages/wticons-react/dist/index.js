@@ -119,6 +119,7 @@ export { default as Mariadb } from './Mariadb';
 export { default as Markdown } from './Markdown';
 export { default as Mastodon } from './Mastodon';
 export { default as MaterialUi } from './MaterialUi';
+export { default as Matter } from './Matter';
 export { default as Meteor } from './Meteor';
 export { default as Microsoft } from './Microsoft';
 export { default as Midjourney } from './Midjourney';
