@@ -138,6 +138,7 @@ export { default as Notion } from './Notion';
 export { default as Npm } from './Npm';
 export { default as Nuxtjs } from './Nuxtjs';
 export { default as Openai } from './Openai';
+export { default as Openapi } from './Openapi';
 export { default as Opencollective } from './Opencollective';
 export { default as Opensuse } from './Opensuse';
 export { default as Opera } from './Opera';

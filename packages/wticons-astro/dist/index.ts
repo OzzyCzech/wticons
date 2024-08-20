@@ -138,6 +138,7 @@ export { default as Notion } from './Notion.astro';
 export { default as Npm } from './Npm.astro';
 export { default as Nuxtjs } from './Nuxtjs.astro';
 export { default as Openai } from './Openai.astro';
+export { default as Openapi } from './Openapi.astro';
 export { default as Opencollective } from './Opencollective.astro';
 export { default as Opensuse } from './Opensuse.astro';
 export { default as Opera } from './Opera.astro';
