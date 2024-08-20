@@ -15,8 +15,8 @@
 		"build": "yarn workspaces run build"
 	},
 	"devDependencies": {
-		"lerna": "^8.1.2",
-		"svgo": "^3.2.0"
+		"lerna": "^8.1.8",
+		"svgo": "^3.3.2"
 	},
 	"keywords": [
 		"programming",
@@ -29,6 +29,6 @@
 		"svg"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.23.9"
+		"@babel/runtime": "^7.25.0"
 	}
 }

@@ -20,10 +20,10 @@
 		"dist"
 	],
 	"devDependencies": {
-		"@astrojs/check": "^0.5.5",
-		"astro": "^4.4.3",
-		"rimraf": "^5.0.5",
-		"typescript": "^5.3.3"
+		"@astrojs/check": "^0.9.3",
+		"astro": "^4.14.2",
+		"rimraf": "^6.0.1",
+		"typescript": "^5.5.4"
 	},
 	"keywords": [
 		"programming",
@@ -52,7 +52,7 @@
 		"astro": "*"
 	},
 	"dependencies": {
-		"@babel/runtime": "^7.23.9",
+		"@babel/runtime": "^7.25.0",
 		"pascalcase": "^2.0.0"
 	},
 	"gitHead": "16c97157f038f2d099adf7f13e6e65c49cbcda92"
