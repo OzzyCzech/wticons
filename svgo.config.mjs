@@ -1,4 +1,5 @@
-let prefixCounter = 0;
+import { createHash } from 'node:crypto';
+
 
 export default {
   //js2svg: { indent: 2, pretty: true },
@@ -9,7 +10,7 @@ export default {
       name: 'prefixIds',
       params: {
         delim: '',
-        prefix: () => `w${prefixCounter++}`,
+        prefix: (element, extra) => createHash('shake256', { outputLength: 4 }).update(extra.path).digest('hex'),
       },
     },
   ],
