@@ -121,6 +121,7 @@ export { default as Mastodon } from './Mastodon';
 export { default as MaterialUi } from './MaterialUi';
 export { default as Meteor } from './Meteor';
 export { default as Microsoft } from './Microsoft';
+export { default as Midjourney } from './Midjourney';
 export { default as Mistral } from './Mistral';
 export { default as Mocha } from './Mocha';
 export { default as Molecular } from './Molecular';

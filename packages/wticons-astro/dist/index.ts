@@ -121,6 +121,7 @@ export { default as Mastodon } from './Mastodon.astro';
 export { default as MaterialUi } from './MaterialUi.astro';
 export { default as Meteor } from './Meteor.astro';
 export { default as Microsoft } from './Microsoft.astro';
+export { default as Midjourney } from './Midjourney.astro';
 export { default as Mistral } from './Mistral.astro';
 export { default as Mocha } from './Mocha.astro';
 export { default as Molecular } from './Molecular.astro';
