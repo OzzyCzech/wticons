@@ -79,6 +79,7 @@ export { default as GithubCopilot } from './GithubCopilot';
 export { default as Github } from './Github';
 export { default as Gitlab } from './Gitlab';
 export { default as Gitter } from './Gitter';
+export { default as Gmail } from './Gmail';
 export { default as Gnu } from './Gnu';
 export { default as Go } from './Go';
 export { default as GoogleCloud } from './GoogleCloud';

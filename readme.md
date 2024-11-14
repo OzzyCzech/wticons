@@ -96,6 +96,7 @@ yarn add @wticons/astro
 [<img src='icons/github.svg' height='40' alt='github.svg' />](icons/github.svg)
 [<img src='icons/gitlab.svg' height='40' alt='gitlab.svg' />](icons/gitlab.svg)
 [<img src='icons/gitter.svg' height='40' alt='gitter.svg' />](icons/gitter.svg)
+[<img src='icons/gmail.svg' height='40' alt='gmail.svg' />](icons/gmail.svg)
 [<img src='icons/gnu.svg' height='40' alt='gnu.svg' />](icons/gnu.svg)
 [<img src='icons/go.svg' height='40' alt='go.svg' />](icons/go.svg)
 [<img src='icons/google-cloud.svg' height='40' alt='google-cloud.svg' />](icons/google-cloud.svg)
