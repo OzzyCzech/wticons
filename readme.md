@@ -50,6 +50,7 @@ yarn add @wticons/astro
 [<img src='icons/centos.svg' height='40' alt='centos.svg' />](icons/centos.svg)
 [<img src='icons/chrome.svg' height='40' alt='chrome.svg' />](icons/chrome.svg)
 [<img src='icons/circleci.svg' height='40' alt='circleci.svg' />](icons/circleci.svg)
+[<img src='icons/claude.svg' height='40' alt='claude.svg' />](icons/claude.svg)
 [<img src='icons/clojure-script.svg' height='40' alt='clojure-script.svg' />](icons/clojure-script.svg)
 [<img src='icons/clojure.svg' height='40' alt='clojure.svg' />](icons/clojure.svg)
 [<img src='icons/codeigniter.svg' height='40' alt='codeigniter.svg' />](icons/codeigniter.svg)

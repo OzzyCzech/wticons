@@ -33,6 +33,7 @@ export { default as Capistrano } from './Capistrano.astro';
 export { default as Centos } from './Centos.astro';
 export { default as Chrome } from './Chrome.astro';
 export { default as Circleci } from './Circleci.astro';
+export { default as Claude } from './Claude.astro';
 export { default as ClojureScript } from './ClojureScript.astro';
 export { default as Clojure } from './Clojure.astro';
 export { default as Codeigniter } from './Codeigniter.astro';
