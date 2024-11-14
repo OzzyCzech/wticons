@@ -72,6 +72,7 @@ export { default as Flutter } from './Flutter';
 export { default as Freebsd } from './Freebsd';
 export { default as Gimp } from './Gimp';
 export { default as Git } from './Git';
+export { default as GithubAlt } from './GithubAlt';
 export { default as GithubCopilot } from './GithubCopilot';
 export { default as Github } from './Github';
 export { default as Gitlab } from './Gitlab';

@@ -89,6 +89,7 @@ yarn add @wticons/astro
 [<img src='icons/freebsd.svg' height='40' alt='freebsd.svg' />](icons/freebsd.svg)
 [<img src='icons/gimp.svg' height='40' alt='gimp.svg' />](icons/gimp.svg)
 [<img src='icons/git.svg' height='40' alt='git.svg' />](icons/git.svg)
+[<img src='icons/github-alt.svg' height='40' alt='github-alt.svg' />](icons/github-alt.svg)
 [<img src='icons/github-copilot.svg' height='40' alt='github-copilot.svg' />](icons/github-copilot.svg)
 [<img src='icons/github.svg' height='40' alt='github.svg' />](icons/github.svg)
 [<img src='icons/gitlab.svg' height='40' alt='gitlab.svg' />](icons/gitlab.svg)

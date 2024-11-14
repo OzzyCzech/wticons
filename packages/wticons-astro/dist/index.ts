@@ -72,6 +72,7 @@ export { default as Flutter } from './Flutter.astro';
 export { default as Freebsd } from './Freebsd.astro';
 export { default as Gimp } from './Gimp.astro';
 export { default as Git } from './Git.astro';
+export { default as GitHubAlt } from './GitHubAlt.astro';
 export { default as GitHubCopilot } from './GitHubCopilot.astro';
 export { default as GitHub } from './GitHub.astro';
 export { default as GitLab } from './GitLab.astro';
