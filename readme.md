@@ -26,6 +26,7 @@ yarn add @wticons/astro
 [<img src='icons/anthropic.svg' height='40' alt='anthropic.svg' />](icons/anthropic.svg)
 [<img src='icons/apache.svg' height='40' alt='apache.svg' />](icons/apache.svg)
 [<img src='icons/apple.svg' height='40' alt='apple.svg' />](icons/apple.svg)
+[<img src='icons/arc.svg' height='40' alt='arc.svg' />](icons/arc.svg)
 [<img src='icons/astro.svg' height='40' alt='astro.svg' />](icons/astro.svg)
 [<img src='icons/atom.svg' height='40' alt='atom.svg' />](icons/atom.svg)
 [<img src='icons/ava.svg' height='40' alt='ava.svg' />](icons/ava.svg)

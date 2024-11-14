@@ -9,6 +9,7 @@ export { default as Angularjs } from './Angularjs.astro';
 export { default as Anthropic } from './Anthropic.astro';
 export { default as Apache } from './Apache.astro';
 export { default as Apple } from './Apple.astro';
+export { default as Arc } from './Arc.astro';
 export { default as Astro } from './Astro.astro';
 export { default as Atom } from './Atom.astro';
 export { default as Ava } from './Ava.astro';
