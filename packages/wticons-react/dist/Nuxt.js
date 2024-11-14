@@ -1,0 +1,4 @@
+import * as React from "react";
+const SvgNuxt = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", className: "nuxt_svg__054364e8text-black nuxt_svg__054364e8dark:text-white nuxt_svg__054364e8block nuxt_svg__054364e8w-auto nuxt_svg__054364e8h-6", viewBox: "0 0 300 200", ...props },
+    React.createElement("path", { fill: "#00DC82", d: "M168 200h111c3.542 0 6.932-1.244 10-3s6.23-3.959 8-7 3.002-6.49 3-10.001-1.227-6.959-3-9.998L222 41c-1.77-3.04-3.933-5.245-7-7s-7.458-3-11-3-6.933 1.245-10 3-5.23 3.96-7 7l-19 33-38-64.002c-1.772-3.04-3.932-6.243-7-7.998s-6.458-2-10-2-6.932.245-10 2-6.228 4.958-8 7.998L2 170c-1.773 3.039-1.998 6.487-2 9.998s.23 6.96 2 10.001 4.932 5.244 8 7 6.458 3 10 3h70c27.737 0 47.925-12.442 62-36l34-59 18-31 55 94h-73zm-79-32H40l73-126 37 63-24.509 42.725C116.144 163.01 105.488 168 89 168" })));
+export default SvgNuxt;
