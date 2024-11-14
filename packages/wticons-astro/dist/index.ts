@@ -208,6 +208,7 @@ export { default as Vercel } from './Vercel.astro';
 export { default as Vim } from './Vim.astro';
 export { default as VisualStudioCode } from './VisualStudioCode.astro';
 export { default as Vitejs } from './Vitejs.astro';
+export { default as Vitest } from './Vitest.astro';
 export { default as Vivaldi } from './Vivaldi.astro';
 export { default as Vuejs } from './Vuejs.astro';
 export { default as Vultr } from './Vultr.astro';

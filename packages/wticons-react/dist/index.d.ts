@@ -208,6 +208,7 @@ export { default as Vercel } from './Vercel';
 export { default as Vim } from './Vim';
 export { default as VisualStudioCode } from './VisualStudioCode';
 export { default as Vitejs } from './Vitejs';
+export { default as Vitest } from './Vitest';
 export { default as Vivaldi } from './Vivaldi';
 export { default as Vuejs } from './Vuejs';
 export { default as Vultr } from './Vultr';

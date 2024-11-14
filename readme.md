@@ -225,6 +225,7 @@ yarn add @wticons/astro
 [<img src='icons/vim.svg' height='40' alt='vim.svg' />](icons/vim.svg)
 [<img src='icons/visual-studio-code.svg' height='40' alt='visual-studio-code.svg' />](icons/visual-studio-code.svg)
 [<img src='icons/vitejs.svg' height='40' alt='vitejs.svg' />](icons/vitejs.svg)
+[<img src='icons/vitest.svg' height='40' alt='vitest.svg' />](icons/vitest.svg)
 [<img src='icons/vivaldi.svg' height='40' alt='vivaldi.svg' />](icons/vivaldi.svg)
 [<img src='icons/vuejs.svg' height='40' alt='vuejs.svg' />](icons/vuejs.svg)
 [<img src='icons/vultr.svg' height='40' alt='vultr.svg' />](icons/vultr.svg)
