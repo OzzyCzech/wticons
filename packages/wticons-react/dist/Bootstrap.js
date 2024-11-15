@@ -1,20 +1,14 @@
 import * as React from "react";
-const SvgBootstrap = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128", ...props },
-    React.createElement("defs", null,
-        React.createElement("linearGradient", { id: "bootstrap_svg__a", x1: 76.079, x2: 523.48, y1: 10.798, y2: 365.95, gradientTransform: "translate(1.11 14.613)scale(.24566)", gradientUnits: "userSpaceOnUse" },
-            React.createElement("stop", { offset: 0, stopColor: "#9013fe" }),
-            React.createElement("stop", { offset: 1, stopColor: "#6610f2" })),
-        React.createElement("linearGradient", { id: "bootstrap_svg__b", x1: 193.51, x2: 293.51, y1: 109.74, y2: 278.87, gradientTransform: "translate(0 52)", gradientUnits: "userSpaceOnUse" },
-            React.createElement("stop", { offset: 0, stopColor: "#fff" }),
-            React.createElement("stop", { offset: 1, stopColor: "#f1e5fc" })),
-        React.createElement("filter", { id: "bootstrap_svg__c", width: 197, height: 249, x: 161.9, y: 135.46, colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse" },
-            React.createElement("feFlood", { floodOpacity: 0, result: "BackgroundImageFix" }),
-            React.createElement("feColorMatrix", { in: "SourceAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-            React.createElement("feOffset", { dy: 4 }),
-            React.createElement("feGaussianBlur", { stdDeviation: 8 }),
-            React.createElement("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" }),
-            React.createElement("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow" }),
-            React.createElement("feBlend", { in: "SourceGraphic", in2: "effect1_dropShadow", result: "shape" }))),
-    React.createElement("path", { fill: "url(#bootstrap_svg__a)", d: "M14.985 27.712c-.237-6.815 5.072-13.099 12.249-13.099h73.54c7.177 0 12.486 6.284 12.249 13.099-.228 6.546.068 15.026 2.202 21.94 2.141 6.936 5.751 11.319 11.664 11.883v6.387c-5.913.564-9.523 4.947-11.664 11.883-2.134 6.914-2.43 15.394-2.202 21.94.237 6.815-5.072 13.098-12.249 13.098h-73.54c-7.177 0-12.486-6.284-12.249-13.098.228-6.546-.068-15.026-2.203-21.94-2.14-6.935-5.76-11.319-11.673-11.883v-6.387c5.913-.563 9.533-4.947 11.673-11.883 2.135-6.914 2.43-15.394 2.203-21.94" }),
-    React.createElement("path", { fill: "url(#bootstrap_svg__b)", stroke: "#fff", d: "M267.1 364.46c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67zm0 161.96v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941z", filter: "url(#bootstrap_svg__c)", transform: "translate(1.494 2.203)scale(.24566)" })));
+const SvgBootstrap = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M581 191.18C581 123.747 526.253 69 458.82 69H191.18C123.747 69 69 123.747 69 191.18v267.64C69 526.253 123.747 581 191.18 581h267.64C526.253 581 581 526.253 581 458.82z", style: {
+            fill: "#7c24fc",
+        }, transform: "translate(-69.001 -69.001)" }),
+    React.createElement("path", { d: "M8.308.068c-2.282 0-3.971 1.997-3.895 4.164.072 2.081-.022 4.777-.701 6.975-.68 2.205-1.832 3.601-3.712 3.781v2.024c1.88.18 3.032 1.576 3.712 3.781.679 2.198.773 4.894.701 6.975-.076 2.166 1.613 4.164 3.895 4.164h23.387c2.282 0 3.971-1.997 3.895-4.164-.072-2.081.022-4.777.701-6.975.681-2.205 1.829-3.601 3.709-3.781v-2.024c-1.88-.18-3.028-1.576-3.709-3.781-.679-2.198-.773-4.894-.701-6.975.076-2.166-1.613-4.164-3.895-4.164zm18.811 19.614c0 2.983-2.225 4.793-5.918 4.793h-6.286a.68.68 0 0 1-.678-.678V8.203c0-.372.306-.678.678-.678h6.25c3.079 0 5.1 1.668 5.1 4.229 0 1.797-1.36 3.406-3.091 3.688v.094c2.357.259 3.945 1.891 3.945 4.146M20.516 9.675h-3.584v5.062h3.018c2.334 0 3.621-.94 3.621-2.619 0-1.574-1.107-2.443-3.055-2.443m-3.584 7.07v5.58h3.715c2.43 0 3.717-.975 3.717-2.807 0-1.833-1.323-2.773-3.873-2.773z", style: {
+            fill: "#fff",
+        }, transform: "translate(86.275 120.22)scale(8.48613)" })));
 export default SvgBootstrap;
