@@ -8,7 +8,7 @@ const SvgNette = (props) => (React.createElement("svg", { xmlns: "http://www.w3.
     React.createElement("path", { d: "M581 191.18C581 123.747 526.253 69 458.82 69H191.18C123.747 69 69 123.747 69 191.18v267.64C69 526.253 123.747 581 191.18 581h267.64C526.253 581 581 526.253 581 458.82z", style: {
             fill: "#1a74c4",
         }, transform: "translate(-69.001 -69.001)" }),
-    React.createElement("g", { transform: "translate(51.584 171.04)scale(1.5984)" },
+    React.createElement("g", { transform: "translate(63.926 177.492)scale(1.49459)" },
         React.createElement("clipPath", { id: "nette_svg__a" },
             React.createElement("path", { d: "M0 0h257.024v105.054H0z" })),
         React.createElement("g", { clipPath: "url(#nette_svg__a)" },
