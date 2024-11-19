@@ -6,7 +6,7 @@ const SvgCss = (props) => (React.createElement("svg", { xmlns: "http://www.w3.or
         strokeMiterlimit: 2,
     }, viewBox: "0 0 512 513", ...props },
     React.createElement("path", { d: "M581 191.18C581 123.747 526.253 69 458.82 69H191.18C123.747 69 69 123.747 69 191.18v267.64C69 526.253 123.747 581 191.18 581h267.64C526.253 581 581 526.253 581 458.82z", style: {
-            fill: "#234467",
+            fill: "#00314d",
         }, transform: "translate(-69.001 -68.501)" }),
     React.createElement("path", { d: "M182.791 2238.11 0 4.194l2183 4.489-193.28 2229.427-889.98 257.7z", style: {
             fill: "#1b73ba",

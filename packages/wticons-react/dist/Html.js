@@ -6,7 +6,7 @@ const SvgHtml = (props) => (React.createElement("svg", { xmlns: "http://www.w3.o
         strokeMiterlimit: 2,
     }, viewBox: "0 0 512 513", ...props },
     React.createElement("path", { d: "M581 191.18C581 123.747 526.253 69 458.82 69H191.18C123.747 69 69 123.747 69 191.18v267.64C69 526.253 123.747 581 191.18 581h267.64C526.253 581 581 526.253 581 458.82z", style: {
-            fill: "#234467",
+            fill: "#25272b",
         }, transform: "translate(-69 -68.5)" }),
     React.createElement("path", { d: "M71 460 30 0h451l-41 460-185 52", style: {
             fill: "#e34f26",
