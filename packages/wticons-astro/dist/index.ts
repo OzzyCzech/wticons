@@ -18,6 +18,7 @@ export { default as Doctrine } from './Doctrine.astro';
 export { default as Git } from './Git.astro';
 export { default as GitHubCopilot } from './GitHubCopilot.astro';
 export { default as GitHub } from './GitHub.astro';
+export { default as GitLab } from './GitLab.astro';
 export { default as GnuMake } from './GnuMake.astro';
 export { default as Go } from './Go.astro';
 export { default as Html } from './Html.astro';

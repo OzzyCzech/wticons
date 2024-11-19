@@ -18,6 +18,7 @@ export { default as Doctrine } from './Doctrine';
 export { default as Git } from './Git';
 export { default as GithubCopilot } from './GithubCopilot';
 export { default as Github } from './Github';
+export { default as Gitlab } from './Gitlab';
 export { default as GnuMake } from './GnuMake';
 export { default as Go } from './Go';
 export { default as Html } from './Html';

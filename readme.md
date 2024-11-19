@@ -36,6 +36,7 @@ yarn add @wticons/astro
 [<img src='icons/git.svg' width='64' alt='git.svg' />](icons/git.svg)
 [<img src='icons/github-copilot.svg' width='64' alt='github-copilot.svg' />](icons/github-copilot.svg)
 [<img src='icons/github.svg' width='64' alt='github.svg' />](icons/github.svg)
+[<img src='icons/gitlab.svg' width='64' alt='gitlab.svg' />](icons/gitlab.svg)
 [<img src='icons/gnu-make.svg' width='64' alt='gnu-make.svg' />](icons/gnu-make.svg)
 [<img src='icons/go.svg' width='64' alt='go.svg' />](icons/go.svg)
 [<img src='icons/html.svg' width='64' alt='html.svg' />](icons/html.svg)
