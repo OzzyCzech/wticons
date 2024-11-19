@@ -47,6 +47,7 @@ export { default as Python } from './Python.astro';
 export { default as React } from './React.astro';
 export { default as Redhat } from './Redhat.astro';
 export { default as Redis } from './Redis.astro';
+export { default as Rollup } from './Rollup.astro';
 export { default as Rust } from './Rust.astro';
 export { default as Sass } from './Sass.astro';
 export { default as Stylus } from './Stylus.astro';

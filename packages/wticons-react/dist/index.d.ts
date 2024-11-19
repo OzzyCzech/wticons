@@ -47,6 +47,7 @@ export { default as Python } from './Python';
 export { default as React } from './React';
 export { default as Redhat } from './Redhat';
 export { default as Redis } from './Redis';
+export { default as Rollup } from './Rollup';
 export { default as Rust } from './Rust';
 export { default as Sass } from './Sass';
 export { default as Stylus } from './Stylus';

@@ -65,6 +65,7 @@ yarn add @wticons/astro
 [<img src='icons/react.svg' width='64' alt='react.svg' />](icons/react.svg)
 [<img src='icons/redhat.svg' width='64' alt='redhat.svg' />](icons/redhat.svg)
 [<img src='icons/redis.svg' width='64' alt='redis.svg' />](icons/redis.svg)
+[<img src='icons/rollup.svg' width='64' alt='rollup.svg' />](icons/rollup.svg)
 [<img src='icons/rust.svg' width='64' alt='rust.svg' />](icons/rust.svg)
 [<img src='icons/sass.svg' width='64' alt='sass.svg' />](icons/sass.svg)
 [<img src='icons/stylus.svg' width='64' alt='stylus.svg' />](icons/stylus.svg)
