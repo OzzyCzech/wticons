@@ -9,9 +9,10 @@ yarn add @wticons/astro
 
 ## Credits
 
-* [SVGPorn](https://svgporn.com/) - A huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
+* [SVGPorn](https://svgporn.com/) - a huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
 * [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools.
 * [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
+* [TechIcons](https://techicons.dev/) - set of technology icons 
 
 ## Icons
 
