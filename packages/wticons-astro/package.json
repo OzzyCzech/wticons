@@ -1,6 +1,6 @@
 {
 	"name": "@wticons/astro",
-	"version": "2.0.4",
+	"version": "2.0.5",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
