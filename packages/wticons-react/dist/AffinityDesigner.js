@@ -5,27 +5,22 @@ const SvgAffinityDesigner = (props) => (React.createElement("svg", { xmlns: "htt
         strokeLinejoin: "round",
         strokeMiterlimit: 2,
     }, viewBox: "0 0 512 512", ...props },
-    React.createElement("g", { transform: "matrix(1.026 0 0 1.024 256.5 255.999)" },
-        React.createElement("clipPath", { id: "affinity-designer_svg__a" },
-            React.createElement("path", { d: "M249.023-130.684C249.023-196.536 195.664-250 129.94-250h-261.833c-65.724 0-119.084 53.464-119.084 119.316v261.368c0 65.852 53.36 119.316 119.084 119.316H129.94c65.724 0 119.083-53.464 119.083-119.316z" })),
-        React.createElement("g", { clipPath: "url(#affinity-designer_svg__a)" },
-            React.createElement("g", { transform: "translate(-250 -250)" },
-                React.createElement("clipPath", { id: "affinity-designer_svg__b" },
-                    React.createElement("path", { d: "M0 0h500v500H0z" })),
-                React.createElement("g", { clipPath: "url(#affinity-designer_svg__b)" },
-                    React.createElement("path", { d: "M0 1524h434v434H0z", style: {
-                            fill: "none",
-                        }, transform: "translate(0 -1755.76)scale(1.15207)" }),
-                    React.createElement("path", { d: "M41 18h384v384H41z", style: {
-                            fill: "#1b72be",
-                        }, transform: "translate(-53.385 -23.438)scale(1.30208)" }),
-                    React.createElement("path", { d: "M191.365 168.116 241.84 255H176c-11.038 0-20-8.962-20-20 0-3.282.792-6.38 2.195-9.112zm8.623-15.018L281 12h149v243H259.188z", style: {
-                            fill: "#55d2fb",
-                        }, transform: "translate(-36.458 -23.438)scale(1.30208)" }),
-                    React.createElement("path", { d: "M443 271H155l82 144h206z", style: {
-                            fill: "#55d2fb",
-                        }, transform: "translate(-53.385 -23.438)scale(1.30208)" }),
-                    React.createElement("path", { d: "M220 415H29v-76L217 12h60L132 262z", style: {
-                            fill: "#55d2fb",
-                        }, transform: "translate(-53.385 -23.438)scale(1.30208)" })))))));
+    React.createElement("clipPath", { id: "affinity-designer_svg__a" },
+        React.createElement("path", { d: "M512 122.18C512 54.747 457.253 0 389.82 0H121.178C53.745 0-1.002 54.747-1.002 122.18v267.64c0 67.433 54.747 122.18 122.18 122.18H389.82C457.253 512 512 457.253 512 389.82z" })),
+    React.createElement("g", { clipPath: "url(#affinity-designer_svg__a)" },
+        React.createElement("clipPath", { id: "affinity-designer_svg__b" },
+            React.createElement("path", { d: "M0 0h513.002v512H0z" })),
+        React.createElement("g", { clipPath: "url(#affinity-designer_svg__b)" },
+            React.createElement("path", { d: "M0-.005h513v511.998H0z", style: {
+                    fill: "none",
+                } }),
+            React.createElement("path", { d: "M0-.001h513.001v511.999H0z", style: {
+                    fill: "#1b72be",
+                } }),
+            React.createElement("path", { d: "m218.246 200.153 67.432 115.845h-87.959c-14.746 0-26.719-11.949-26.719-26.666a26.5 26.5 0 0 1 2.933-12.149zm11.52-20.024L337.993-8.001h199.055v323.999H308.853zm307.282 157.203H152.297l109.547 191.999h275.204z", style: {
+                    fill: "#55d2fb",
+                } }),
+            React.createElement("path", { d: "M239.133 529.331H-16.031V427.998L235.126-8.001h80.156L121.571 325.332z", style: {
+                    fill: "#55d2fb",
+                } })))));
 export default SvgAffinityDesigner;

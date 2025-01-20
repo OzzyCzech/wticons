@@ -58,6 +58,7 @@ export { default as Tailwind } from './Tailwind';
 export { default as TypeScript } from './TypeScript';
 export { default as Ubuntu } from './Ubuntu';
 export { default as Vite } from './Vite';
+export { default as Vitest } from './Vitest';
 export { default as VueUse } from './VueUse';
 export { default as Vue } from './Vue';
 export { default as Webpack } from './Webpack';

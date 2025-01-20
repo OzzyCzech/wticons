@@ -76,6 +76,7 @@ yarn add @wticons/astro
 [<img src='icons/type-script.svg' width='64' alt='type-script.svg' />](icons/type-script.svg)
 [<img src='icons/ubuntu.svg' width='64' alt='ubuntu.svg' />](icons/ubuntu.svg)
 [<img src='icons/vite.svg' width='64' alt='vite.svg' />](icons/vite.svg)
+[<img src='icons/vitest.svg' width='64' alt='vitest.svg' />](icons/vitest.svg)
 [<img src='icons/vue-use.svg' width='64' alt='vue-use.svg' />](icons/vue-use.svg)
 [<img src='icons/vue.svg' width='64' alt='vue.svg' />](icons/vue.svg)
 [<img src='icons/webpack.svg' width='64' alt='webpack.svg' />](icons/webpack.svg)

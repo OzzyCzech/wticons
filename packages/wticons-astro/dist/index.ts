@@ -58,6 +58,7 @@ export { default as Tailwind } from './Tailwind.astro';
 export { default as TypeScript } from './TypeScript.astro';
 export { default as Ubuntu } from './Ubuntu.astro';
 export { default as Vite } from './Vite.astro';
+export { default as Vitest } from './Vitest.astro';
 export { default as VueUse } from './VueUse.astro';
 export { default as Vue } from './Vue.astro';
 export { default as Webpack } from './Webpack.astro';
