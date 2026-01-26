@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { extname } from 'node:path';
 
