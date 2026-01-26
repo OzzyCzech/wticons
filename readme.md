@@ -3,8 +3,8 @@
 ## Install
 
 ```shell
-yarn add @wticons/react
-yarn add @wticons/astro
+npm i @wticons/react
+npm i @wticons/astro
 ```
 
 ## Credits

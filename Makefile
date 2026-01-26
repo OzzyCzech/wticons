@@ -1,4 +1,4 @@
 release:
-	yarn lerna publish from-git
+	./node_modules/.bin/lerna publish
 
 .PHONY: $(MAKECMDGOALS)
