@@ -15,7 +15,7 @@ yarn add @wticons/astro
 
 ### Usage
 
-```javascript
+```astro
 ---
 import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro'; 
 ---
