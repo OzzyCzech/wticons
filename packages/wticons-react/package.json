@@ -20,12 +20,12 @@
 	},
 	"devDependencies": {
 		"@svgr/cli": "^8.1.0",
-		"@types/react": "^19.0.7",
-		"@types/react-dom": "^19.0.3",
-		"lerna": "^8.1.9",
-		"rimraf": "^6.0.1",
-		"svgo": "^3.3.2",
-		"typescript": "^5.7.3"
+		"@types/react": "^19.2.9",
+		"@types/react-dom": "^19.2.3",
+		"lerna": "^9.0.3",
+		"rimraf": "^6.1.2",
+		"svgo": "^4.0.0",
+		"typescript": "^5.9.3"
 	},
 	"keywords": [
 		"programming",
@@ -46,7 +46,7 @@
 		"react": "*"
 	},
 	"dependencies": {
-		"@babel/runtime": "^7.26.0"
+		"@babel/runtime": "^7.28.6"
 	},
 	"gitHead": "16c97157f038f2d099adf7f13e6e65c49cbcda92"
 }
