@@ -1,4 +1,4 @@
 release:
-	npx np --no-tests
+	yarn lerna publish from-git
 
 .PHONY: $(MAKECMDGOALS)
