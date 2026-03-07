@@ -14,8 +14,8 @@
 		"build": "yarn optimize && yarn workspaces run rebuild && node ./update.js"
 	},
 	"devDependencies": {
-		"lerna": "^9.0.3",
-		"svgo": "^4.0.0"
+		"lerna": "^9.0.5",
+		"svgo": "^4.0.1"
 	},
 	"keywords": [
 		"programming",
