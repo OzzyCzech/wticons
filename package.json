@@ -13,6 +13,10 @@
 		"optimize": "svgo -i ./icons",
 		"build": "yarn optimize && yarn workspaces run rebuild && node ./update.js"
 	},
+	"resolutions": {
+		"@svgr/plugin-svgo/svgo": "3.3.3",
+		"astro/svgo": "4.0.1"
+	},
 	"devDependencies": {
 		"lerna": "^9.0.5",
 		"svgo": "^4.0.1"
