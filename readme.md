@@ -1,5 +1,12 @@
 # Website Technology Icons (`wticons`)
 
+[![NPM Downloads](https://img.shields.io/npm/dm/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
+[![NPM Version](https://img.shields.io/npm/v/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
+[![NPM Downloads](https://img.shields.io/npm/dm/%40wticons%2Fastro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
+[![NPM Version](https://img.shields.io/npm/v/%40wticons%2Fastro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
+[![NPM License](https://img.shields.io/github/license/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commits/main)
+
 ## Install
 
 ```shell
