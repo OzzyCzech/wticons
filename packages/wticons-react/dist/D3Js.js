@@ -1,0 +1,93 @@
+import * as React from "react";
+const SvgD3Js = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M1928 2168h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-1928 -2168)" }),
+    React.createElement("path", { d: "M2168 2168h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C2440 2294.48 2440 2336 2440 2408v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C2313.52 2680 2272 2680 2200 2680h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C1928 2553.52 1928 2512 1928 2440v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C2054.48 2168 2096 2168 2168 2168", style: {
+            fill: "#34251d",
+        }, transform: "translate(-1928 -2168)" }),
+    React.createElement("path", { d: "M126.334 90.59q.083-.822.128-1.647C126.5 88.288 87.094 50.9 87.094 50.9h-.942s39.94 42.13 40.182 39.69", style: {
+            fill: "url(#d3js_svg__a)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("path", { d: "M42.26 77.62q-.159.354-.328.702c-1.256 2.62 17.585 21.038 19.1 18.8.07-.098.14-.202.208-.3.077-.118.152-.23.228-.348 1.213-1.84-18.67-20.05-19.207-18.854z", style: {
+            fill: "url(#d3js_svg__b)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("path", { d: "M68.886 103.52c-.053.118-.433.76-.78 1.098-.058.117 18.394 18.417 18.394 18.417h1.66c.002 0-17.32-18.74-19.274-19.514z", style: {
+            fill: "url(#d3js_svg__c)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("path", { d: "M126.488 88.61c-.863 19.13-16.69 34.425-36.024 34.425H87.85l-19.31-19.022a69 69 0 0 0 4.38-6.98h17.544c5.55 0 10.064-4.514 10.064-10.065s-4.515-10.064-10.064-10.064H80.082A69.4 69.4 0 0 0 81.306 64c0-4.48-.44-8.852-1.26-13.1h6.45l39.88 39.295q.069-.792.112-1.585M11.964 4.772H1.472v26.003h10.49c18.32 0 33.23 14.903 33.23 33.225 0 4.984-1.113 9.716-3.088 13.964L61.24 96.82A58.9 58.9 0 0 0 71.2 64c0-32.658-26.574-59.228-59.236-59.228", style: {
+            fill: "url(#d3js_svg__d)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("path", { d: "M90.464 4.772H47.986a69.8 69.8 0 0 1 24.82 26.003h17.658c5.55 0 10.064 4.513 10.064 10.064 0 5.55-4.515 10.06-10.064 10.06h-3.968l39.88 39.296q.147-1.61.152-3.228c0-8.766-3.146-16.807-8.368-23.066 5.223-6.256 8.368-14.3 8.368-23.063 0-19.887-16.177-36.068-36.064-36.068z", style: {
+            fill: "url(#d3js_svg__e)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("path", { d: "M87.85 123.035H48.29a69.95 69.95 0 0 0 20.25-19.022zM61.24 96.82 42.106 77.965c-5.287 11.362-16.807 19.264-30.143 19.264H1.472v26h10.49c20.53 0 38.648-10.5 49.28-26.407z", style: {
+            fill: "url(#d3js_svg__f)",
+            fillRule: "nonzero",
+        }, transform: "translate(71.763 71.765)scale(2.87871)" }),
+    React.createElement("defs", null,
+        React.createElement("linearGradient", { id: "d3js_svg__a", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(46.456 10.437 68.699)scale(109.0837)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#f9a03c",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f7974e",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "d3js_svg__b", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(44.41 -39.292 3.149)scale(98.1143)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#f9a03c",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f7974e",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "d3js_svg__c", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(48.126 -47.273 52.227)scale(95.29993)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#f9a03c",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f7974e",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "d3js_svg__d", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(51.29 7.178 18.656)scale(142.36003)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#f26d58",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f9a03c",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "d3js_svg__e", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(35.543 16.306 98.019)scale(100.74263)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#b84e51",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f68e48",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "d3js_svg__f", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(85.67 -26.733 67.027)scale(56.20107)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#f9a03c",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#f7974e",
+                    stopOpacity: 1,
+                } })))));
+export default SvgD3Js;

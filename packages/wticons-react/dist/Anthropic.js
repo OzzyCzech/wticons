@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgAnthropic = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M128 18488h512v512H128z", style: {
+            fill: "none",
+        }, transform: "translate(-128 -18488)" }),
+    React.createElement("path", { d: "M368 18488h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C640 18614.48 640 18656 640 18728v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C513.52 19000 472 19000 400 19000h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C128 18873.52 128 18832 128 18760v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C254.48 18488 296 18488 368 18488", style: {
+            fill: "#f0e1d4",
+        }, transform: "translate(-128 -18488)" }),
+    React.createElement("path", { d: "m147.487 0 70.081 175.78H256L185.919 0zM66.183 106.221l23.98-61.774 23.98 61.774zM70.07 0 0 175.78h39.18l14.33-36.914h73.308l14.328 36.914h39.179L110.255 0z", style: {
+            fill: "#181818",
+            fillRule: "nonzero",
+        }, transform: "translate(76 132.405)scale(1.40625)" })));
+export default SvgAnthropic;

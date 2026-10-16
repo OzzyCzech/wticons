@@ -1,0 +1,30 @@
+import * as React from "react";
+const SvgMaterialUi = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M1328 5048h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-1328 -5048)" }),
+    React.createElement("path", { d: "M1568 5048h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C1840 5174.48 1840 5216 1840 5288v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C1713.52 5560 1672 5560 1600 5560h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C1328 5433.52 1328 5392 1328 5320v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C1454.48 5048 1496 5048 1568 5048", style: {
+            fill: "#e2eff6",
+        }, transform: "translate(-1328 -5048)" }),
+    React.createElement("path", { d: "M.2 68.6V13.4L48 41v18.4L16.1 41v36.8z", style: {
+            fill: "#1fa6ca",
+            fillRule: "nonzero",
+        }, transform: "translate(75.436 75.578)scale(2.8191)" }),
+    React.createElement("path", { d: "m48 41 47.9-27.6v55.3L64 87l-16-9.2 32-18.4V41L48 59.4z", style: {
+            fill: "#1c7fb6",
+            fillRule: "nonzero",
+        }, transform: "translate(75.436 75.578)scale(2.8191)" }),
+    React.createElement("path", { d: "M48 77.8v18.4l32 18.4V96.2z", style: {
+            fill: "#1fa6ca",
+            fillRule: "nonzero",
+        }, transform: "translate(75.436 75.578)scale(2.8191)" }),
+    React.createElement("path", { d: "M80 114.6 127.8 87V50.2l-16 9.2v18.4L80 96.2zM111.9 41V22.6l16-9.2v18.4z", style: {
+            fill: "#1c7fb6",
+            fillRule: "nonzero",
+        }, transform: "translate(75.436 75.578)scale(2.8191)" })));
+export default SvgMaterialUi;

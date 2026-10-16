@@ -1,6 +1,6 @@
 {
 	"name": "@wticons/astro",
-	"version": "2.1.1",
+	"version": "2.2.0",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
 	"repository": "git@github.com:OzzyCzech/wticons.git",
@@ -14,6 +14,7 @@
 	},
 	"exports": {
 		".": "./dist/index.ts",
+		"./Astro": "./dist/AstroIcon.astro",
 		"./*": "./dist/*.astro"
 	},
 	"files": [
@@ -54,6 +55,5 @@
 	"dependencies": {
 		"@babel/runtime": "^7.28.6",
 		"pascalcase": "^2.0.0"
-	},
-	"gitHead": "23c2a16d32849c9542d3a2262ad0783d1712e2ce"
+	}
 }

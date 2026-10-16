@@ -15,11 +15,14 @@ for (const file of await readdir(icons, { encoding: 'utf8' })) {
     .replace('Gitlab', 'GitLab')
     .replace('Paypal', 'PayPal');
 
+  // Avoid shadowing Astro's global when compiling the Astro logo component.
+  const componentFile = name === 'Astro' ? 'AstroIcon' : name;
+
   const header = `---\nimport type { HTMLAttributes } from "astro/types";\nexport type Props = HTMLAttributes<'svg'>\n---\n\n`;
 
-  await writeFile('dist/' + name + '.astro', header + svg.replace(`<svg `, `<svg {...Astro.props} `));
+  await writeFile('dist/' + componentFile + '.astro', header + svg.replace(`<svg `, `<svg {...Astro.props} `));
 
   // create index.ts
-  const index = `export { default as ${name} } from './${name}.astro';\n`;
+  const index = `export { default as ${name} } from './${componentFile}.astro';\n`;
   await writeFile('dist/index.ts', index, { flag: 'a' });
 }

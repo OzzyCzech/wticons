@@ -1,0 +1,133 @@
+import * as React from "react";
+const SvgEdge = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M1928 15368h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-1928 -15368)" }),
+    React.createElement("path", { d: "M2168 15368h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08 9.36 35.04 9.36 76.56 9.36 148.56v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08-35.04 9.36-76.56 9.36-148.56 9.36h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08-9.36-35.04-9.36-76.56-9.36-148.56v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08 35.04-9.36 76.56-9.36 148.56-9.36", style: {
+            fill: "#122b35",
+        }, transform: "translate(-1928 -15368)" }),
+    React.createElement("path", { d: "M235.68 195.46a94 94 0 0 1-10.54 4.71 101.9 101.9 0 0 1-35.9 6.46c-47.32 0-88.54-32.55-88.54-74.32A31.51 31.51 0 0 1 117.13 105c-42.8 1.8-53.8 46.4-53.8 72.53 0 73.88 68.09 81.37 82.76 81.37 7.91 0 19.84-2.3 27-4.56l1.31-.44a128.37 128.37 0 0 0 66.6-52.8 4 4 0 0 0 .623-2.144c0-2.194-1.806-4-4-4-.68 0-1.349.174-1.943.504", style: {
+            fill: "url(#edge_svg__a)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("path", { d: "M235.68 195.46a94 94 0 0 1-10.54 4.71 101.9 101.9 0 0 1-35.9 6.46c-47.32 0-88.54-32.55-88.54-74.32A31.51 31.51 0 0 1 117.13 105c-42.8 1.8-53.8 46.4-53.8 72.53 0 73.88 68.09 81.37 82.76 81.37 7.91 0 19.84-2.3 27-4.56l1.31-.44a128.37 128.37 0 0 0 66.6-52.8 4 4 0 0 0 .623-2.144c0-2.194-1.806-4-4-4-.68 0-1.349.174-1.943.504", style: {
+            fill: "url(#edge_svg__b)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("path", { d: "M110.34 246.34A79.2 79.2 0 0 1 87.6 225a80.73 80.73 0 0 1-15.52-47.589c0-30.698 17.512-58.846 45.05-72.411 3.12-1.47 8.45-4.13 15.54-4a32.37 32.37 0 0 1 25.69 13 31.88 31.88 0 0 1 6.36 18.66c0-.21 24.46-79.6-80-79.6-43.9 0-80 41.66-80 78.21a130.16 130.16 0 0 0 12.11 56c27.424 58.513 95.075 87.546 156.38 67.11a75.59 75.59 0 0 1-62.78-8z", style: {
+            fill: "url(#edge_svg__c)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("path", { d: "M110.34 246.34A79.2 79.2 0 0 1 87.6 225a80.73 80.73 0 0 1-15.52-47.589c0-30.698 17.512-58.846 45.05-72.411 3.12-1.47 8.45-4.13 15.54-4a32.37 32.37 0 0 1 25.69 13 31.88 31.88 0 0 1 6.36 18.66c0-.21 24.46-79.6-80-79.6-43.9 0-80 41.66-80 78.21a130.16 130.16 0 0 0 12.11 56c27.424 58.513 95.075 87.546 156.38 67.11a75.59 75.59 0 0 1-62.78-8z", style: {
+            fill: "url(#edge_svg__d)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("path", { d: "M156.94 153.78c-.81 1.05-3.3 2.5-3.3 5.66 0 2.61 1.7 5.12 4.72 7.23 14.38 10 41.49 8.68 41.56 8.68a59.6 59.6 0 0 0 30.27-8.35c18.783-10.967 30.385-31.13 30.43-52.88.26-22.41-8-37.31-11.34-43.91-21.19-41.45-66.93-65.29-116.67-65.29-69.544-.007-127.022 56.663-128 126.2.48-36.54 36.8-66.05 80-66.05 3.5 0 23.46.34 42 10.07 16.34 8.58 24.9 18.94 30.85 29.21 6.18 10.67 7.28 24.15 7.28 29.52s-2.74 13.33-7.8 19.91", style: {
+            fill: "url(#edge_svg__e)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("path", { d: "M156.94 153.78c-.81 1.05-3.3 2.5-3.3 5.66 0 2.61 1.7 5.12 4.72 7.23 14.38 10 41.49 8.68 41.56 8.68a59.6 59.6 0 0 0 30.27-8.35c18.783-10.967 30.385-31.13 30.43-52.88.26-22.41-8-37.31-11.34-43.91-21.19-41.45-66.93-65.29-116.67-65.29-69.544-.007-127.022 56.663-128 126.2.48-36.54 36.8-66.05 80-66.05 3.5 0 23.46.34 42 10.07 16.34 8.58 24.9 18.94 30.85 29.21 6.18 10.67 7.28 24.15 7.28 29.52s-2.74 13.33-7.8 19.91", style: {
+            fill: "url(#edge_svg__f)",
+            fillRule: "nonzero",
+        }, transform: "translate(69.517 69.106)scale(1.40616)" }),
+    React.createElement("defs", null,
+        React.createElement("radialGradient", { id: "edge_svg__b", cx: 0, cy: 0, r: 1, gradientTransform: "matrix(95.38 0 0 -90.611 161.83 183.375)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "black",
+                    stopOpacity: 0,
+                } }),
+            React.createElement("stop", { offset: 0.72, style: {
+                    stopColor: "black",
+                    stopOpacity: 0,
+                } }),
+            React.createElement("stop", { offset: 0.95, style: {
+                    stopColor: "black",
+                    stopOpacity: 0.19,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "black",
+                    stopOpacity: 0.35,
+                } })),
+        React.createElement("radialGradient", { id: "edge_svg__d", cx: 0, cy: 0, r: 1, gradientTransform: "matrix(21.486 -141.8076 -114.592 -17.1888 75.204 203.928)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "black",
+                    stopOpacity: 0,
+                } }),
+            React.createElement("stop", { offset: 0.76, style: {
+                    stopColor: "black",
+                    stopOpacity: 0,
+                } }),
+            React.createElement("stop", { offset: 0.95, style: {
+                    stopColor: "black",
+                    stopOpacity: 0.2,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "black",
+                    stopOpacity: 0.41,
+                } })),
+        React.createElement("radialGradient", { id: "edge_svg__e", cx: 0, cy: 0, r: 1, gradientTransform: "matrix(-8.0972 202.43 431.1759 16.1944 30.473 52.297)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#35c1f1",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.11, style: {
+                    stopColor: "#34c1ed",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.23, style: {
+                    stopColor: "#2fc2df",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.31, style: {
+                    stopColor: "#2bc3d2",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.67, style: {
+                    stopColor: "#36c752",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#36c752",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("radialGradient", { id: "edge_svg__f", cx: 0, cy: 0, r: 1, gradientTransform: "matrix(27.2552 93.4464 75.9252 -22.3882 244.682 82.326)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#66eb6e",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#66eb6e",
+                    stopOpacity: 0,
+                } })),
+        React.createElement("linearGradient", { id: "edge_svg__a", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "translate(63.33 181.97)scale(178.34)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#0c59a4",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#114a8b",
+                    stopOpacity: 1,
+                } })),
+        React.createElement("linearGradient", { id: "edge_svg__c", x1: 0, x2: 1, y1: 0, y2: 0, gradientTransform: "rotate(132.554 55.69 86.878)scale(164.7)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#1b9de2",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.16, style: {
+                    stopColor: "#1595df",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.67, style: {
+                    stopColor: "#0680d7",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#0078d4",
+                    stopOpacity: 1,
+                } })))));
+export default SvgEdge;

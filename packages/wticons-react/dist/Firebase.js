@@ -1,0 +1,50 @@
+import * as React from "react";
+const SvgFirebase = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M1928 10208h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-1928 -10208)" }),
+    React.createElement("path", { d: "M2168 10208h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08 9.36 35.04 9.36 76.56 9.36 148.56v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08-35.04 9.36-76.56 9.36-148.56 9.36h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08-9.36-35.04-9.36-76.56-9.36-148.56v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08 35.04-9.36 76.56-9.36 148.56-9.36", style: {
+            fill: "#342617",
+        }, transform: "translate(-1928 -10208)" }),
+    React.createElement("path", { d: "m0 282.998 2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z", style: {
+            fill: "#ffc24a",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m1.253 280.732 1.605-3.131 99.353-188.518-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z", style: {
+            fill: "#ffa712",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m1.253 280.732 1.605-3.131 99.353-188.518-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z", style: {
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m135.005 150.38 32.955-33.75-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z", style: {
+            fill: "#f4bd62",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m134.417 148.974 32.039-32.812-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109-.53 1.744z", style: {
+            fill: "#ffa50e",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m134.417 148.974 32.039-32.812-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109-.53 1.744z", style: {
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m0 282.998.962-.968 3.496-1.42 128.477-128 1.628-4.431-32.05-61.074z", style: {
+            fill: "#f6820c",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "m139.121 347.551 116.275-64.847-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.15 24.15 0 0 0 23.513.005", style: {
+            fill: "#fde068",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "M254.354 282.16 221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.96 23.96 0 0 0 23.334.006l115.392-64.355z", style: {
+            fill: "#fcca3f",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" }),
+    React.createElement("path", { d: "M139.12 345.64a24.15 24.15 0 0 1-23.512-.005L.931 282.015l-.93.983 115.607 64.548a24.15 24.15 0 0 0 23.513.005l116.275-64.847-.285-1.752z", style: {
+            fill: "#eeab37",
+            fillRule: "nonzero",
+        }, transform: "translate(124.88 76.002)scale(1.0268)" })));
+export default SvgFirebase;
