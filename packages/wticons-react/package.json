@@ -22,8 +22,8 @@
 		"clean": "rimraf ./src ./types ./dist",
 		"svgr": "svgr --typescript --out-dir src -- ../../icons",
 		"tsc": "tsc",
-		"build": "yarn svgr && yarn tsc",
-		"rebuild": "yarn clean && yarn build"
+		"build": "pnpm svgr && pnpm tsc",
+		"rebuild": "pnpm clean && pnpm build"
 	},
 	"devDependencies": {
 		"@ozzyczech/tsconfig": "^2.1.0",
