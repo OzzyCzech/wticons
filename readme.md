@@ -55,14 +55,14 @@ import { Astro as AstroIcon } from '@wticons/astro';
 
 ## Development
 
-The repository is a [pnpm](https://pnpm.io) workspace. Source SVGs live in `icons/`, the packages in `packages/` are generated from them.
+The repository is a [pnpm](https://pnpm.io) workspace. Raw Affinity exports live in `src/`, their SVGO-optimized copies in `icons/`, and the packages in `packages/` are generated from `icons/`.
 
 ```shell
 pnpm install
 pnpm build   # optimizes icons/ with SVGO, rebuilds both packages and updates the icon list below
 ```
 
-To add an icon, drop a square SVG into `icons/` and run `pnpm build`. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
+To add or update an icon, export a 512 × 512 SVG into both `src/` and `icons/` and run `pnpm build`, which optimizes the copy in `icons/` in place. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
 
 ## Release
 
