@@ -1,44 +1,63 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/@wticons/astro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
 [![NPM Version](https://img.shields.io/npm/v/@wticons/astro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
 [![NPM License](https://img.shields.io/npm/l/@wticons/astro?style=for-the-badge)](https://github.com/OzzyCzech/wticons/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commit/main)
+[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commits/main)
 
-# Website Technology Icons
+# Website Technology Icons for Astro
 
-Bundle of Website development and Technology icons such databases, frameworks, languages, libraries…
+Bundle of website development and technology icons such as databases, frameworks, languages, libraries and tools. Requires Astro 5.7 or newer.
 
 ### Install
 
 ```shell
-yarn add @wticons/astro
+npm i @wticons/astro
 ```
 
 ### Usage
 
+Every icon is an Astro component that renders an `<img>` through Astro's `<Image>` from `astro:assets`. The SVG is emitted as a static, cacheable asset instead of being inlined into the page, so pages with many icons stay small.
+
 ```astro
 ---
-import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro'; 
+import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
 ---
 
-<Php/>
-<AdobePhotoshop/>
-<VisualStudioCode/>
+<Php />
+<AdobePhotoshop width={32} height={32} class="icon" />
+<VisualStudioCode alt="VS Code" loading="eager" />
 ```
 
-All icons are Astro component with `{...Astro.props}` added to the root `svg` element.
-This should enable you to customize the element as you see fit.
+Components accept the same props as `<Image>` except `src`. `alt` defaults to the icon name, `width` and `height` default to 512.
 
-```html
-<Php class='some classes' data-somethinf='data' id='id' />;
+Importing from the package root pulls every icon into the build graph, so Astro emits all SVG files into `dist/_astro` even if you use only a few. To emit only the icons you render, import components individually:
+
+```astro
+---
+import Php from '@wticons/astro/Php';
+import AstroIcon from '@wticons/astro/Astro';
+---
 ```
 
-### How to solve a name conflict?
+### Inline SVG
 
-Because these are technology icons, there may be conflicts with library name such as [React](https://reactjs.org/).
-This can easily be solved by using an alias:
+If you need the SVG inline, for example to style it with CSS, import the file itself. Astro turns it into a component that renders the `<svg>` element:
 
-```javascriptc
+```astro
+---
+import Php from '@wticons/astro/icons/php.svg';
+---
+
+<Php class="icon" />
+```
+
+### Name conflicts
+
+Some icons share a name with a global, such as `Astro`. Import them under an alias:
+
+```astro
+---
 import { Astro as AstroIcon } from '@wticons/astro';
+---
 ```
 
 ### License

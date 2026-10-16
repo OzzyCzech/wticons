@@ -22,6 +22,7 @@
 	"exports": {
 		".": "./dist/index.ts",
 		"./Astro": "./dist/AstroIcon.astro",
+		"./icons/*": "./dist/icons/*",
 		"./*": "./dist/*.astro"
 	},
 	"files": [
@@ -57,7 +58,7 @@
 		"ux"
 	],
 	"peerDependencies": {
-		"astro": "*"
+		"astro": ">=5.7.0"
 	},
 	"dependencies": {
 		"@babel/runtime": "^8.0.7",

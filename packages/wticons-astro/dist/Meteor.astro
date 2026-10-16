@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/meteor.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Meteor", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M128 2768h512v512H128z" style="fill:none" transform="translate(-128 -2768)"/><path d="M368 2768h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C640 2894.48 640 2936 640 3008v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C513.52 3280 472 3280 400 3280h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C128 3153.52 128 3112 128 3040v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C254.48 2768 296 2768 368 2768" style="fill:#3b2026" transform="translate(-128 -2768)"/><path d="M.439.438 219.3 232.266s7.457 5.259 13.158-.877c5.702-6.135 1.316-12.27 1.316-12.27zM69.738 22.35l166.668 179.677s7.456 5.259 13.158-.876 1.316-12.271 1.316-12.271zM21.053 69.242l166.668 179.677s7.456 5.259 13.158-.877c5.702-6.135 1.316-12.27 1.316-12.27zm107.268-28.048 116.441 125.53s5.209 3.674 9.193-.612c3.983-4.287.919-8.573.919-8.573zm-91.229 82.389 116.441 125.53s5.209 3.674 9.193-.613c3.983-4.286.919-8.572.919-8.572zM188.16 68.365l52.775 57.067s2.577 1.722 4.547-.287c1.971-2.008.455-4.017.455-4.017zM66.229 181.43l52.775 57.067s2.577 1.722 4.547-.286c1.971-2.009.455-4.017.455-4.017z" style="fill:#df4f4f;fill-rule:nonzero" transform="translate(75.382 78.891)scale(1.40867)"/></svg>
+<Image src={icon} alt={alt} {...rest} />

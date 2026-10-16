@@ -16,7 +16,7 @@ npm i @wticons/astro
 
 ## Usage
 
-Every icon is a component that spreads its props onto the root `<svg>` element, so you can pass `class`, `width`, `aria-label` and so on.
+React components render an inline `<svg>` and spread their props onto it. Astro components render an `<img>` through Astro's `<Image>`, so the SVG is served as a cacheable asset and the page stays small. See the package readmes for details.
 
 ### React
 
@@ -39,9 +39,9 @@ const Stack = () => (
 import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
 ---
 
-<Php class="icon" />
-<AdobePhotoshop class="icon" />
-<VisualStudioCode class="icon" />
+<Php />
+<AdobePhotoshop width={32} height={32} />
+<VisualStudioCode alt="VS Code" />
 ```
 
 ### Name conflicts

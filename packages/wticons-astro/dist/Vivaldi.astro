@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/vivaldi.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Vivaldi", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M4928 15368h512v512h-512z" style="fill:none" transform="translate(-4928 -15368)"/><path d="M136 0h-16C84 0 63.24 0 45.72 4.68c-22.2 5.88-35.16 18.84-41.04 41.04C0 63.24 0 84 0 120v16c0 36 0 56.76 4.68 74.28 5.88 22.2 18.84 35.16 41.04 41.04C63.24 256 84 256 120 256h16c36 0 56.76 0 74.28-4.68 22.2-5.88 35.16-18.84 41.04-41.04C256 192.76 256 172 256 136v-16c0-36 0-56.76-4.68-74.28-5.88-22.2-18.84-35.16-41.04-41.04C192.76 0 172 0 136 0" style="fill:#ef3939;fill-rule:nonzero" transform="scale(2)"/><path d="M211.221 80.633c-6.179-11.141-16.808-20.264-26.815-28.152s-19.83-12.641-32.108-16.048c-12.279-3.408-24.827-3.345-37.468-1.743s-23.519 4.488-34.559 10.851S60.657 59.695 52.935 69.83s-12.851 20.199-16.054 32.53-4.363 25.992-2.549 38.601c1.814 12.61 4.017 24.61 10.566 35.539l.54.925 45.091 78.166q11.224.309 24.301.27h12.805c20.448.44 40.906-.165 61.292-1.812 20.404-2.237 35.061-7.25 46.286-18.548 16.509-16.506 19.634-40.106 20.212-78.283z" style="fill:url(#599e713ea);fill-rule:nonzero" transform="scale(2)"/><path d="M195.808 60.085A95.96 95.96 0 0 0 91.226 39.316a96 96 0 0 0-43.058 35.358c-21.515 32.217-21.515 74.434 0 106.651a96 96 0 0 0 43.058 35.358c35.781 14.834 77.185 6.611 104.582-20.769a95.93 95.93 0 0 0 28.191-67.915 95.94 95.94 0 0 0-28.191-67.914m-5.755 44.195a321092 321092 0 0 0-47.466 82.633 15.89 15.89 0 0 1-13.054 8.614 15.09 15.09 0 0 1-15.024-7.996c-10.003-17.23-19.929-34.575-29.855-51.883a6295 6295 0 0 1-18.152-31.6 15.96 15.96 0 0 1-2.293-8.242c0-8.495 6.783-15.576 15.27-15.942a15.47 15.47 0 0 1 14.637 8.268c4.48 7.726 8.883 15.452 13.287 23.179 3.205 5.563 6.294 11.125 9.577 16.611a25.12 25.12 0 0 0 21.01 12.98c13.56.841 25.549-9.25 27.036-22.754 0-1.043 0-2.086.232-2.627a27.1 27.1 0 0 0-2.703-11.937 15.96 15.96 0 0 1-.789-13.452 15.98 15.98 0 0 1 9.79-9.258 15.97 15.97 0 0 1 13.384 1.542 15.96 15.96 0 0 1 7.43 11.24c.434 3.7-.381 7.441-2.317 10.624" style="fill:#fff;fill-rule:nonzero" transform="scale(2)"/><defs><linearGradient id="599e713ea" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(60.102 1.099 91.703)scale(244.285)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:black;stop-opacity:.2"/><stop offset=".79" style="stop-color:black;stop-opacity:.05"/><stop offset="1" style="stop-color:black;stop-opacity:.05"/></linearGradient></defs></svg>
+<Image src={icon} alt={alt} {...rest} />

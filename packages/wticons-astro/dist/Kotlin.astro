@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/kotlin.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Kotlin", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M128 728h512v512H128z" style="fill:none" transform="translate(-128 -728)"/><path d="M368 728h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C640 854.48 640 896 640 968v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C513.52 1240 472 1240 400 1240h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C128 1113.52 128 1072 128 1000v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C254.48 728 296 728 368 728" style="fill:#272033" transform="translate(-128 -728)"/><path d="M256 256H0V0h256L128 127.949z" style="fill:url(#17123732a);fill-rule:nonzero" transform="translate(76 76)scale(1.40625)"/><defs><linearGradient id="17123732a" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(134.989 127.994 53.016)scale(362.042)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#e44857;stop-opacity:1"/><stop offset="0" style="stop-color:#e44857;stop-opacity:1"/><stop offset=".47" style="stop-color:#c711e1;stop-opacity:1"/><stop offset="1" style="stop-color:#7f52ff;stop-opacity:1"/></linearGradient></defs></svg>
+<Image src={icon} alt={alt} {...rest} />

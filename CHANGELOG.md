@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0 — 2026-10-16
+
+- **Breaking (`@wticons/astro`)**: icon components now render an `<img>` via Astro's `<Image>` instead of inlining the SVG, so pages with many icons no longer grow with every icon. Props follow `<Image>` (`alt` defaults to the icon name, `width`/`height` to 512). Selectors targeting `svg` need updating.
+- `@wticons/astro` ships the raw SVG files under `@wticons/astro/icons/*.svg`; importing one gives an inline `<svg>` component for the previous behaviour.
+- `@wticons/astro` requires Astro >= 5.7.
+- `@wticons/react` is unchanged apart from the version.
+
 ## 2.4.0 — 2026-10-16
 
 - Add ChatGPT, Claude Code, Codex, Cursor, Gemini and Affinity Studio, bringing the collection to 204 icons in both packages.

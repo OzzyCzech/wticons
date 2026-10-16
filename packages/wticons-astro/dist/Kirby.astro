@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/kirby.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Kirby", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M3728 3608h512v512h-512z" style="fill:none" transform="translate(-3728 -3608)"/><path d="M3968 3608h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C4240 3734.48 4240 3776 4240 3848v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C4113.52 4120 4072 4120 4000 4120h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C3728 3993.52 3728 3952 3728 3880v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C3854.48 3608 3896 3608 3968 3608" style="fill:#eaecef" transform="translate(-3728 -3608)"/><path d="m128 0 128 74.652v149.362l-128 74.653L0 224.014V74.652zm0 16.782L14.222 83.15v132.366L128 281.877l113.778-66.361V83.15zm56.889 96.996v35.555l-35.556 18.418v2.916h35.556v28.444H71.111v-28.444h35.556v-3.108l-35.556-18.226v-35.555L128 144.334z" style="fill-rule:nonzero" transform="translate(101.715 76)scale(1.20536)"/></svg>
+<Image src={icon} alt={alt} {...rest} />

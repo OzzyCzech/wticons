@@ -1,9 +1,10 @@
 ---
-import { Php } from './dist';
-import { Git } from './dist';
-import { Tailwind } from './dist';
+import { Php, Git, Tailwind, Astro as AstroIcon } from './dist';
+import PhpInline from './dist/icons/php.svg';
 ---
 
-<Php/>
-<Git/>
-<Tailwind/>
+<Php />
+<Git width={32} height={32} class="icon" />
+<Tailwind alt="Tailwind CSS" loading="eager" />
+<AstroIcon />
+<PhpInline />

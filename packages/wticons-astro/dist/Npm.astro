@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/npm.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Npm", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M5528 5888h512v512h-512z" style="fill:none" transform="translate(-5528 -5888)"/><path d="M341.031 68.5h-32.062c-72.141 0-113.742 0-148.85 9.378-44.487 11.783-70.458 37.754-82.241 82.241-9.378 35.108-9.378 76.709-9.378 148.85v32.062c0 72.141 0 113.742 9.378 148.85 11.783 44.487 37.754 70.458 82.241 82.241 35.108 9.378 76.709 9.378 148.85 9.378h32.062c72.141 0 113.742 0 148.85-9.378 44.487-11.783 70.458-37.754 82.241-82.241 9.378-35.108 9.378-76.709 9.378-148.85v-32.062c0-72.141 0-113.742-9.378-148.85-11.783-44.487-37.754-70.458-82.241-82.241-35.108-9.378-76.709-9.378-148.85-9.378" style="fill:#c12127" transform="translate(-68.366 -68.366)scale(.99805)"/><path d="M240 250h100v-50h100V0H240zM340 50h50v100h-50zM480 0v200h100V50h50v150h50V50h50v150h50V0zM0 200h100V50h50v150h50V0H0z" style="fill:#fff;fill-rule:nonzero" transform="translate(58.293 199.45)scale(.50694)"/></svg>
+<Image src={icon} alt={alt} {...rest} />

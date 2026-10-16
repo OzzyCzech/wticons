@@ -1,6 +1,11 @@
 ---
-import type { HTMLAttributes } from "astro/types";
-export type Props = HTMLAttributes<'svg'>
+import { Image } from 'astro:assets';
+import type { ComponentProps } from 'astro/types';
+import icon from './icons/mdx.svg';
+
+export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
+
+const { alt = "Mdx", ...rest } = Astro.props;
 ---
 
-<svg {...Astro.props} xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 512 512"><path d="M2528 19328h512v512h-512z" style="fill:none" transform="translate(-2528 -19328)"/><path d="M2768 19328h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08 9.36 35.04 9.36 76.56 9.36 148.56v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08-35.04 9.36-76.56 9.36-148.56 9.36h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08-9.36-35.04-9.36-76.56-9.36-148.56v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08 35.04-9.36 76.56-9.36 148.56-9.36" style="fill:#ecebe5" transform="translate(-2528 -19328)"/><path d="m272.696 40.203-.002 84.896L303.88 93.92l15.74 15.741-57.642 57.638-58.37-58.369 15.742-15.74 31.085 31.084V40.203zM72.162 162.98V97.231l40.255 40.257 40.56-40.557v65.383h22.26V43.192l-62.819 62.816-62.517-62.521v119.492z" style="fill-rule:nonzero" transform="translate(7.75 157.4)scale(.96692)"/><path d="m447.847 36.651 15.74 15.741-47.15 47.147 45.7 45.7-15.74 15.742-45.701-45.7-45.7 45.7-15.741-15.741 45.695-45.7-47.146-47.148 15.74-15.74 47.152 47.145z" style="fill:#f9ac00;fill-rule:nonzero" transform="translate(7.75 157.4)scale(.96692)"/></svg>
+<Image src={icon} alt={alt} {...rest} />
