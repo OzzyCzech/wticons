@@ -5,7 +5,7 @@ import icon from './icons/stability-ai.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Stability Ai", ...rest } = Astro.props;
+const { alt = "Stability AI", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

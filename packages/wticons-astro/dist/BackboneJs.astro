@@ -5,7 +5,7 @@ import icon from './icons/backbone-js.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Backbone Js", ...rest } = Astro.props;
+const { alt = "Backbone.js", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

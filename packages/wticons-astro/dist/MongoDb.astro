@@ -5,7 +5,7 @@ import icon from './icons/mongodb.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Mongodb", ...rest } = Astro.props;
+const { alt = "MongoDB", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

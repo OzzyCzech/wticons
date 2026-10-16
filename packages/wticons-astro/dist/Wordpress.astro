@@ -5,7 +5,7 @@ import icon from './icons/wordpress.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Wordpress", ...rest } = Astro.props;
+const { alt = "WordPress", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

@@ -27,7 +27,7 @@ import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
 <VisualStudioCode alt="VS Code" loading="eager" />
 ```
 
-Components accept the same props as `<Image>` except `src`. `alt` defaults to the icon name, `width` and `height` default to 512.
+Components accept the same props as `<Image>` except `src`. `alt` defaults to the product name (`PHP`, `Node.js`, `Visual Studio Code`), `width` and `height` default to 512 and `loading` to `lazy`. When the icon sits next to its name it is decorative, so pass `alt=""`; for print or PDF rendering pass `loading="eager"`.
 
 Importing from the package root pulls every icon into the build graph, so Astro emits all SVG files into `dist/_astro` even if you use only a few. To emit only the icons you render, import components individually:
 

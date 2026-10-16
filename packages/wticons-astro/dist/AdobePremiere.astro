@@ -5,7 +5,7 @@ import icon from './icons/adobe-premiere.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Adobe Premiere", ...rest } = Astro.props;
+const { alt = "Adobe Premiere Pro", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

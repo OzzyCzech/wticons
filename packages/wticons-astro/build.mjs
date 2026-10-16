@@ -1,7 +1,8 @@
-import { copyFile, mkdir, readdir, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import pascalcase from 'pascalcase';
 
 const icons = '../../icons/';
+const names = JSON.parse(await readFile('../../icon-names.json', 'utf8'));
 await mkdir('dist/icons', { recursive: true });
 await writeFile('dist/index.ts', '');
 
@@ -17,8 +18,9 @@ for (const file of await readdir(icons, { encoding: 'utf8' })) {
   // Avoid shadowing Astro's global when compiling the Astro logo component.
   const componentFile = name === 'Astro' ? 'AstroIcon' : name;
 
-  // Default alt text: "visual-studio-code" -> "Visual Studio Code"
-  const alt = slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  // Default alt text comes from icon-names.json so it reads as the real product name.
+  const alt = names[slug];
+  if (!alt) throw new Error(`Missing name for ${file} in icon-names.json`);
 
   await copyFile(icons + file, 'dist/icons/' + file);
 

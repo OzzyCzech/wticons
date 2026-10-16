@@ -5,7 +5,7 @@ import icon from './icons/woo-commerce.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Woo Commerce", ...rest } = Astro.props;
+const { alt = "WooCommerce", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

@@ -5,7 +5,7 @@ import icon from './icons/rollupjs.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Rollupjs", ...rest } = Astro.props;
+const { alt = "Rollup", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

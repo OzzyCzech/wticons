@@ -5,7 +5,7 @@ import icon from './icons/opensuse.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Opensuse", ...rest } = Astro.props;
+const { alt = "openSUSE", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

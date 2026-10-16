@@ -5,7 +5,7 @@ import icon from './icons/openapi.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Openapi", ...rest } = Astro.props;
+const { alt = "OpenAPI", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

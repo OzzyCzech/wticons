@@ -5,7 +5,7 @@ import icon from './icons/circleci.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Circleci", ...rest } = Astro.props;
+const { alt = "CircleCI", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

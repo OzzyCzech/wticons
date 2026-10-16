@@ -5,7 +5,7 @@ import icon from './icons/apache.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Apache", ...rest } = Astro.props;
+const { alt = "Apache HTTP Server", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

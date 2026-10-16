@@ -62,7 +62,7 @@ pnpm install
 pnpm build   # optimizes icons/ with SVGO, rebuilds both packages and updates the icon list below
 ```
 
-To add or update an icon, export a 512 × 512 SVG into both `src/` and `icons/` and run `pnpm build`, which optimizes the copy in `icons/` in place. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
+To add or update an icon, export a 512 × 512 SVG into both `src/` and `icons/`, add its product name to `icon-names.json` (used as the default `alt` in Astro) and run `pnpm build`, which optimizes the copy in `icons/` in place. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
 
 ## Release
 

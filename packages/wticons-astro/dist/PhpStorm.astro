@@ -5,7 +5,7 @@ import icon from './icons/php-storm.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Php Storm", ...rest } = Astro.props;
+const { alt = "PhpStorm", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

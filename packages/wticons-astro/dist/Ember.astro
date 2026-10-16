@@ -5,7 +5,7 @@ import icon from './icons/ember.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Ember", ...rest } = Astro.props;
+const { alt = "Ember.js", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

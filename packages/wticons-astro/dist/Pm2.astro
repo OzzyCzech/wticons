@@ -5,7 +5,7 @@ import icon from './icons/pm2.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Pm2", ...rest } = Astro.props;
+const { alt = "PM2", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

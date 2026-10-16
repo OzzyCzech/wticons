@@ -5,7 +5,7 @@ import icon from './icons/j-query.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "J Query", ...rest } = Astro.props;
+const { alt = "jQuery", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

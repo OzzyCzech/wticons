@@ -5,7 +5,7 @@ import icon from './icons/opencollective.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Opencollective", ...rest } = Astro.props;
+const { alt = "Open Collective", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

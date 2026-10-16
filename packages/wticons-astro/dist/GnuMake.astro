@@ -5,7 +5,7 @@ import icon from './icons/gnu-make.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Gnu Make", ...rest } = Astro.props;
+const { alt = "GNU Make", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

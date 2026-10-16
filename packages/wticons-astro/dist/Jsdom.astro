@@ -5,7 +5,7 @@ import icon from './icons/jsdom.svg';
 
 export type Props = Omit<ComponentProps<typeof Image>, 'src' | 'alt'> & { alt?: string };
 
-const { alt = "Jsdom", ...rest } = Astro.props;
+const { alt = "jsdom", ...rest } = Astro.props;
 ---
 
 <Image src={icon} alt={alt} {...rest} />

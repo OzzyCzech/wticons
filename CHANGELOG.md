@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1 — 2026-10-16
+
+- `@wticons/astro`: default `alt` is now the product name from `icon-names.json` (`PHP`, `Node.js`, `jQuery`) instead of a title-cased file name (`Php`, `Nodejs`, `J Query`).
+
 ## 3.0.0 — 2026-10-16
 
 - **Breaking (`@wticons/astro`)**: icon components now render an `<img>` via Astro's `<Image>` instead of inlining the SVG, so pages with many icons no longer grow with every icon. Props follow `<Image>` (`alt` defaults to the icon name, `width`/`height` to 512). Selectors targeting `svg` need updating.
