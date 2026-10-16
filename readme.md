@@ -14,6 +14,66 @@ npm i @wticons/react
 npm i @wticons/astro
 ```
 
+## Usage
+
+Every icon is a component that spreads its props onto the root `<svg>` element, so you can pass `class`, `width`, `aria-label` and so on.
+
+### React
+
+```jsx
+import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/react';
+
+const Stack = () => (
+  <ul>
+    <li><Php width={24} /> PHP</li>
+    <li><AdobePhotoshop width={24} /> Photoshop</li>
+    <li><VisualStudioCode width={24} /> Visual Studio Code</li>
+  </ul>
+);
+```
+
+### Astro
+
+```astro
+---
+import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
+---
+
+<Php class="icon" />
+<AdobePhotoshop class="icon" />
+<VisualStudioCode class="icon" />
+```
+
+### Name conflicts
+
+Some icons share a name with the library you are using them in. Import them under an alias:
+
+```js
+import { React as ReactIcon } from '@wticons/react';
+import { Astro as AstroIcon } from '@wticons/astro';
+```
+
+## Development
+
+The repository is a [pnpm](https://pnpm.io) workspace. Source SVGs live in `icons/`, the packages in `packages/` are generated from them.
+
+```shell
+pnpm install
+pnpm build   # optimizes icons/ with SVGO, rebuilds both packages and updates the icon list below
+```
+
+To add an icon, drop a square SVG into `icons/` and run `pnpm build`. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
+
+## Release
+
+Both packages are versioned together and published by GitHub Actions on a `v*.*.*` tag:
+
+```shell
+make release VERSION=2.5.0
+```
+
+This bumps both packages, commits, tags `v2.5.0` and pushes. The workflow then builds, runs `astro check`, publishes `@wticons/react` and `@wticons/astro` to npm with provenance and creates a GitHub Release.
+
 ## Credits
 
 * [SVGPorn](https://svgporn.com/) - a huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
