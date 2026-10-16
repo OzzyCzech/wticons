@@ -20,7 +20,6 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: "24"
-          registry-url: "https://registry.npmjs.org"
           cache: yarn
 
       - run: yarn install --frozen-lockfile
@@ -30,7 +29,19 @@ jobs:
       - name: Publish to npm
         run: npm publish --workspaces --provenance --access public --ignore-scripts
 
+      - name: Read release version
+        id: release
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, appendFileSync } from 'node:fs';
+          const react = JSON.parse(readFileSync('packages/wticons-react/package.json', 'utf8')).version;
+          const astro = JSON.parse(readFileSync('packages/wticons-astro/package.json', 'utf8')).version;
+          if (react !== astro || !/^\d+\.\d+\.\d+$/.test(react)) throw new Error('Invalid release versions');
+          appendFileSync(process.env.GITHUB_OUTPUT, `tag=v${react}\n`);
+          NODE
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
         with:
+          tag_name: ${{ steps.release.outputs.tag }}
           generate_release_notes: true
