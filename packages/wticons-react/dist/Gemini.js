@@ -1,0 +1,41 @@
+import * as React from "react";
+const SvgGemini = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M6000 18360h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-6000 -18360)" }),
+    React.createElement("path", { d: "M240 0h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C512 126.48 512 168 512 240v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C385.52 512 344 512 272 512h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C0 385.52 0 344 0 272v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C126.48 0 168 0 240 0", style: {
+            fill: "#f0f3fc",
+            fillRule: "nonzero",
+        } }),
+    React.createElement("path", { d: "M14 28q0-2.906-1.12-5.46a13.9 13.9 0 0 0-2.975-4.445A13.9 13.9 0 0 0 5.46 15.12Q2.906 14 0 14q2.906 0 5.46-1.085 2.555-1.12 4.445-3.01A13.9 13.9 0 0 0 12.88 5.46Q14 2.906 14 0q0 2.906 1.085 5.46 1.12 2.555 3.01 4.445t4.445 3.01Q25.094 14 28 14q-2.906 0-5.46 1.12a13.9 13.9 0 0 0-4.445 2.975q-1.89 1.89-3.01 4.445Q14 25.094 14 28", style: {
+            fill: "url(#gemini_svg__a)",
+            fillRule: "nonzero",
+        }, transform: "translate(76 76)scale(12.85714)" }),
+    React.createElement("defs", null,
+        React.createElement("radialGradient", { id: "gemini_svg__a", cx: 0, cy: 0, r: 1, gradientTransform: "rotate(18.683 -33.198 14.136)scale(29.8025 238.737)", gradientUnits: "userSpaceOnUse" },
+            React.createElement("stop", { offset: 0, style: {
+                    stopColor: "#9168c0",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.07, style: {
+                    stopColor: "#9168c0",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.34, style: {
+                    stopColor: "#5684d1",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 0.67, style: {
+                    stopColor: "#1ba1e3",
+                    stopOpacity: 1,
+                } }),
+            React.createElement("stop", { offset: 1, style: {
+                    stopColor: "#1ba1e3",
+                    stopOpacity: 1,
+                } })))));
+export default SvgGemini;

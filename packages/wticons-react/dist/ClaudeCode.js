@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgClaudeCode = (props) => (React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", xmlSpace: "preserve", style: {
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+    }, viewBox: "0 0 512 512", ...props },
+    React.createElement("path", { d: "M4800 18360h512v512h-512z", style: {
+            fill: "none",
+        }, transform: "translate(-4800 -18360)" }),
+    React.createElement("path", { d: "M240 0h32c72 0 113.52 0 148.56 9.36 44.4 11.76 70.32 37.68 82.08 82.08C512 126.48 512 168 512 240v32c0 72 0 113.52-9.36 148.56-11.76 44.4-37.68 70.32-82.08 82.08C385.52 512 344 512 272 512h-32c-72 0-113.52 0-148.56-9.36-44.4-11.76-70.32-37.68-82.08-82.08C0 385.52 0 344 0 272v-32c0-72 0-113.52 9.36-148.56 11.76-44.4 37.68-70.32 82.08-82.08C126.48 0 168 0 240 0", style: {
+            fill: "#2f2724",
+            fillRule: "nonzero",
+        } }),
+    React.createElement("path", { d: "M447.957 233.579H512v66.176h-64v64.597h-31.723v62.315H384v-62.315h-31.723v62.315H320v-62.315H192v62.315h-32.256v-62.315H128v62.315H95.723v-62.315H64v-64.619H0V233.6h64V106.667h383.957zm-319.957 0h31.744v-60.736H128zm224.213 0H384v-60.736h-31.787z", style: {
+            fill: "#d97757",
+        }, transform: "translate(76 68.5)scale(.70313)" })));
+export default SvgClaudeCode;
