@@ -1,15 +1,9 @@
 {
+	"extends": "@ozzyczech/tsconfig/dom",
 	"compilerOptions": {
-		"skipLibCheck": true,
-		"target": "esnext",
-		"module": "esnext",
+		"rootDir": "src",
 		"jsx": "react",
-		"outDir": "./dist",
-		"declaration": true,
-		"declarationDir": "dist",
-		"strict": true,
-		"moduleResolution": "node",
-		"esModuleInterop": true
+		"types": ["react"]
 	},
-	"include": ["./src/**/*"]
+	"include": ["src/**/*"]
 }

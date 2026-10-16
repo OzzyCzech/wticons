@@ -17,12 +17,15 @@
 		"build": "yarn optimize && yarn workspaces run rebuild && node ./update.js"
 	},
 	"resolutions": {
-		"@svgr/plugin-svgo/svgo": "3.3.3",
-		"astro/svgo": "4.0.1"
+		"@svgr/plugin-svgo/svgo": "3.3.5",
+		"ip-address": "^10.7.4",
+		"**/cosmiconfig/js-yaml": "^4.3.2",
+		"**/nx/undici": "^7.29.1",
+		"postcss-selector-parser": "^7.1.6"
 	},
 	"devDependencies": {
-		"lerna": "^9.0.5",
-		"svgo": "^4.0.1"
+		"lerna": "^10.1.1",
+		"svgo": "^4.1.0"
 	},
 	"keywords": [
 		"programming",
@@ -35,6 +38,6 @@
 		"svg"
 	],
 	"dependencies": {
-		"@babel/runtime": "^7.28.6"
+		"@babel/runtime": "^8.0.7"
 	}
 }
