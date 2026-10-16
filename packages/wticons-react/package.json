@@ -3,7 +3,14 @@
 	"version": "2.2.0",
 	"description": "Bundle of website development and technology icons",
 	"type": "module",
-	"repository": "git@github.com:OzzyCzech/wticons.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OzzyCzech/wticons.git",
+		"directory": "packages/wticons-react"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"module": "dist/index.js",

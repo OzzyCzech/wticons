@@ -2,7 +2,10 @@
 	"name": "wticons",
 	"private": true,
 	"description": "Bundle of website development and technology icons for React and Astro",
-	"repository": "git@github.com:OzzyCzech/wticons.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OzzyCzech/wticons.git"
+	},
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
 	"type": "module",
