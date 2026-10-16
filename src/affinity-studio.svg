@@ -1,1 +1,51 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M510 113.76v284.48C510 459.922 459.921 510 398.24 510H113.76C52.078 510 2 459.922 2 398.24V113.76C2 52.079 52.078 2 113.76 2h284.48C459.921 2 510 52.079 510 113.76z" fill="#a7f175"/><path d="M240.452 347.541c-20.696 0-33.871-12.624-33.871-28.663 0-68.57 179.287-82.28 179.287-155.108 0-44.426-51.168-63.569-116.478-63.569-39.735 0-84.66 7.399-126.377 20.626v86.867c61.481-45.029 129.792-64.309 173.803-64.309 27.662 0 46.443 7.76 46.443 21.678 0 57.308-247.287 48.219-247.287 172.061 0 47.478 32.456 74.675 78.123 74.675 69.07 0 121.307-67.5 160.386-149.78l7.916 2.845c-20.592 50.289-63.171 105.424-71.484 140.864h88.92V222.371H359.31c-29.819 65.138-73.502 125.17-118.86 125.17h.002z" fill-rule="nonzero"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3000,-16920)">
+        <g id="Documentation">
+        </g>
+        <g id="AI">
+        </g>
+        <g id="affinity-studio" transform="matrix(1,0,0,1,-3600,0)">
+            <g id="Design-and-Community" affinity:id="Design and Community">
+                <rect id="affinity-studio1" affinity:id="affinity-studio" x="6600" y="16920" width="512" height="512" style="fill:none;"/>
+                <g id="affinity-studio2" affinity:id="affinity-studio">
+                    <g id="Squircle-Background" affinity:id="Squircle Background" transform="matrix(1,0,0,1,6600,16920)">
+                        <path d="M240,0L272,0C344,0 385.52,0 420.56,9.36C464.96,21.12 490.88,47.04 502.64,91.44C512,126.48 512,168 512,240L512,272C512,344 512,385.52 502.64,420.56C490.88,464.96 464.96,490.88 420.56,502.64C385.52,512 344,512 272,512L240,512C168,512 126.48,512 91.44,502.64C47.04,490.88 21.12,464.96 9.36,420.56C0,385.52 0,344 0,272L0,240C0,168 0,126.48 9.36,91.44C21.12,47.04 47.04,21.12 91.44,9.36C126.48,0 168,0 240,0Z" style="fill:rgb(167,241,117);fill-rule:nonzero;"/>
+                    </g>
+                    <g transform="matrix(1.155335,0,0,1.155335,6566.103402,16880.234302)">
+                        <g id="Artwork">
+                            <path d="M240.452,347.541C219.756,347.541 206.581,334.917 206.581,318.878C206.581,250.308 385.868,236.598 385.868,163.77C385.868,119.344 334.7,100.201 269.39,100.201C229.655,100.201 184.73,107.6 143.013,120.827L143.013,207.694C204.494,162.665 272.805,143.385 316.816,143.385C344.478,143.385 363.259,151.145 363.259,165.063C363.259,222.371 115.972,213.282 115.972,337.124C115.972,384.602 148.428,411.799 194.095,411.799C263.165,411.799 315.402,344.299 354.481,262.019L362.397,264.864C341.805,315.153 299.226,370.288 290.913,405.728L379.833,405.728L379.833,222.371L359.31,222.371C329.491,287.509 285.808,347.541 240.45,347.541L240.452,347.541Z" style="fill-rule:nonzero;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Editors">
+        </g>
+        <g id="Browsers">
+        </g>
+        <g id="Cloud-and-Infrastructure" affinity:id="Cloud and Infrastructure">
+        </g>
+        <g id="Operating-Systems" affinity:id="Operating Systems">
+        </g>
+        <g id="Runtimes">
+        </g>
+        <g id="Databases">
+        </g>
+        <g id="Testing">
+        </g>
+        <g id="Development-Tools" affinity:id="Development Tools">
+        </g>
+        <g id="Build-Tools" affinity:id="Build Tools">
+        </g>
+        <g id="CSS-Tools" affinity:id="CSS Tools">
+        </g>
+        <g id="Backend">
+        </g>
+        <g id="Frontend">
+        </g>
+        <g id="Languages">
+        </g>
+    </g>
+</svg>

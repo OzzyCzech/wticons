@@ -1,1 +1,49 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M447.957 233.579H512v66.176h-64v64.597h-31.723v62.315H384v-62.315h-31.723v62.315H320v-62.315H192v62.315h-32.256v-62.315H128v62.315H95.723v-62.315H64v-64.619H0V233.6h64V106.667h383.957v126.912zm-319.957 0h31.744v-60.736H128v60.736zm224.213 0H384v-60.736h-31.787v60.736z" fill="#d97757"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:affinity="https://www.affinity.studio/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1800,-18360)">
+        <g id="Documentation">
+        </g>
+        <g id="claude-code" transform="matrix(1,0,0,1,-3000,0)">
+            <g id="AI">
+                <rect id="claude-code1" affinity:id="claude-code" x="4800" y="18360" width="512" height="512" style="fill:none;"/>
+                <g id="claude-code2" affinity:id="claude-code">
+                    <g id="Squircle-Background" affinity:id="Squircle Background" transform="matrix(1,0,0,1,4800,18360)">
+                        <path d="M240,0L272,0C344,0 385.52,0 420.56,9.36C464.96,21.12 490.88,47.04 502.64,91.44C512,126.48 512,168 512,240L512,272C512,344 512,385.52 502.64,420.56C490.88,464.96 464.96,490.88 420.56,502.64C385.52,512 344,512 272,512L240,512C168,512 126.48,512 91.44,502.64C47.04,490.88 21.12,464.96 9.36,420.56C0,385.52 0,344 0,272L0,240C0,168 0,126.48 9.36,91.44C21.12,47.04 47.04,21.12 91.44,9.36C126.48,0 168,0 240,0Z" style="fill:rgb(47,39,36);fill-rule:nonzero;"/>
+                    </g>
+                    <g id="Artwork" transform="matrix(0.703125,0,0,0.703125,4876,18428.499766)">
+                        <path d="M447.957,233.579L512,233.579L512,299.755L448,299.755L448,364.352L416.277,364.352L416.277,426.667L384,426.667L384,364.352L352.277,364.352L352.277,426.667L320,426.667L320,364.352L192,364.352L192,426.667L159.744,426.667L159.744,364.352L128,364.352L128,426.667L95.723,426.667L95.723,364.352L64,364.352L64,299.733L0,299.733L0,233.6L64,233.6L64,106.667L447.957,106.667L447.957,233.579ZM128,233.579L159.744,233.579L159.744,172.843L128,172.843L128,233.579ZM352.213,233.579L384,233.579L384,172.843L352.213,172.843L352.213,233.579Z" style="fill:rgb(217,119,87);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Design-and-Community" affinity:id="Design and Community">
+        </g>
+        <g id="Editors">
+        </g>
+        <g id="Browsers">
+        </g>
+        <g id="Cloud-and-Infrastructure" affinity:id="Cloud and Infrastructure">
+        </g>
+        <g id="Operating-Systems" affinity:id="Operating Systems">
+        </g>
+        <g id="Runtimes">
+        </g>
+        <g id="Databases">
+        </g>
+        <g id="Testing">
+        </g>
+        <g id="Development-Tools" affinity:id="Development Tools">
+        </g>
+        <g id="Build-Tools" affinity:id="Build Tools">
+        </g>
+        <g id="CSS-Tools" affinity:id="CSS Tools">
+        </g>
+        <g id="Backend">
+        </g>
+        <g id="Frontend">
+        </g>
+        <g id="Languages">
+        </g>
+    </g>
+</svg>
