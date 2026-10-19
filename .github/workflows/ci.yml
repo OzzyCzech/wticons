@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm --filter @wticons/astro test
+
+      - name: Check that icons/, dist/ and the readme are committed as the build generates them
+        run: |
+          git add -A
+          git diff --cached --stat --exit-code
+
+      - name: Smoke-test @wticons/react in plain Node
+        run: |
+          dir=$(mktemp -d)
+          pnpm --filter @wticons/react pack --pack-destination "$dir"
+          cd "$dir"
+          npm init -y > /dev/null
+          npm install --no-audit --no-fund react ./wticons-react-*.tgz
+          node --input-type=module -e "import('@wticons/react').then(m => { if (typeof m.Php !== 'function') throw new Error('Php is not a component'); console.log('ok', Object.keys(m).length, 'icons') })"

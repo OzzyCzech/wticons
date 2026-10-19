@@ -13,14 +13,23 @@
 	},
 	"author": "Roman Ožana <roman@ozana.cz>",
 	"license": "MIT",
+	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"default": "./dist/index.js"
+		}
+	},
+	"sideEffects": false,
 	"files": [
 		"dist"
 	],
 	"scripts": {
 		"clean": "rimraf ./src ./types ./dist",
-		"svgr": "svgr --typescript --out-dir src -- ../../icons",
+		"svgr": "svgr --typescript --index-template ./index-template.cjs --out-dir src -- ../../icons",
 		"tsc": "tsc",
 		"build": "pnpm svgr && pnpm tsc",
 		"rebuild": "pnpm clean && pnpm build"
