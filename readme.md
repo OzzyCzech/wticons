@@ -1,22 +1,54 @@
 # Website Technology Icons (`wticons`)
 
-[![NPM Downloads](https://img.shields.io/npm/dm/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
-[![NPM Version](https://img.shields.io/npm/v/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
 [![NPM Downloads](https://img.shields.io/npm/dm/%40wticons%2Fastro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
 [![NPM Version](https://img.shields.io/npm/v/%40wticons%2Fastro?style=for-the-badge)](https://www.npmjs.com/package/@wticons/astro)
+[![NPM Downloads](https://img.shields.io/npm/dm/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
+[![NPM Version](https://img.shields.io/npm/v/%40wticons%2Freact?style=for-the-badge)](https://www.npmjs.com/package/@wticons/react)
 [![NPM License](https://img.shields.io/github/license/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/wticons?style=for-the-badge)](https://github.com/OzzyCzech/wticons/commits/main)
+
+A collection of 200+ icons of languages, frameworks, databases, tools, browsers, operating systems and AI products, shipped as [Astro](https://astro.build) and [React](https://react.dev) components.
+
+Every icon now sits on a modern, uniform shape: a 512 × 512 squircle tile (a rounded square with continuous corners, like an app icon) that carries the original brand colours and gradients. Because every icon shares the same silhouette and padding, they line up in grids and lists without any extra styling.
 
 ## Install
 
 ```shell
-npm i @wticons/react
 npm i @wticons/astro
+npm i @wticons/react
 ```
 
 ## Usage
 
-React components render an inline `<svg>` and spread their props onto it. Astro components render an `<img>` through Astro's `<Image>`, so the SVG is served as a cacheable asset and the page stays small. See the package readmes for details.
+Astro components render an `<img>` through Astro's `<Image>`, so the SVG is served as a cacheable asset and the page stays small. React components render an inline `<svg>` and spread their props onto it. See the package readmes for details.
+
+### Astro
+
+Requires Astro 5.7 or newer.
+
+```astro
+---
+import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
+---
+
+<Php />
+<AdobePhotoshop width={32} height={32} class="icon" />
+<VisualStudioCode alt="VS Code" loading="eager" />
+```
+
+Components accept the same props as `<Image>` except `src`. `alt` defaults to the product name (`PHP`, `Node.js`, `Visual Studio Code`), `width` and `height` default to 512 and `loading` to `lazy`.
+
+Importing from the package root pulls every icon into the build graph. To emit only the icons you render, import components individually, or import the SVG file itself when you need an inline `<svg>` you can style with CSS:
+
+```astro
+---
+import Php from '@wticons/astro/Php';
+import PhpInline from '@wticons/astro/icons/php.svg';
+---
+
+<Php />
+<PhpInline class="icon" />
+```
 
 ### React
 
@@ -32,54 +64,43 @@ const Stack = () => (
 );
 ```
 
-### Astro
-
-```astro
----
-import { Php, AdobePhotoshop, VisualStudioCode } from '@wticons/astro';
----
-
-<Php />
-<AdobePhotoshop width={32} height={32} />
-<VisualStudioCode alt="VS Code" />
-```
-
 ### Name conflicts
 
 Some icons share a name with the library you are using them in. Import them under an alias:
 
 ```js
-import { React as ReactIcon } from '@wticons/react';
 import { Astro as AstroIcon } from '@wticons/astro';
+import { React as ReactIcon } from '@wticons/react';
 ```
 
 ## Development
 
-The repository is a [pnpm](https://pnpm.io) workspace. Raw Affinity exports live in `src/`, their SVGO-optimized copies in `icons/`, and the packages in `packages/` are generated from `icons/`.
+The repository is a [pnpm](https://pnpm.io) workspace. The icons are drawn in [Affinity Designer](https://affinity.serif.com) in `wticons.afdesign`, one named 512 × 512 artboard per icon. Raw artboard exports live in `src/`, their SVGO-optimized copies in `icons/`, and the packages in `packages/` are generated from `icons/`.
 
 ```shell
 pnpm install
 pnpm build   # optimizes icons/ with SVGO, rebuilds both packages and updates the icon list below
 ```
 
-To add or update an icon, export a 512 × 512 SVG into both `src/` and `icons/`, add its product name to `icon-names.json` (used as the default `alt` in Astro) and run `pnpm build`, which optimizes the copy in `icons/` in place. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
+To add or update an icon, draw it on a squircle artboard in `wticons.afdesign`, export the 512 × 512 SVG into both `src/` and `icons/`, add its product name to `icon-names.json` (used as the default `alt` in Astro) and run `pnpm build`, which optimizes the copy in `icons/` in place. The file name becomes the component name in PascalCase (`visual-studio-code.svg` → `VisualStudioCode`).
 
 ## Release
 
 Both packages are versioned together and published by GitHub Actions on a `v*.*.*` tag:
 
 ```shell
-make release VERSION=2.5.0
+make release VERSION=3.1.0
 ```
 
-This bumps both packages, commits, tags `v2.5.0` and pushes. The workflow then builds, runs `astro check`, publishes `@wticons/react` and `@wticons/astro` to npm with provenance and creates a GitHub Release.
+This bumps both packages, commits, tags `v3.1.0` and pushes. The workflow then builds, runs `astro check`, publishes `@wticons/astro` and `@wticons/react` to npm with provenance and creates a GitHub Release.
 
 ## Credits
 
 * [SVGPorn](https://svgporn.com/) - a huge collection of SVG logos by [@gilbarbara](https://github.com/gilbarbara)
 * [devicon](https://devicon.dev) - a set of icons representing programming languages, designing, and development tools.
 * [SVGO](https://github.com/svg/svgo) - Node.js tool for optimizing SVG files
-* [TechIcons](https://techicons.dev/) - set of technology icons 
+* [TechIcons](https://techicons.dev/) - set of technology icons
+* [Affinity Designer](https://affinity.serif.com) - the vector editor the icons are drawn in
 
 ## Icons
 
