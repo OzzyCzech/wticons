@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-
+import { basename } from 'node:path';
 
 export default {
   //js2svg: { indent: 2, pretty: true },
@@ -18,7 +18,8 @@ export default {
       name: 'prefixIds',
       params: {
         delim: '',
-        prefix: (element, extra) => createHash('shake256', { outputLength: 4 }).update(extra.path).digest('hex'),
+        // Hash the file name, not the full path, so ids are identical on every machine and in CI.
+        prefix: (element, extra) => createHash('shake256', { outputLength: 4 }).update(basename(extra.path)).digest('hex'),
       },
     },
   ],
