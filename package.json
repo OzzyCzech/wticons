@@ -17,17 +17,7 @@
 		"optimize": "svgo -i ./icons",
 		"build": "pnpm optimize && pnpm -r run rebuild && node ./update.js"
 	},
-	"pnpm": {
-		"overrides": {
-			"@svgr/plugin-svgo>svgo": "3.3.5",
-			"ip-address": "^10.7.4",
-			"cosmiconfig>js-yaml": "^4.3.2",
-			"nx>undici": "^7.29.1",
-			"postcss-selector-parser": "^7.1.6"
-		}
-	},
 	"devDependencies": {
-		"lerna": "^10.1.1",
 		"svgo": "^4.1.0"
 	},
 	"keywords": [
@@ -39,8 +29,5 @@
 		"react",
 		"astro",
 		"svg"
-	],
-	"dependencies": {
-		"@babel/runtime": "^8.0.7"
-	}
+	]
 }
